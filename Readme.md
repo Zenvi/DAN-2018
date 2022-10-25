@@ -82,9 +82,11 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
    $$
 
    or:
+
    $$
    M^T\beta_l=1, \beta_l\geq0\tag{2}
    $$
+
    **A:** When I train the network, I tried both constraints. The overall performance under constraint $(2)$ is always better than that under constraint $(1)$. 
 
    But, I have to set `transfer_loss = torch.abs(transfer_loss)` after the calculation of Mk-MMD, otherwise a large batches' Mk-MMD loss values will be negative and the overall performance will be influenced.
@@ -94,9 +96,11 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
 2. **Q:** Can the value of Mk-MMD be negative? If yes, what does it mean when Mk-MMD is negative?
 
    **A:** According to the empirical estimate of Mk-MMD:
+
    $$
    M_k(\mathcal{D}_s, \mathcal{D}_t) \triangleq \frac{1}{n_s^2} \sum_{i=1}^{n_s} \sum_{j=1}^{n_s} k(x_i^s, x_j^s) + \frac{1}{n_t^2} \sum_{i=1}^{n_t} \sum_{j=1}^{n_t} k(x_t^s, x_t^s) - \frac{2}{n_s n_t} \sum_{i=1}^{n_s} \sum_{j=1}^{n_t} k(x_i^s, x_j^t)
    $$
+
    For sure it can be negative, but what does it mean when it becomes negative? For the common case, it is negative when the first two terms is smaller then the third term.
 
    The first term measures the embedding distance between layer outputs of the source samples.
