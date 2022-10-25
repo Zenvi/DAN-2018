@@ -6,26 +6,26 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
 
 ## 2. Contents
 
-+ [Installation](#3. Installation)
-+ [How to Use](#4. How to Use)
-+ [Results and Discussions](#5. Results and Discussions)
-+ [Insights](#6. Insights)
++ [Installation](#3)
++ [How to Use](#4)
++ [Results and Discussions](#5)
++ [Insights](#6)
 
-## 3. Installation 
+## <h2 id="3"> 3. Installation </h2>
 
 1. Windows + Python 3.10 (Linus should also be fine as long as it's Python 3.10)
 2. Clone or download the repository
 3. cd to the root directory of the cloned/downloaded repository
 4. `pip install -r requirements.txt`
 
-## 4. How to Use 
+## <h2 id="4"> 4. How to Use </h2>
 
 + Go to `DAN_{model_name}.py`
 + Scroll down to find the `class Args` definition under `if __name__ == '__main__':`
 + Modify the parameters in `class Args` according to your situation
 + Note: If you are unsure what are the parameters about, simply check out the comments for the parameters
 
-## 5. Results and Discussions
+## <h2 id="5"> 5. Results and Discussions </h2>
 
 ### 5.1 Term Explanation:
 
@@ -73,12 +73,14 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
 1. **(ResNet-18):** Compared to the original paper, ResNet-50 achieved an accuracy of 68.4. Yet in my re-implementation, I use ResNet-18 to achieve a better accuracy of 72.6. This implies that when we already have a model powerful enough on the source domain, adding more blocks to the model to make it deeper doesn't guarantee better transferability. As the features extracted by the network appears to transition from general to specific as the data flows from input to the output of the network. Deeper doesn't always mean better.
 2. **(DAN):** The result obtained by me (85.8) is quite close to the original paper (86.3) but it doesn't exceed 86.3 as inferred (Why I think it would exceed 86.3? Because ResNet-18 outperforms ResNet-50, and it would be a linear thinking that a DAN built on ResNet-18 would also outperform a DAN built on ResNet-50). 
 
-## 6. Insights
+## <h2 id="6"> 6. Insights </h2>
 
 1. **Q:** When calculating β, which constraint shall we use? 
+
    $$
    \sum_{u=0}^m\beta_u=1, \beta_u\geq0 \tag{1}
    $$
+
    or:
    $$
    M^T\beta_l=1, \beta_l\geq0\tag{2}
@@ -155,13 +157,14 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
            features = torch.cat([z_s, z_t], dim=0)
            batch_size = int(z_s.size(0))
            self.index_matrix = _update_index_matrix(batch_size, self.index_matrix, self.linear).to(z_s.device)
+   ```
 
 
            kernel_matrix = sum([kernel(features) for kernel in self.kernels])  # Add up the matrix of each kernel
            # Add 2 / (n-1) to make up for the value on the diagonal
            # to ensure loss is positive in the non-linear version
            loss = (kernel_matrix * self.index_matrix).sum() + 2. / float(batch_size - 1)
-
+    
            return loss
    ```
 
