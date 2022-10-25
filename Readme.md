@@ -161,7 +161,7 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
            features = torch.cat([z_s, z_t], dim=0)
            batch_size = int(z_s.size(0))
            self.index_matrix = _update_index_matrix(batch_size, self.index_matrix, self.linear).to(z_s.device)
-   ```
+   
 
 
            kernel_matrix = sum([kernel(features) for kernel in self.kernels])  # Add up the matrix of each kernel
