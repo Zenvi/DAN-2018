@@ -1,0 +1,1607 @@
+/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:19: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+=> using model 'resnet18'
+Epoch 0: Learning Rate for backbone: 0.00030000000000000003; Learning Rates for bottleneck: 0.003; Learning Rates for head: 0.003
+/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:57: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+Epoch: [0][ 0/88]	Total Loss 3.8429 (3.8429)	Source 3.4000 (3.4000)	Entropy 3.3734 (3.3734)	MMD 0.1056 (0.1056)	Cls Acc 0.00 (0.00)
+Epoch: [0][87/88]	Total Loss 3.1154 (3.5852)	Source 2.6726 (3.1373)	Entropy 3.2110 (3.3331)	MMD 0.1217 (0.1146)	Cls Acc 28.12 (15.98)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.132566837599732, 3.612221604278045e-08, 2.6159493171486748e-08, 5.87782604220389e-08, 2.617229566819345]
+beta_fc updated to: [12.197071253182287, 7.854979839675245e-07, 5.406452481482742e-07, 1.4633939523931727e-06, 3.4189298354511792]
+Test: [ 0/25]	Time  0.273 ( 0.273)	Loss 2.6816e+00 (2.6816e+00)	Acc@1  40.62 ( 40.62)
+ * Acc@1 47.296
+Epoch 1: Learning Rate for backbone: 0.00029419397359519594; Learning Rates for bottleneck: 0.0029419397359519593; Learning Rates for head: 0.0029419397359519593
+Epoch: [1][ 0/88]	Total Loss 3.1212 (3.1212)	Source 2.6805 (2.6805)	Entropy 3.1551 (3.1551)	MMD 0.1251 (0.1251)	Cls Acc 28.12 (28.12)
+Epoch: [1][87/88]	Total Loss 2.6646 (2.5615)	Source 2.2807 (2.1692)	Entropy 2.3417 (2.8518)	MMD 0.1498 (0.1072)	Cls Acc 34.38 (44.07)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.810663995851092, 1.6287903303161263e-06, 1.317851609061879e-06, 2.9929036009637893e-06, 2.6349569446653707]
+beta_fc updated to: [12.048780684801258, 1.2167929224221029e-06, 8.172340662951105e-07, 2.221001480223328e-06, 3.724222042075175]
+Test: [ 0/25]	Time  0.269 ( 0.269)	Loss 1.6747e+00 (1.6747e+00)	Acc@1  43.75 ( 43.75)
+ * Acc@1 59.874
+Epoch 2: Learning Rate for backbone: 0.0002886435435367626; Learning Rates for bottleneck: 0.0028864354353676258; Learning Rates for head: 0.0028864354353676258
+Epoch: [2][ 0/88]	Total Loss 2.2411 (2.2411)	Source 1.8913 (1.8913)	Entropy 2.5277 (2.5277)	MMD 0.0970 (0.0970)	Cls Acc 46.88 (46.88)
+Epoch: [2][87/88]	Total Loss 1.5491 (1.9065)	Source 1.2278 (1.5612)	Entropy 1.9583 (2.1922)	MMD 0.1254 (0.1261)	Cls Acc 68.75 (55.89)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.607693808315823, 9.95116656777387e-07, 8.006608658473353e-07, 2.093718223886028e-06, 2.2426422139441984]
+beta_fc updated to: [11.204169829508833, 1.1423681665434756e-06, 8.01508503160596e-07, 2.2679132694117644e-06, 4.793280373793435]
+Test: [ 0/25]	Time  0.280 ( 0.280)	Loss 1.5595e+00 (1.5595e+00)	Acc@1  56.25 ( 56.25)
+ * Acc@1 63.774
+Epoch 3: Learning Rate for backbone: 0.00028333146175465914; Learning Rates for bottleneck: 0.0028333146175465915; Learning Rates for head: 0.0028333146175465915
+Epoch: [3][ 0/88]	Total Loss 1.8403 (1.8403)	Source 1.4986 (1.4986)	Entropy 2.0586 (2.0586)	MMD 0.1358 (0.1358)	Cls Acc 62.50 (62.50)
+Epoch: [3][87/88]	Total Loss 1.4761 (1.6728)	Source 1.2607 (1.3590)	Entropy 1.8689 (1.8446)	MMD 0.0285 (0.1294)	Cls Acc 68.75 (62.07)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.610927831448963, 7.337414970872129e-07, 6.156185195321562e-07, 1.789853812159175e-06, 1.8847767371050015]
+beta_fc updated to: [10.754047888935812, 1.1473089904041035e-06, 8.084031690836909e-07, 2.4701376823914008e-06, 4.940120014826724]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 8.8590e-01 (8.8590e-01)	Acc@1  71.88 ( 71.88)
+ * Acc@1 70.566
+Epoch 4: Learning Rate for backbone: 0.000278242029358291; Learning Rates for bottleneck: 0.00278242029358291; Learning Rates for head: 0.00278242029358291
+Epoch: [4][ 0/88]	Total Loss 1.1541 (1.1541)	Source 0.9340 (0.9340)	Entropy 1.7579 (1.7579)	MMD 0.0443 (0.0443)	Cls Acc 71.88 (71.88)
+Epoch: [4][87/88]	Total Loss 1.3498 (1.4967)	Source 1.1651 (1.2048)	Entropy 1.6258 (1.6035)	MMD 0.0221 (0.1316)	Cls Acc 68.75 (65.27)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.779994438190352, 1.4012170588902038e-08, 1.0845651996234366e-08, 3.2845706041222996e-08, 0.8531987124937594]
+beta_fc updated to: [11.34283133586113, 8.79853399407566e-07, 6.320834040724099e-07, 1.8636160651989255e-06, 4.418658203332021]
+Test: [ 0/25]	Time  0.287 ( 0.287)	Loss 1.2785e+00 (1.2785e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 73.082
+Epoch 5: Learning Rate for backbone: 0.00027336092450875227; Learning Rates for bottleneck: 0.0027336092450875225; Learning Rates for head: 0.0027336092450875225
+Epoch: [5][ 0/88]	Total Loss 1.0865 (1.0865)	Source 0.8244 (0.8244)	Entropy 1.6148 (1.6148)	MMD 0.1007 (0.1007)	Cls Acc 84.38 (84.38)
+Epoch: [5][87/88]	Total Loss 1.0429 (1.3882)	Source 0.7151 (1.1239)	Entropy 1.4029 (1.4664)	MMD 0.1876 (0.1177)	Cls Acc 75.00 (68.00)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.10050898136838, 1.1600061563325905e-06, 9.17081615740904e-07, 2.5816453067921077e-06, 1.5915715439125506]
+beta_fc updated to: [11.380332150558337, 1.1286758700209027e-06, 7.844996091725782e-07, 2.207980993881e-06, 4.423351903006085]
+Test: [ 0/25]	Time  0.255 ( 0.255)	Loss 1.0915e+00 (1.0915e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 72.201
+Epoch 6: Learning Rate for backbone: 0.00026867505291339655; Learning Rates for bottleneck: 0.0026867505291339653; Learning Rates for head: 0.0026867505291339653
+Epoch: [6][ 0/88]	Total Loss 1.2375 (1.2375)	Source 0.8870 (0.8870)	Entropy 1.4980 (1.4980)	MMD 0.2008 (0.2008)	Cls Acc 68.75 (68.75)
+Epoch: [6][87/88]	Total Loss 1.2570 (1.3451)	Source 1.0526 (1.0655)	Entropy 1.4406 (1.3857)	MMD 0.0603 (0.1410)	Cls Acc 75.00 (70.70)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.710090870620958, 9.270131500623905e-07, 7.447002862288757e-07, 2.147291571046696e-06, 1.9371400190650143]
+beta_fc updated to: [11.270798604373265, 1.0127528214279635e-06, 7.253956898700358e-07, 2.0986332569340123e-06, 4.5246280880625624]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 8.5442e-01 (8.5442e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 72.704
+Epoch 7: Learning Rate for backbone: 0.0002641724175304207; Learning Rates for bottleneck: 0.0026417241753042067; Learning Rates for head: 0.0026417241753042067
+Epoch: [7][ 0/88]	Total Loss 1.4075 (1.4075)	Source 1.0892 (1.0892)	Entropy 1.3732 (1.3732)	MMD 0.1810 (0.1810)	Cls Acc 75.00 (75.00)
+Epoch: [7][87/88]	Total Loss 1.7450 (1.2538)	Source 1.5907 (1.0032)	Entropy 1.4679 (1.3089)	MMD 0.0075 (0.1198)	Cls Acc 71.88 (71.41)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.565055974506212, 1.5322621794594947e-08, 1.1985947072267834e-08, 3.522510146547377e-08, 0.9471216655477802]
+beta_fc updated to: [11.22308321246473, 1.1601435535530867e-06, 8.408731541125368e-07, 2.5579243902035084e-06, 4.8245581205977235]
+Test: [ 0/25]	Time  0.271 ( 0.271)	Loss 1.1173e+00 (1.1173e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 71.572
+Epoch 8: Learning Rate for backbone: 0.0002598420046491943; Learning Rates for bottleneck: 0.0025984200464919433; Learning Rates for head: 0.0025984200464919433
+Epoch: [8][ 0/88]	Total Loss 1.4547 (1.4547)	Source 1.2687 (1.2687)	Entropy 1.0818 (1.0818)	MMD 0.0779 (0.0779)	Cls Acc 62.50 (62.50)
+Epoch: [8][87/88]	Total Loss 1.0712 (1.2191)	Source 0.8179 (0.9676)	Entropy 1.1091 (1.2490)	MMD 0.1424 (0.1267)	Cls Acc 75.00 (72.62)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.88408233316095, 9.567483449899453e-07, 7.644951901918509e-07, 2.164932628480728e-06, 1.581987363502653]
+beta_fc updated to: [10.950072046549172, 6.751235073456331e-07, 5.169455464595227e-07, 1.5433167607095999e-06, 4.927006207488307]
+Test: [ 0/25]	Time  0.255 ( 0.255)	Loss 9.5723e-01 (9.5723e-01)	Acc@1  56.25 ( 56.25)
+ * Acc@1 72.201
+Epoch 9: Learning Rate for backbone: 0.00025567368398192686; Learning Rates for bottleneck: 0.0025567368398192684; Learning Rates for head: 0.0025567368398192684
+Epoch: [9][ 0/88]	Total Loss 1.0067 (1.0067)	Source 0.8269 (0.8269)	Entropy 0.7794 (0.7794)	MMD 0.1018 (0.1018)	Cls Acc 75.00 (75.00)
+Epoch: [9][87/88]	Total Loss 1.2047 (1.2053)	Source 0.9325 (0.9496)	Entropy 1.2859 (1.1996)	MMD 0.1436 (0.1358)	Cls Acc 71.88 (73.65)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.361604243172533, 8.522364351606649e-07, 7.051770275937321e-07, 1.6169690710540293e-06, 3.2568778092134067]
+beta_fc updated to: [9.555075483066334, 4.163838310408251e-07, 3.5109271083482385e-07, 1.2378286943784733e-06, 6.308773433341901]
+Test: [ 0/25]	Time  0.254 ( 0.254)	Loss 7.8400e-01 (7.8400e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 72.453
+Epoch 10: Learning Rate for backbone: 0.0002516581207860165; Learning Rates for bottleneck: 0.002516581207860165; Learning Rates for head: 0.002516581207860165
+Epoch: [10][ 0/88]	Total Loss 1.0156 (1.0156)	Source 0.6058 (0.6058)	Entropy 1.1832 (1.1832)	MMD 0.2915 (0.2915)	Cls Acc 87.50 (87.50)
+Epoch: [10][87/88]	Total Loss 1.5259 (1.1196)	Source 1.3364 (0.8761)	Entropy 1.2378 (1.1026)	MMD 0.0656 (0.1332)	Cls Acc 59.38 (75.50)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.221418633884348, 1.691777550650549e-08, 1.275926453472191e-08, 3.5813573766448746e-08, 1.2216643169387116]
+beta_fc updated to: [10.78510533488529, 9.5930125924231e-07, 7.210148765446335e-07, 2.2315516783751494e-06, 5.255165544137276]
+Test: [ 0/25]	Time  0.287 ( 0.287)	Loss 8.9461e-01 (8.9461e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 74.088
+Epoch 11: Learning Rate for backbone: 0.0002477866983513034; Learning Rates for bottleneck: 0.0024778669835130336; Learning Rates for head: 0.0024778669835130336
+Epoch: [11][ 0/88]	Total Loss 0.8553 (0.8553)	Source 0.6666 (0.6666)	Entropy 1.0869 (1.0869)	MMD 0.0800 (0.0800)	Cls Acc 81.25 (81.25)
+Epoch: [11][87/88]	Total Loss 0.8312 (1.0610)	Source 0.6148 (0.8287)	Entropy 1.0179 (1.0795)	MMD 0.1146 (0.1243)	Cls Acc 81.25 (76.67)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.016669841090016, 8.970507815947952e-07, 7.229698135655191e-07, 2.063769814317456e-06, 1.7986028649574077]
+beta_fc updated to: [10.671011923818192, 8.48294985942721e-07, 6.426155486945332e-07, 2.0117833756952932e-06, 5.219972646381912]
+Test: [ 0/25]	Time  0.415 ( 0.415)	Loss 1.2189e+00 (1.2189e+00)	Acc@1  62.50 ( 62.50)
+ * Acc@1 75.975
+Epoch 12: Learning Rate for backbone: 0.0002440514494459407; Learning Rates for bottleneck: 0.002440514494459407; Learning Rates for head: 0.002440514494459407
+Epoch: [12][ 0/88]	Total Loss 0.5950 (0.5950)	Source 0.4134 (0.4134)	Entropy 1.3120 (1.3120)	MMD 0.0504 (0.0504)	Cls Acc 84.38 (84.38)
+Epoch: [12][87/88]	Total Loss 0.8335 (1.0605)	Source 0.7092 (0.8106)	Entropy 0.9677 (1.0327)	MMD 0.0276 (0.1466)	Cls Acc 75.00 (76.81)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.606937917426846, 8.999649113867046e-07, 7.422313565602403e-07, 2.1584350475814412e-06, 1.944582135737387]
+beta_fc updated to: [10.858533509596729, 9.545767701237197e-07, 6.954223278047094e-07, 2.122173223033186e-06, 5.101968958956181]
+Test: [ 0/25]	Time  0.292 ( 0.292)	Loss 7.9863e-01 (7.9863e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 76.730
+Epoch 13: Learning Rate for backbone: 0.00024044499552935275; Learning Rates for bottleneck: 0.0024044499552935274; Learning Rates for head: 0.0024044499552935274
+Epoch: [13][ 0/88]	Total Loss 1.1012 (1.1012)	Source 0.7730 (0.7730)	Entropy 1.2120 (1.2120)	MMD 0.2070 (0.2070)	Cls Acc 75.00 (75.00)
+Epoch: [13][87/88]	Total Loss 1.2808 (1.0262)	Source 0.9433 (0.8003)	Entropy 1.1642 (0.9957)	MMD 0.2211 (0.1263)	Cls Acc 71.88 (76.95)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.198669717777184, 1.2802720532601757e-06, 9.948607166831e-07, 2.800428000480065e-06, 1.428539310820169]
+beta_fc updated to: [11.241400352766714, 1.4650445717459169e-06, 1.03907147689789e-06, 3.190014920615168e-06, 4.7884819902871625]
+Test: [ 0/25]	Time  0.277 ( 0.277)	Loss 7.9793e-01 (7.9793e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 76.478
+Epoch 14: Learning Rate for backbone: 0.0002369604927191905; Learning Rates for bottleneck: 0.002369604927191905; Learning Rates for head: 0.002369604927191905
+Epoch: [14][ 0/88]	Total Loss 0.9084 (0.9084)	Source 0.6071 (0.6071)	Entropy 0.8689 (0.8689)	MMD 0.2145 (0.2145)	Cls Acc 87.50 (87.50)
+Epoch: [14][87/88]	Total Loss 0.8370 (1.0031)	Source 0.7057 (0.7693)	Entropy 1.1861 (0.9780)	MMD 0.0127 (0.1361)	Cls Acc 81.25 (77.73)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.20194152151679, 2.2672221477862423e-06, 1.6916432435028014e-06, 3.931682852596336e-06, 2.4506224567947443]
+beta_fc updated to: [10.635006085153863, 1.1125820957370319e-06, 8.169238496879931e-07, 2.7944586163049457e-06, 5.2409552404296535]
+Test: [ 0/25]	Time  0.279 ( 0.279)	Loss 9.4847e-01 (9.4847e-01)	Acc@1  71.88 ( 71.88)
+ * Acc@1 79.245
+Epoch 15: Learning Rate for backbone: 0.0002335915836480373; Learning Rates for bottleneck: 0.002335915836480373; Learning Rates for head: 0.002335915836480373
+Epoch: [15][ 0/88]	Total Loss 0.5177 (0.5177)	Source 0.3186 (0.3186)	Entropy 0.9662 (0.9662)	MMD 0.1025 (0.1025)	Cls Acc 87.50 (87.50)
+Epoch: [15][87/88]	Total Loss 0.6379 (0.9700)	Source 0.4918 (0.7503)	Entropy 1.0245 (0.9625)	MMD 0.0436 (0.1235)	Cls Acc 84.38 (78.44)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.406094880193436, 4.820504797873604e-07, 3.4623469140384945e-07, 8.268166228967849e-07, 4.917778684168078]
+beta_fc updated to: [10.176402368134495, 1.056964992386409e-06, 7.631266138154269e-07, 2.661500542511309e-06, 5.88242493370522]
+Test: [ 0/25]	Time  0.261 ( 0.261)	Loss 5.6296e-01 (5.6296e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 75.220
+Epoch 16: Learning Rate for backbone: 0.0002303323544702293; Learning Rates for bottleneck: 0.0023033235447022927; Learning Rates for head: 0.0023033235447022927
+Epoch: [16][ 0/88]	Total Loss 0.6029 (0.6029)	Source 0.3794 (0.3794)	Entropy 0.8397 (0.8397)	MMD 0.1395 (0.1395)	Cls Acc 90.62 (90.62)
+Epoch: [16][87/88]	Total Loss 0.4833 (0.9265)	Source 0.3312 (0.7030)	Entropy 0.9995 (0.9321)	MMD 0.0522 (0.1303)	Cls Acc 90.62 (79.97)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.959648316986941, 1.2421677109693023e-06, 9.196565363220533e-07, 2.580094711705963e-06, 2.000571352366745]
+beta_fc updated to: [11.076628938543928, 1.2714987382859593e-06, 8.931738675264915e-07, 2.8268958813932733e-06, 4.987730011496309]
+Test: [ 0/25]	Time  0.273 ( 0.273)	Loss 1.0885e+00 (1.0885e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 76.730
+Epoch 17: Learning Rate for backbone: 0.000227177296383853; Learning Rates for bottleneck: 0.00227177296383853; Learning Rates for head: 0.00227177296383853
+Epoch: [17][ 0/88]	Total Loss 0.7969 (0.7969)	Source 0.6525 (0.6525)	Entropy 0.8531 (0.8531)	MMD 0.0590 (0.0590)	Cls Acc 75.00 (75.00)
+Epoch: [17][87/88]	Total Loss 0.8329 (0.9077)	Source 0.7239 (0.6867)	Entropy 0.9119 (0.9032)	MMD 0.0178 (0.1307)	Cls Acc 81.25 (81.14)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.168437586463014, 1.3586825199332438e-06, 1.0285414950830129e-06, 2.849992887122524e-06, 1.4698423479095353]
+beta_fc updated to: [10.998242232671718, 8.503128082218665e-07, 6.350299839345745e-07, 1.9308044809057217e-06, 5.188041816419894]
+Test: [ 0/25]	Time  0.253 ( 0.253)	Loss 6.0959e-01 (6.0959e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 78.239
+Epoch 18: Learning Rate for backbone: 0.00022412127112124587; Learning Rates for bottleneck: 0.0022412127112124585; Learning Rates for head: 0.0022412127112124585
+Epoch: [18][ 0/88]	Total Loss 0.8701 (0.8701)	Source 0.5127 (0.5127)	Entropy 0.9713 (0.9713)	MMD 0.2603 (0.2603)	Cls Acc 84.38 (84.38)
+Epoch: [18][87/88]	Total Loss 0.6477 (0.9173)	Source 0.5126 (0.7000)	Entropy 0.9962 (0.8783)	MMD 0.0354 (0.1295)	Cls Acc 87.50 (79.23)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.755652923378761, 1.517154741110264e-06, 1.0883454883722603e-06, 3.017011493504461e-06, 1.9603376421535044]
+beta_fc updated to: [10.681123285566525, 1.2580873326779197e-06, 8.965061837563671e-07, 3.1289845400318923e-06, 5.336050805782653]
+Test: [ 0/25]	Time  0.287 ( 0.287)	Loss 9.4091e-01 (9.4091e-01)	Acc@1  71.88 ( 71.88)
+ * Acc@1 79.119
+Epoch 19: Learning Rate for backbone: 0.00022115947993598179; Learning Rates for bottleneck: 0.002211594799359818; Learning Rates for head: 0.002211594799359818
+Epoch: [19][ 0/88]	Total Loss 0.8144 (0.8144)	Source 0.6446 (0.6446)	Entropy 0.8399 (0.8399)	MMD 0.0858 (0.0858)	Cls Acc 84.38 (84.38)
+Epoch: [19][87/88]	Total Loss 0.9188 (0.8568)	Source 0.6881 (0.6492)	Entropy 0.6762 (0.8670)	MMD 0.1631 (0.1209)	Cls Acc 84.38 (81.68)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.18091237831747, 1.3430319148477085e-06, 1.014538761378765e-06, 2.830536025382931e-06, 1.6369242038560867]
+beta_fc updated to: [10.26486573076047, 8.456716047132617e-07, 6.582437288102373e-07, 2.2160585932171376e-06, 5.716728046953948]
+Test: [ 0/25]	Time  0.247 ( 0.247)	Loss 9.8148e-01 (9.8148e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 77.736
+Epoch 20: Learning Rate for backbone: 0.00021828743567766642; Learning Rates for bottleneck: 0.002182874356776664; Learning Rates for head: 0.002182874356776664
+Epoch: [20][ 0/88]	Total Loss 0.8836 (0.8836)	Source 0.4898 (0.4898)	Entropy 0.8913 (0.8913)	MMD 0.3046 (0.3046)	Cls Acc 84.38 (84.38)
+Epoch: [20][87/88]	Total Loss 0.7757 (0.8620)	Source 0.5925 (0.6469)	Entropy 0.7879 (0.8194)	MMD 0.1045 (0.1332)	Cls Acc 84.38 (81.14)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.692488004539932, 1.485722199517697e-06, 1.0730108629793617e-06, 2.954738374022264e-06, 2.007271843278292]
+beta_fc updated to: [10.98228973556068, 1.3657912173113163e-06, 9.360229672908479e-07, 3.1323082908367037e-06, 4.881905960991892]
+Test: [ 0/25]	Time  0.271 ( 0.271)	Loss 5.1835e-01 (5.1835e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 76.604
+Epoch 21: Learning Rate for backbone: 0.00021550093759977989; Learning Rates for bottleneck: 0.0021550093759977987; Learning Rates for head: 0.0021550093759977987
+Epoch: [21][ 0/88]	Total Loss 0.9751 (0.9751)	Source 0.8666 (0.8666)	Entropy 0.8116 (0.8116)	MMD 0.0274 (0.0274)	Cls Acc 75.00 (75.00)
+Epoch: [21][87/88]	Total Loss 0.7949 (0.8057)	Source 0.6559 (0.6081)	Entropy 0.8381 (0.8082)	MMD 0.0552 (0.1168)	Cls Acc 81.25 (82.00)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.759611920845844, 1.7677644399585045e-06, 1.2805693998547415e-06, 3.5029092066086437e-06, 1.8122395045211177]
+beta_fc updated to: [10.81119768704189, 1.0436532326617661e-06, 7.523312218012495e-07, 2.426823742386939e-06, 4.947316111890976]
+Test: [ 0/25]	Time  0.273 ( 0.273)	Loss 1.4295e+00 (1.4295e+00)	Acc@1  65.62 ( 65.62)
+ * Acc@1 78.113
+Epoch 22: Learning Rate for backbone: 0.00021279604859181448; Learning Rates for bottleneck: 0.0021279604859181446; Learning Rates for head: 0.0021279604859181446
+Epoch: [22][ 0/88]	Total Loss 1.0588 (1.0588)	Source 0.7550 (0.7550)	Entropy 0.6613 (0.6613)	MMD 0.2377 (0.2377)	Cls Acc 81.25 (81.25)
+Epoch: [22][87/88]	Total Loss 1.0682 (0.8398)	Source 0.9316 (0.6337)	Entropy 0.8653 (0.7874)	MMD 0.0501 (0.1273)	Cls Acc 68.75 (80.89)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.84035034938524, 1.0281634667206067e-06, 8.164553841242739e-07, 2.2931359644971598e-06, 1.7652639765860465]
+beta_fc updated to: [11.427679633646163, 1.522796504991745e-06, 1.046152498468368e-06, 3.13683093794845e-06, 4.533679556426675]
+Test: [ 0/25]	Time  0.285 ( 0.285)	Loss 5.4585e-01 (5.4585e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 78.616
+Epoch 23: Learning Rate for backbone: 0.00021016907456634852; Learning Rates for bottleneck: 0.002101690745663485; Learning Rates for head: 0.002101690745663485
+Epoch: [23][ 0/88]	Total Loss 0.8643 (0.8643)	Source 0.6812 (0.6812)	Entropy 0.7178 (0.7178)	MMD 0.1113 (0.1113)	Cls Acc 78.12 (78.12)
+Epoch: [23][87/88]	Total Loss 0.9420 (0.8269)	Source 0.7388 (0.6159)	Entropy 0.8517 (0.7817)	MMD 0.1180 (0.1329)	Cls Acc 75.00 (82.42)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.180584290143955, 2.352053589587367e-06, 1.76448286965087e-06, 3.993372986345781e-06, 2.7749104315405346]
+beta_fc updated to: [10.88013476962623, 1.5346304268496943e-06, 1.0670133828522142e-06, 3.579411432701529e-06, 5.062490204630016]
+Test: [ 0/25]	Time  0.259 ( 0.259)	Loss 8.0972e-01 (8.0972e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 79.119
+Epoch 24: Learning Rate for backbone: 0.00020761654576549832; Learning Rates for bottleneck: 0.002076165457654983; Learning Rates for head: 0.002076165457654983
+Epoch: [24][ 0/88]	Total Loss 0.9327 (0.9327)	Source 0.7414 (0.7414)	Entropy 0.6260 (0.6260)	MMD 0.1287 (0.1287)	Cls Acc 81.25 (81.25)
+Epoch: [24][87/88]	Total Loss 0.7825 (0.7968)	Source 0.5934 (0.5949)	Entropy 0.5682 (0.7699)	MMD 0.1323 (0.1249)	Cls Acc 81.25 (83.20)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.205150274815594, 1.146025551484286e-06, 9.113858924497923e-07, 2.097367372171643e-06, 2.7764742133369715]
+beta_fc updated to: [10.720162379524357, 1.0761198523278163e-06, 7.76558775687702e-07, 2.536688231352933e-06, 5.2113546282866885]
+Test: [ 0/25]	Time  0.249 ( 0.249)	Loss 7.9076e-01 (7.9076e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 79.623
+Epoch 25: Learning Rate for backbone: 0.00020513519978028534; Learning Rates for bottleneck: 0.0020513519978028532; Learning Rates for head: 0.0020513519978028532
+Epoch: [25][ 0/88]	Total Loss 0.5685 (0.5685)	Source 0.4799 (0.4799)	Entropy 0.6564 (0.6564)	MMD 0.0230 (0.0230)	Cls Acc 81.25 (81.25)
+Epoch: [25][87/88]	Total Loss 1.5549 (0.7350)	Source 1.1541 (0.5398)	Entropy 0.7297 (0.7131)	MMD 0.3279 (0.1239)	Cls Acc 68.75 (84.16)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.701838382918183, 1.5963897608295347e-06, 1.2546223783932466e-06, 2.8161013450160772e-06, 3.02532960614001]
+beta_fc updated to: [11.215661126648888, 1.5402650591350186e-06, 1.0224292272609124e-06, 3.2913585717780185e-06, 4.609101171484635]
+Test: [ 0/25]	Time  0.253 ( 0.253)	Loss 9.1545e-01 (9.1545e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 79.623
+Epoch 26: Learning Rate for backbone: 0.0002027219661015551; Learning Rates for bottleneck: 0.0020272196610155507; Learning Rates for head: 0.0020272196610155507
+Epoch: [26][ 0/88]	Total Loss 1.0954 (1.0954)	Source 0.6536 (0.6536)	Entropy 0.5697 (0.5697)	MMD 0.3848 (0.3848)	Cls Acc 81.25 (81.25)
+Epoch: [26][87/88]	Total Loss 0.6824 (0.7626)	Source 0.5683 (0.5699)	Entropy 0.5721 (0.7286)	MMD 0.0569 (0.1199)	Cls Acc 84.38 (83.38)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.119905586319383, 1.5810571663439856e-06, 1.2387536139521852e-06, 2.798012733738489e-06, 2.701126736124395]
+beta_fc updated to: [10.882042641979234, 1.0434720543735772e-06, 7.631736882332283e-07, 2.437241620721038e-06, 5.100992751939057]
+Test: [ 0/25]	Time  0.276 ( 0.276)	Loss 9.7156e-01 (9.7156e-01)	Acc@1  65.62 ( 65.62)
+ * Acc@1 80.629
+Epoch 27: Learning Rate for backbone: 0.00020037395204278922; Learning Rates for bottleneck: 0.0020037395204278922; Learning Rates for head: 0.0020037395204278922
+Epoch: [27][ 0/88]	Total Loss 0.6197 (0.6197)	Source 0.5233 (0.5233)	Entropy 0.8583 (0.8583)	MMD 0.0106 (0.0106)	Cls Acc 84.38 (84.38)
+Epoch: [27][87/88]	Total Loss 0.4555 (0.7515)	Source 0.3681 (0.5425)	Entropy 0.7694 (0.7022)	MMD 0.0105 (0.1387)	Cls Acc 87.50 (83.49)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.169500847029026, 1.9522451346608667e-06, 1.4850051913614326e-06, 3.496970512590495e-06, 2.423450094665367]
+beta_fc updated to: [10.28300815975992, 1.1088000009378354e-06, 8.03303583865741e-07, 2.970093806846351e-06, 5.17468244415323]
+Test: [ 0/25]	Time  0.260 ( 0.260)	Loss 1.0773e+00 (1.0773e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 78.868
+Epoch 28: Learning Rate for backbone: 0.0001980884298939745; Learning Rates for bottleneck: 0.001980884298939745; Learning Rates for head: 0.001980884298939745
+Epoch: [28][ 0/88]	Total Loss 0.9809 (0.9809)	Source 0.6795 (0.6795)	Entropy 0.6945 (0.6945)	MMD 0.2320 (0.2320)	Cls Acc 78.12 (78.12)
+Epoch: [28][87/88]	Total Loss 1.0521 (0.7166)	Source 0.9438 (0.5365)	Entropy 0.5586 (0.7019)	MMD 0.0524 (0.1100)	Cls Acc 71.88 (83.95)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.716480696886213, 1.5729444864125032e-06, 1.1497914574790941e-06, 3.023355805421384e-06, 2.0957661505404723]
+beta_fc updated to: [11.13226429557875, 1.1554314896329426e-06, 8.315221223364981e-07, 2.4957751465254393e-06, 4.701004192506268]
+Test: [ 0/25]	Time  0.265 ( 0.265)	Loss 7.4185e-01 (7.4185e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 80.377
+Epoch 29: Learning Rate for backbone: 0.0001958628251820397; Learning Rates for bottleneck: 0.001958628251820397; Learning Rates for head: 0.001958628251820397
+Epoch: [29][ 0/88]	Total Loss 0.7111 (0.7111)	Source 0.5974 (0.5974)	Entropy 0.7564 (0.7564)	MMD 0.0381 (0.0381)	Cls Acc 87.50 (87.50)
+Epoch: [29][87/88]	Total Loss 0.7563 (0.7540)	Source 0.5316 (0.5560)	Entropy 0.6659 (0.6982)	MMD 0.1581 (0.1282)	Cls Acc 87.50 (84.34)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.849399322145047, 1.816598998504115e-06, 1.42442549579595e-06, 3.241871695434561e-06, 2.7012286504653495]
+beta_fc updated to: [10.460445169407325, 8.066117953020075e-07, 6.125629269124357e-07, 2.041740578610872e-06, 5.386643407527852]
+Test: [ 0/25]	Time  0.256 ( 0.256)	Loss 9.7223e-01 (9.7223e-01)	Acc@1  68.75 ( 68.75)
+ * Acc@1 80.126
+Epoch 30: Learning Rate for backbone: 0.00019369470592761685; Learning Rates for bottleneck: 0.0019369470592761685; Learning Rates for head: 0.0019369470592761685
+Epoch: [30][ 0/88]	Total Loss 0.6710 (0.6710)	Source 0.5911 (0.5911)	Entropy 0.6081 (0.6081)	MMD 0.0192 (0.0192)	Cls Acc 81.25 (81.25)
+Epoch: [30][87/88]	Total Loss 0.1964 (0.6778)	Source 0.1439 (0.5075)	Entropy 0.4571 (0.6696)	MMD 0.0068 (0.1034)	Cls Acc 100.00 (85.09)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.021397559963772, 1.8532424140191019e-06, 1.2579333750106566e-06, 3.4363141027140684e-06, 1.9308402527219652]
+beta_fc updated to: [10.973844015703033, 1.7197284041042047e-06, 1.1625118267519745e-06, 3.857473490632973e-06, 5.157618940763283]
+Test: [ 0/25]	Time  0.274 ( 0.274)	Loss 5.1645e-01 (5.1645e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 80.629
+Epoch 31: Learning Rate for backbone: 0.0001915817728003051; Learning Rates for bottleneck: 0.0019158177280030509; Learning Rates for head: 0.0019158177280030509
+Epoch: [31][ 0/88]	Total Loss 0.2863 (0.2863)	Source 0.2081 (0.2081)	Entropy 0.6631 (0.6631)	MMD 0.0119 (0.0119)	Cls Acc 96.88 (96.88)
+Epoch: [31][87/88]	Total Loss 1.2876 (0.6778)	Source 1.0918 (0.4957)	Entropy 0.6440 (0.6624)	MMD 0.1314 (0.1159)	Cls Acc 71.88 (86.15)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.249107323164877, 1.748500423541243e-06, 1.3689337743060237e-06, 3.1245400961079167e-06, 2.698971893322839]
+beta_fc updated to: [10.276453152377021, 8.293715999373572e-07, 6.442880564914079e-07, 2.1483799501808593e-06, 5.9116958388330545]
+Test: [ 0/25]	Time  0.268 ( 0.268)	Loss 6.3790e-01 (6.3790e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 81.132
+Epoch 32: Learning Rate for backbone: 0.00018952185008548904; Learning Rates for bottleneck: 0.0018952185008548903; Learning Rates for head: 0.0018952185008548903
+Epoch: [32][ 0/88]	Total Loss 0.6996 (0.6996)	Source 0.5959 (0.5959)	Entropy 0.6508 (0.6508)	MMD 0.0387 (0.0387)	Cls Acc 84.38 (84.38)
+Epoch: [32][87/88]	Total Loss 0.6078 (0.6665)	Source 0.4891 (0.4699)	Entropy 0.7954 (0.6487)	MMD 0.0392 (0.1318)	Cls Acc 84.38 (86.61)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.279585162750395, 2.173814326279821e-06, 1.4831982801813093e-06, 4.0254911440069794e-06, 1.3902944184753916]
+beta_fc updated to: [10.747953548646455, 1.059404173690297e-06, 7.806482495513638e-07, 2.511176518996079e-06, 5.420558157032066]
+Test: [ 0/25]	Time  0.269 ( 0.269)	Loss 8.9257e-01 (8.9257e-01)	Acc@1  71.88 ( 71.88)
+ * Acc@1 80.126
+Epoch 33: Learning Rate for backbone: 0.00018751287738528425; Learning Rates for bottleneck: 0.0018751287738528425; Learning Rates for head: 0.0018751287738528425
+Epoch: [33][ 0/88]	Total Loss 0.5924 (0.5924)	Source 0.5411 (0.5411)	Entropy 0.4770 (0.4770)	MMD 0.0036 (0.0036)	Cls Acc 84.38 (84.38)
+Epoch: [33][87/88]	Total Loss 0.3563 (0.6640)	Source 0.2701 (0.4609)	Entropy 0.4213 (0.6280)	MMD 0.0441 (0.1403)	Cls Acc 93.75 (86.68)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.43324871777915, 1.2654483853746406e-06, 9.388617439752818e-07, 2.5912674232876754e-06, 1.7496914942858282]
+beta_fc updated to: [10.609851689537265, 1.0617815852175477e-06, 7.489398394104511e-07, 2.5327562000062194e-06, 5.130291102526502]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 5.2418e-01 (5.2418e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 81.258
+Epoch 34: Learning Rate for backbone: 0.00018555290198454802; Learning Rates for bottleneck: 0.0018555290198454802; Learning Rates for head: 0.0018555290198454802
+Epoch: [34][ 0/88]	Total Loss 1.0450 (1.0450)	Source 0.9529 (0.9529)	Entropy 0.5392 (0.5392)	MMD 0.0381 (0.0381)	Cls Acc 68.75 (68.75)
+Epoch: [34][87/88]	Total Loss 0.3538 (0.6586)	Source 0.2411 (0.4680)	Entropy 0.7268 (0.6243)	MMD 0.0399 (0.1281)	Cls Acc 93.75 (87.18)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.074917777839612, 1.2373748851307972e-06, 9.660349012658275e-07, 2.187117733942449e-06, 2.7987013225965316]
+beta_fc updated to: [11.788404653674522, 1.8853579776970409e-06, 1.2493035302821746e-06, 3.617647067719869e-06, 4.408126628989435]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 4.6304e-01 (4.6304e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 80.252
+Epoch 35: Learning Rate for backbone: 0.00018364007182024877; Learning Rates for bottleneck: 0.0018364007182024877; Learning Rates for head: 0.0018364007182024877
+Epoch: [35][ 0/88]	Total Loss 0.4153 (0.4153)	Source 0.3092 (0.3092)	Entropy 0.6197 (0.6197)	MMD 0.0441 (0.0441)	Cls Acc 90.62 (90.62)
+Epoch: [35][87/88]	Total Loss 0.8052 (0.6549)	Source 0.6552 (0.4693)	Entropy 0.6134 (0.6074)	MMD 0.0886 (0.1248)	Cls Acc 90.62 (85.65)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.574637205130076, 1.0349375388179389e-06, 8.326041269569469e-07, 1.9187136270773743e-06, 3.277206979193287]
+beta_fc updated to: [10.91989226580269, 9.470530205090544e-07, 6.912564646992395e-07, 2.2429689003765657e-06, 4.963567403334152]
+Test: [ 0/25]	Time  0.275 ( 0.275)	Loss 6.2103e-01 (6.2103e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 82.013
+Epoch 36: Learning Rate for backbone: 0.00018177262899897318; Learning Rates for bottleneck: 0.0018177262899897316; Learning Rates for head: 0.0018177262899897316
+Epoch: [36][ 0/88]	Total Loss 0.8832 (0.8832)	Source 0.4920 (0.4920)	Entropy 0.4428 (0.4428)	MMD 0.3469 (0.3469)	Cls Acc 81.25 (81.25)
+Epoch: [36][87/88]	Total Loss 0.6464 (0.6358)	Source 0.4530 (0.4594)	Entropy 0.7156 (0.5853)	MMD 0.1218 (0.1179)	Cls Acc 87.50 (86.01)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.828947353937071, 1.8911287188669268e-06, 1.3566992279677086e-06, 3.397413036941652e-06, 2.231174955155931]
+beta_fc updated to: [10.690794486871184, 1.2220369013600335e-06, 8.633447673498962e-07, 2.9738410628113583e-06, 5.15936739940426]
+Test: [ 0/25]	Time  0.261 ( 0.261)	Loss 8.7341e-01 (8.7341e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 81.384
+Epoch 37: Learning Rate for backbone: 0.00017994890381307422; Learning Rates for bottleneck: 0.001799489038130742; Learning Rates for head: 0.001799489038130742
+Epoch: [37][ 0/88]	Total Loss 0.2784 (0.2784)	Source 0.1420 (0.1420)	Entropy 0.6985 (0.6985)	MMD 0.0666 (0.0666)	Cls Acc 96.88 (96.88)
+Epoch: [37][87/88]	Total Loss 0.3953 (0.6295)	Source 0.2713 (0.4594)	Entropy 0.6764 (0.6022)	MMD 0.0563 (0.1098)	Cls Acc 93.75 (87.22)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.728125953838353, 1.7219488119664908e-06, 1.3606189995045264e-06, 3.0621225890243005e-06, 2.8485987924153906]
+beta_fc updated to: [10.879035512162666, 1.4457219569743943e-06, 1.0034965627954142e-06, 3.3886279246930094e-06, 5.145006350407365]
+Test: [ 0/25]	Time  0.302 ( 0.302)	Loss 2.6460e-01 (2.6460e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 80.629
+Epoch 38: Learning Rate for backbone: 0.00017816730921102803; Learning Rates for bottleneck: 0.0017816730921102802; Learning Rates for head: 0.0017816730921102802
+Epoch: [38][ 0/88]	Total Loss 0.8577 (0.8577)	Source 0.6820 (0.6820)	Entropy 0.5349 (0.5349)	MMD 0.1223 (0.1223)	Cls Acc 78.12 (78.12)
+Epoch: [38][87/88]	Total Loss 0.4424 (0.6245)	Source 0.2287 (0.4299)	Entropy 0.7959 (0.5872)	MMD 0.1341 (0.1359)	Cls Acc 90.62 (87.36)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.717947283883094, 1.2389331203806113e-06, 9.82683620716103e-07, 2.2160629681088295e-06, 3.146965798172919]
+beta_fc updated to: [10.915631678907127, 1.1407568592969048e-06, 8.211514132146649e-07, 2.7020845599454196e-06, 5.10454846290612]
+Test: [ 0/25]	Time  0.313 ( 0.313)	Loss 8.0460e-01 (8.0460e-01)	Acc@1  71.88 ( 71.88)
+ * Acc@1 80.000
+Epoch 39: Learning Rate for backbone: 0.00017642633568205337; Learning Rates for bottleneck: 0.0017642633568205335; Learning Rates for head: 0.0017642633568205335
+Epoch: [39][ 0/88]	Total Loss 0.4867 (0.4867)	Source 0.3655 (0.3655)	Entropy 0.7251 (0.7251)	MMD 0.0486 (0.0486)	Cls Acc 84.38 (84.38)
+Epoch: [39][87/88]	Total Loss 0.3945 (0.6037)	Source 0.2627 (0.4355)	Entropy 0.6194 (0.5936)	MMD 0.0698 (0.1088)	Cls Acc 93.75 (87.14)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.975257093889429, 1.9110418965847292e-06, 1.4396650296919917e-06, 3.269326046331955e-06, 3.1025567293983833]
+beta_fc updated to: [10.699558576661902, 1.4426478754092892e-06, 1.0251921444564049e-06, 3.7578622578140735e-06, 5.540608458885196]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 1.0329e+00 (1.0329e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 82.390
+Epoch 40: Learning Rate for backbone: 0.00017472454651902984; Learning Rates for bottleneck: 0.0017472454651902983; Learning Rates for head: 0.0017472454651902983
+Epoch: [40][ 0/88]	Total Loss 0.3381 (0.3381)	Source 0.1200 (0.1200)	Entropy 0.5163 (0.5163)	MMD 0.1665 (0.1665)	Cls Acc 96.88 (96.88)
+Epoch: [40][87/88]	Total Loss 0.4237 (0.5478)	Source 0.3630 (0.3770)	Entropy 0.3676 (0.5699)	MMD 0.0239 (0.1138)	Cls Acc 87.50 (89.24)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.037011362501389, 2.5655120515136954e-06, 1.8891953198671054e-06, 4.288291438777635e-06, 2.481930209066732]
+beta_fc updated to: [10.83772232387, 1.4604264160778723e-06, 9.861928908022503e-07, 3.473346067935948e-06, 5.093352087475285]
+Test: [ 0/25]	Time  0.284 ( 0.284)	Loss 6.3690e-01 (6.3690e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 81.509
+Epoch 41: Learning Rate for backbone: 0.00017306057342728965; Learning Rates for bottleneck: 0.0017306057342728965; Learning Rates for head: 0.0017306057342728965
+Epoch: [41][ 0/88]	Total Loss 0.8076 (0.8076)	Source 0.7548 (0.7548)	Entropy 0.3573 (0.3573)	MMD 0.0170 (0.0170)	Cls Acc 78.12 (78.12)
+Epoch: [41][87/88]	Total Loss 0.4925 (0.5886)	Source 0.2999 (0.4137)	Entropy 0.4499 (0.5531)	MMD 0.1477 (0.1196)	Cls Acc 87.50 (87.64)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.333694021237958, 8.183905555583078e-07, 6.385474443443724e-07, 1.5443314089660063e-06, 3.433378485719379]
+beta_fc updated to: [10.022851126416752, 8.689024549524472e-07, 6.625656062654893e-07, 2.5433725106552605e-06, 5.96732766904901]
+Test: [ 0/25]	Time  0.275 ( 0.275)	Loss 9.4644e-01 (9.4644e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 80.881
+Epoch 42: Learning Rate for backbone: 0.00017143311245000907; Learning Rates for bottleneck: 0.0017143311245000907; Learning Rates for head: 0.0017143311245000907
+Epoch: [42][ 0/88]	Total Loss 0.4243 (0.4243)	Source 0.2973 (0.2973)	Entropy 0.6953 (0.6953)	MMD 0.0575 (0.0575)	Cls Acc 93.75 (93.75)
+Epoch: [42][87/88]	Total Loss 0.4055 (0.5918)	Source 0.3081 (0.4211)	Entropy 0.7256 (0.5593)	MMD 0.0249 (0.1147)	Cls Acc 93.75 (87.71)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.061258425473738, 2.302514758707358e-06, 1.73994136945541e-06, 3.926184303357872e-06, 2.727561647290211]
+beta_fc updated to: [11.981031448457403, 1.8152026984113362e-06, 1.1579865522814922e-06, 3.3232602475670093e-06, 3.958415808840832]
+Test: [ 0/25]	Time  0.276 ( 0.276)	Loss 9.9543e-01 (9.9543e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 80.503
+Epoch 43: Learning Rate for backbone: 0.0001698409201837354; Learning Rates for bottleneck: 0.001698409201837354; Learning Rates for head: 0.001698409201837354
+Epoch: [43][ 0/88]	Total Loss 0.6773 (0.6773)	Source 0.4319 (0.4319)	Entropy 0.4056 (0.4056)	MMD 0.2049 (0.2049)	Cls Acc 81.25 (81.25)
+Epoch: [43][87/88]	Total Loss 0.8009 (0.5747)	Source 0.7051 (0.4105)	Entropy 0.5502 (0.5514)	MMD 0.0408 (0.1091)	Cls Acc 78.12 (87.57)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.160035012710512, 1.7484533542232909e-06, 1.3172959714942363e-06, 3.166999970893806e-06, 2.352256158727171]
+beta_fc updated to: [10.07009957811018, 8.51982064296702e-07, 6.383589298916663e-07, 2.397758306964703e-06, 5.818714970337885]
+Test: [ 0/25]	Time  0.294 ( 0.294)	Loss 4.5160e-01 (4.5160e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 82.390
+Epoch 44: Learning Rate for backbone: 0.0001682828102600933; Learning Rates for bottleneck: 0.0016828281026009329; Learning Rates for head: 0.0016828281026009329
+Epoch: [44][ 0/88]	Total Loss 0.8393 (0.8393)	Source 0.7377 (0.7377)	Entropy 0.6577 (0.6577)	MMD 0.0359 (0.0359)	Cls Acc 71.88 (71.88)
+Epoch: [44][87/88]	Total Loss 0.4527 (0.5980)	Source 0.1845 (0.4269)	Entropy 0.5328 (0.5777)	MMD 0.2150 (0.1134)	Cls Acc 93.75 (87.46)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.310924469104881, 2.0235759681849963e-06, 1.516654233062337e-06, 3.5547339824265957e-06, 2.4541110697635857]
+beta_fc updated to: [10.032915487978855, 9.797375244710182e-07, 7.196599101000679e-07, 2.8334433401180475e-06, 5.858329212097825]
+Test: [ 0/25]	Time  0.267 ( 0.267)	Loss 1.1442e+00 (1.1442e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 81.635
+Epoch 45: Learning Rate for backbone: 0.00016675765007195893; Learning Rates for bottleneck: 0.001667576500719589; Learning Rates for head: 0.001667576500719589
+Epoch: [45][ 0/88]	Total Loss 0.6452 (0.6452)	Source 0.5346 (0.5346)	Entropy 0.6022 (0.6022)	MMD 0.0503 (0.0503)	Cls Acc 78.12 (78.12)
+Epoch: [45][87/88]	Total Loss 0.4909 (0.5656)	Source 0.4444 (0.3947)	Entropy 0.4436 (0.5264)	MMD 0.0021 (0.1182)	Cls Acc 87.50 (88.78)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.07976492916152, 2.154740334784564e-06, 1.6344509311152047e-06, 3.636103008766189e-06, 2.7150883691065553]
+beta_fc updated to: [10.526399865129056, 1.5453317442734839e-06, 1.0507058769077215e-06, 3.963561276530767e-06, 5.384751733199984]
+Test: [ 0/25]	Time  0.432 ( 0.432)	Loss 7.1806e-01 (7.1806e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 83.145
+Epoch 46: Learning Rate for backbone: 0.0001652643577243985; Learning Rates for bottleneck: 0.001652643577243985; Learning Rates for head: 0.001652643577243985
+Epoch: [46][ 0/88]	Total Loss 0.5880 (0.5880)	Source 0.3825 (0.3825)	Entropy 0.6254 (0.6254)	MMD 0.1429 (0.1429)	Cls Acc 84.38 (84.38)
+Epoch: [46][87/88]	Total Loss 0.4196 (0.5440)	Source 0.3050 (0.3817)	Entropy 0.5398 (0.5536)	MMD 0.0606 (0.1070)	Cls Acc 93.75 (88.74)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.839345989814426, 2.454069663490015e-06, 1.725833983693115e-06, 4.172030693235804e-06, 2.26099043629507]
+beta_fc updated to: [10.660769251849135, 1.5816402814490091e-06, 1.0731207281801408e-06, 3.952998927730778e-06, 5.312359465902788]
+Test: [ 0/25]	Time  0.347 ( 0.347)	Loss 6.2155e-01 (6.2155e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 83.019
+Epoch 47: Learning Rate for backbone: 0.00016380189919247058; Learning Rates for bottleneck: 0.0016380189919247058; Learning Rates for head: 0.0016380189919247058
+Epoch: [47][ 0/88]	Total Loss 0.8673 (0.8673)	Source 0.7340 (0.7340)	Entropy 0.6246 (0.6246)	MMD 0.0709 (0.0709)	Cls Acc 78.12 (78.12)
+Epoch: [47][87/88]	Total Loss 0.7189 (0.5645)	Source 0.6110 (0.3886)	Entropy 0.6020 (0.5186)	MMD 0.0477 (0.1240)	Cls Acc 87.50 (88.42)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.166269487932539, 2.895054069180365e-06, 2.102996241726002e-06, 4.829595195450946e-06, 2.406057604756538]
+beta_fc updated to: [10.3865204882776, 1.2845056753022437e-06, 9.327533535618137e-07, 3.4597114889224276e-06, 5.613956732299491]
+Test: [ 0/25]	Time  0.319 ( 0.319)	Loss 9.1496e-01 (9.1496e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 83.145
+Epoch 48: Learning Rate for backbone: 0.0001623692856696081; Learning Rates for bottleneck: 0.001623692856696081; Learning Rates for head: 0.001623692856696081
+Epoch: [48][ 0/88]	Total Loss 0.4258 (0.4258)	Source 0.3514 (0.3514)	Entropy 0.5046 (0.5046)	MMD 0.0240 (0.0240)	Cls Acc 87.50 (87.50)
+Epoch: [48][87/88]	Total Loss 0.5159 (0.5607)	Source 0.4241 (0.3836)	Entropy 0.6161 (0.5261)	MMD 0.0302 (0.1245)	Cls Acc 87.50 (88.10)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.693816388109637, 2.4243935813313944e-06, 1.8431172323823386e-06, 4.185652302892618e-06, 2.691797000587212]
+beta_fc updated to: [10.345109801150445, 1.1785233841774415e-06, 8.519173207214466e-07, 3.147095682959695e-06, 5.465283225335177]
+Test: [ 0/25]	Time  0.293 ( 0.293)	Loss 6.4954e-01 (6.4954e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.522
+Epoch 49: Learning Rate for backbone: 0.00016096557109175201; Learning Rates for bottleneck: 0.0016096557109175201; Learning Rates for head: 0.0016096557109175201
+Epoch: [49][ 0/88]	Total Loss 0.8293 (0.8293)	Source 0.7351 (0.7351)	Entropy 0.4583 (0.4583)	MMD 0.0484 (0.0484)	Cls Acc 78.12 (78.12)
+Epoch: [49][87/88]	Total Loss 0.8787 (0.5735)	Source 0.3465 (0.4094)	Entropy 0.5608 (0.5214)	MMD 0.4762 (0.1119)	Cls Acc 90.62 (88.39)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.447671223691977, 1.5666096166413627e-06, 1.2036020724234859e-06, 2.7638404859187033e-06, 3.1701096929282055]
+beta_fc updated to: [10.853227254661565, 1.821758441016484e-06, 1.1917927629385588e-06, 4.059855975135808e-06, 4.997767430116148]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 1.3927e+00 (1.3927e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 82.767
+Epoch 50: Learning Rate for backbone: 0.00015958984982371698; Learning Rates for bottleneck: 0.0015958984982371697; Learning Rates for head: 0.0015958984982371697
+Epoch: [50][ 0/88]	Total Loss 0.4507 (0.4507)	Source 0.0928 (0.0928)	Entropy 0.5124 (0.5124)	MMD 0.3067 (0.3067)	Cls Acc 93.75 (93.75)
+Epoch: [50][87/88]	Total Loss 0.7501 (0.5347)	Source 0.3825 (0.3505)	Entropy 0.6163 (0.5095)	MMD 0.3060 (0.1332)	Cls Acc 90.62 (89.20)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.561601592959336, 8.22451309232695e-07, 6.290881457160892e-07, 1.51966475898844e-06, 3.508520459615707]
+beta_fc updated to: [10.390537697110215, 1.1258867226537375e-06, 8.462428669358209e-07, 3.094899520289627e-06, 5.909954678845985]
+Test: [ 0/25]	Time  0.287 ( 0.287)	Loss 7.4489e-01 (7.4489e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 82.013
+Epoch 51: Learning Rate for backbone: 0.00015824125449545113; Learning Rates for bottleneck: 0.001582412544954511; Learning Rates for head: 0.001582412544954511
+Epoch: [51][ 0/88]	Total Loss 0.2084 (0.2084)	Source 0.1276 (0.1276)	Entropy 0.4405 (0.4405)	MMD 0.0367 (0.0367)	Cls Acc 96.88 (96.88)
+Epoch: [51][87/88]	Total Loss 0.3475 (0.5503)	Source 0.1559 (0.3777)	Entropy 0.5518 (0.4975)	MMD 0.1364 (0.1228)	Cls Acc 90.62 (89.52)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.837471072577364, 2.1811523932335854e-06, 1.6521902009548093e-06, 3.7429696255844763e-06, 2.912550948053089]
+beta_fc updated to: [10.264527953092877, 1.1587856076267457e-06, 8.376675321025552e-07, 3.0367440868979453e-06, 5.73948216446763]
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 5.5418e-01 (5.5418e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.277
+Epoch 52: Learning Rate for backbone: 0.00015691895397691643; Learning Rates for bottleneck: 0.0015691895397691642; Learning Rates for head: 0.0015691895397691642
+Epoch: [52][ 0/88]	Total Loss 0.7979 (0.7979)	Source 0.6049 (0.6049)	Entropy 0.7342 (0.7342)	MMD 0.1196 (0.1196)	Cls Acc 87.50 (87.50)
+Epoch: [52][87/88]	Total Loss 0.4289 (0.5348)	Source 0.3140 (0.3745)	Entropy 0.5141 (0.5179)	MMD 0.0635 (0.1085)	Cls Acc 87.50 (89.17)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.294061425233023, 3.733418059911574e-08, 2.6150376889567143e-08, 5.913170216968907e-08, 2.7061759817343027]
+beta_fc updated to: [10.513258615811274, 1.2479425048982727e-06, 8.831888801357112e-07, 3.1630440887821764e-06, 5.450597152849052]
+Test: [ 0/25]	Time  0.269 ( 0.269)	Loss 8.3144e-01 (8.3144e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 83.019
+Epoch 53: Learning Rate for backbone: 0.0001556221514812792; Learning Rates for bottleneck: 0.0015562215148127918; Learning Rates for head: 0.0015562215148127918
+Epoch: [53][ 0/88]	Total Loss 0.3757 (0.3757)	Source 0.3280 (0.3280)	Entropy 0.3876 (0.3876)	MMD 0.0090 (0.0090)	Cls Acc 90.62 (90.62)
+Epoch: [53][87/88]	Total Loss 0.5226 (0.5149)	Source 0.4719 (0.3650)	Entropy 0.4812 (0.5048)	MMD 0.0026 (0.0994)	Cls Acc 81.25 (89.24)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.537524429458344, 3.5293628560918736e-08, 2.215957379448553e-08, 6.023993492425828e-08, 1.062167723710314]
+beta_fc updated to: [10.660024319605327, 1.0982013228139638e-06, 7.973153440921711e-07, 2.6576739325958964e-06, 5.317639921694306]
+Test: [ 0/25]	Time  0.286 ( 0.286)	Loss 1.0389e+00 (1.0389e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 82.138
+Epoch 54: Learning Rate for backbone: 0.00015435008278697152; Learning Rates for bottleneck: 0.001543500827869715; Learning Rates for head: 0.001543500827869715
+Epoch: [54][ 0/88]	Total Loss 0.3034 (0.3034)	Source 0.1601 (0.1601)	Entropy 0.5497 (0.5497)	MMD 0.0883 (0.0883)	Cls Acc 93.75 (93.75)
+Epoch: [54][87/88]	Total Loss 0.6546 (0.5816)	Source 0.4369 (0.4094)	Entropy 0.5357 (0.5035)	MMD 0.1641 (0.1218)	Cls Acc 90.62 (87.78)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.613657649428031, 1.2649881872303514e-06, 9.500120066770372e-07, 2.192149211796968e-06, 3.312496936147219]
+beta_fc updated to: [10.717435453714613, 1.5984156782446072e-06, 1.1096119425365243e-06, 3.9593704322377165e-06, 5.42788899586446]
+Test: [ 0/25]	Time  0.244 ( 0.244)	Loss 1.0411e+00 (1.0411e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 82.390
+Epoch 55: Learning Rate for backbone: 0.00015310201456997263; Learning Rates for bottleneck: 0.0015310201456997263; Learning Rates for head: 0.0015310201456997263
+Epoch: [55][ 0/88]	Total Loss 0.6207 (0.6207)	Source 0.4005 (0.4005)	Entropy 0.5125 (0.5125)	MMD 0.1690 (0.1690)	Cls Acc 90.62 (90.62)
+Epoch: [55][87/88]	Total Loss 0.4657 (0.5263)	Source 0.2806 (0.3488)	Entropy 0.4396 (0.5251)	MMD 0.1411 (0.1250)	Cls Acc 93.75 (89.91)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.93641475474876, 1.924336387359107e-06, 1.4678645672211068e-06, 3.389333070006218e-06, 2.617845691334446]
+beta_fc updated to: [10.934669949822782, 1.0201645585977325e-06, 7.316838045780281e-07, 2.3421923141918276e-06, 5.010998779478283]
+Test: [ 0/25]	Time  0.267 ( 0.267)	Loss 5.5619e-01 (5.5619e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 82.893
+Epoch 56: Learning Rate for backbone: 0.00015187724283837446; Learning Rates for bottleneck: 0.0015187724283837445; Learning Rates for head: 0.0015187724283837445
+Epoch: [56][ 0/88]	Total Loss 0.7030 (0.7030)	Source 0.5605 (0.5605)	Entropy 0.3866 (0.3866)	MMD 0.1038 (0.1038)	Cls Acc 84.38 (84.38)
+Epoch: [56][87/88]	Total Loss 0.5225 (0.4943)	Source 0.3412 (0.3395)	Entropy 0.4567 (0.4899)	MMD 0.1356 (0.1058)	Cls Acc 93.75 (90.06)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.140493665405192, 2.156807859309791e-06, 1.6482554052656563e-06, 3.7739779936401294e-06, 2.6045880770611407]
+beta_fc updated to: [10.813798921664675, 1.2032192401070701e-06, 8.603444354158755e-07, 2.8411085992345758e-06, 5.301585185044204]
+Test: [ 0/25]	Time  0.300 ( 0.300)	Loss 6.9494e-01 (6.9494e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 82.767
+Epoch 57: Learning Rate for backbone: 0.00015067509146194497; Learning Rates for bottleneck: 0.0015067509146194495; Learning Rates for head: 0.0015067509146194495
+Epoch: [57][ 0/88]	Total Loss 0.5107 (0.5107)	Source 0.3733 (0.3733)	Entropy 0.3262 (0.3262)	MMD 0.1048 (0.1048)	Cls Acc 84.38 (84.38)
+Epoch: [57][87/88]	Total Loss 0.4059 (0.5244)	Source 0.2419 (0.3509)	Entropy 0.4368 (0.4518)	MMD 0.1203 (0.1283)	Cls Acc 90.62 (89.74)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.994591479797446, 1.7481440389039056e-06, 1.1957686236744687e-06, 3.2193135819995335e-06, 1.7156512168812852]
+beta_fc updated to: [10.946828372273652, 1.7699623520093042e-06, 1.203734954905516e-06, 4.062410104486877e-06, 5.100278906872736]
+Test: [ 0/25]	Time  0.266 ( 0.266)	Loss 1.5963e+00 (1.5963e+00)	Acc@1  71.88 ( 71.88)
+ * Acc@1 83.145
+Epoch 58: Learning Rate for backbone: 0.00014949491078999249; Learning Rates for bottleneck: 0.0014949491078999246; Learning Rates for head: 0.0014949491078999246
+Epoch: [58][ 0/88]	Total Loss 0.4005 (0.4005)	Source 0.1511 (0.1511)	Entropy 0.4741 (0.4741)	MMD 0.2020 (0.2020)	Cls Acc 93.75 (93.75)
+Epoch: [58][87/88]	Total Loss 0.2497 (0.5170)	Source 0.1039 (0.3488)	Entropy 0.3990 (0.4508)	MMD 0.1059 (0.1232)	Cls Acc 96.88 (89.60)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.73362794740116, 1.961807516838062e-06, 1.48901293876453e-06, 3.3729262779033457e-06, 2.821729582736112]
+beta_fc updated to: [10.774698116803012, 1.5992896229945837e-06, 1.0667859234221e-06, 3.816219155981054e-06, 5.173222953752375]
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 9.2186e-01 (9.2186e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.151
+Epoch 59: Learning Rate for backbone: 0.00014833607635137035; Learning Rates for bottleneck: 0.0014833607635137034; Learning Rates for head: 0.0014833607635137034
+Epoch: [59][ 0/88]	Total Loss 0.3651 (0.3651)	Source 0.1384 (0.1384)	Entropy 0.4593 (0.4593)	MMD 0.1808 (0.1808)	Cls Acc 93.75 (93.75)
+Epoch: [59][87/88]	Total Loss 0.9602 (0.5164)	Source 0.5480 (0.3602)	Entropy 0.4212 (0.4695)	MMD 0.3701 (0.1092)	Cls Acc 90.62 (89.88)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.806101449320108, 8.858542211927848e-07, 6.600158640189502e-07, 1.8624746475037006e-06, 1.928428710472576]
+beta_fc updated to: [10.785592527153689, 1.5243941796947164e-06, 1.0419838256744002e-06, 3.6308632672951674e-06, 5.342167487212533]
+Test: [ 0/25]	Time  0.266 ( 0.266)	Loss 7.9644e-01 (7.9644e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 82.893
+Epoch 60: Learning Rate for backbone: 0.00014719798763095026; Learning Rates for bottleneck: 0.0014719798763095024; Learning Rates for head: 0.0014719798763095024
+Epoch: [60][ 0/88]	Total Loss 0.4715 (0.4715)	Source 0.3616 (0.3616)	Entropy 0.3558 (0.3558)	MMD 0.0744 (0.0744)	Cls Acc 87.50 (87.50)
+Epoch: [60][87/88]	Total Loss 0.6527 (0.4852)	Source 0.4779 (0.3239)	Entropy 0.4583 (0.4650)	MMD 0.1290 (0.1148)	Cls Acc 87.50 (90.70)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [11.774748102910245, 4.2885916087922927e-07, 3.1623858691341813e-07, 7.608368117969122e-07, 5.369304558645911]
+beta_fc updated to: [9.62359651754729, 1.016707649266681e-06, 7.362154311034718e-07, 2.697341606457521e-06, 6.469857037907528]
+Test: [ 0/25]	Time  0.270 ( 0.270)	Loss 5.2997e-01 (5.2997e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 83.145
+Epoch 61: Learning Rate for backbone: 0.00014608006691733692; Learning Rates for bottleneck: 0.001460800669173369; Learning Rates for head: 0.001460800669173369
+Epoch: [61][ 0/88]	Total Loss 0.4594 (0.4594)	Source 0.2297 (0.2297)	Entropy 0.4848 (0.4848)	MMD 0.1812 (0.1812)	Cls Acc 93.75 (93.75)
+Epoch: [61][87/88]	Total Loss 0.1603 (0.5181)	Source 0.0684 (0.3518)	Entropy 0.3017 (0.4612)	MMD 0.0617 (0.1201)	Cls Acc 100.00 (89.95)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.650764006609762, 2.584250267337633e-06, 1.7684011102235893e-06, 4.2971367382560225e-06, 2.1854864594338608]
+beta_fc updated to: [11.121314090953598, 1.2245602008895184e-06, 8.816868173716389e-07, 2.7750940657652874e-06, 5.125463991752026]
+Test: [ 0/25]	Time  0.267 ( 0.267)	Loss 5.3735e-01 (5.3735e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.019
+Epoch 62: Learning Rate for backbone: 0.0001449817582170041; Learning Rates for bottleneck: 0.0014498175821700409; Learning Rates for head: 0.0014498175821700409
+Epoch: [62][ 0/88]	Total Loss 0.8869 (0.8869)	Source 0.7111 (0.7111)	Entropy 0.4060 (0.4060)	MMD 0.1352 (0.1352)	Cls Acc 87.50 (87.50)
+Epoch: [62][87/88]	Total Loss 0.4014 (0.4636)	Source 0.3520 (0.3001)	Entropy 0.4531 (0.4448)	MMD 0.0040 (0.1191)	Cls Acc 90.62 (90.70)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.0936196426344, 2.2439556883219956e-06, 1.6323712350522888e-06, 3.688662527202163e-06, 2.972771348859475]
+beta_fc updated to: [10.451224638516429, 8.989105018859566e-07, 6.841622377552323e-07, 2.394281128217608e-06, 5.734484929233453]
+Test: [ 0/25]	Time  0.253 ( 0.253)	Loss 7.5490e-01 (7.5490e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.774
+Epoch 63: Learning Rate for backbone: 0.00014390252623040125; Learning Rates for bottleneck: 0.0014390252623040125; Learning Rates for head: 0.0014390252623040125
+Epoch: [63][ 0/88]	Total Loss 0.7068 (0.7068)	Source 0.3756 (0.3756)	Entropy 0.6958 (0.6958)	MMD 0.2617 (0.2617)	Cls Acc 87.50 (87.50)
+Epoch: [63][87/88]	Total Loss 0.3988 (0.5037)	Source 0.2020 (0.3250)	Entropy 0.6172 (0.4738)	MMD 0.1351 (0.1313)	Cls Acc 93.75 (90.45)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.66960496802516, 1.5938399779660376e-06, 1.1173139493288383e-06, 2.9550939973641323e-06, 2.093895151113247]
+beta_fc updated to: [10.168952134631315, 9.84444945557159e-07, 7.384008495712596e-07, 2.653492069953503e-06, 5.905399278790627]
+Test: [ 0/25]	Time  0.272 ( 0.272)	Loss 1.0227e+00 (1.0227e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.396
+Epoch 64: Learning Rate for backbone: 0.00014284185538592021; Learning Rates for bottleneck: 0.001428418553859202; Learning Rates for head: 0.001428418553859202
+Epoch: [64][ 0/88]	Total Loss 0.5069 (0.5069)	Source 0.1751 (0.1751)	Entropy 0.2854 (0.2854)	MMD 0.3032 (0.3032)	Cls Acc 96.88 (96.88)
+Epoch: [64][87/88]	Total Loss 0.3673 (0.5000)	Source 0.2845 (0.3326)	Entropy 0.5257 (0.4436)	MMD 0.0303 (0.1230)	Cls Acc 84.38 (90.70)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.601025085526954, 1.7506178483806689e-06, 1.2896857641964828e-06, 3.005867282864736e-06, 3.2630724648313763]
+beta_fc updated to: [9.938775874596093, 1.0092565087992317e-06, 7.343859227387671e-07, 3.0023951210412965e-06, 5.9887007736381594]
+Test: [ 0/25]	Time  0.319 ( 0.319)	Loss 4.9377e-01 (4.9377e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.277
+Epoch 65: Learning Rate for backbone: 0.00014179924892792075; Learning Rates for bottleneck: 0.0014179924892792075; Learning Rates for head: 0.0014179924892792075
+Epoch: [65][ 0/88]	Total Loss 0.4197 (0.4197)	Source 0.3510 (0.3510)	Entropy 0.3846 (0.3846)	MMD 0.0302 (0.0302)	Cls Acc 84.38 (84.38)
+Epoch: [65][87/88]	Total Loss 0.1976 (0.4879)	Source 0.1151 (0.3263)	Entropy 0.4452 (0.4429)	MMD 0.0379 (0.1173)	Cls Acc 96.88 (90.20)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.149769961342445, 2.1249643086925084e-06, 1.5857985440207707e-06, 3.5817389490553245e-06, 2.9220650824645795]
+beta_fc updated to: [10.787165261933694, 1.0950362789049024e-06, 7.77880416093661e-07, 2.6054446821495743e-06, 5.309535146408165]
+Test: [ 0/25]	Time  0.260 ( 0.260)	Loss 6.7349e-01 (6.7349e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.648
+Epoch 66: Learning Rate for backbone: 0.00014077422805529855; Learning Rates for bottleneck: 0.0014077422805529854; Learning Rates for head: 0.0014077422805529854
+Epoch: [66][ 0/88]	Total Loss 0.1389 (0.1389)	Source 0.0726 (0.0726)	Entropy 0.4375 (0.4375)	MMD 0.0225 (0.0225)	Cls Acc 100.00 (100.00)
+Epoch: [66][87/88]	Total Loss 0.4065 (0.4818)	Source 0.3229 (0.3280)	Entropy 0.4754 (0.4507)	MMD 0.0361 (0.1087)	Cls Acc 90.62 (90.55)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.351667945589089, 1.2664943283362617e-06, 9.050128600613697e-07, 2.2347863007581458e-06, 3.4086714546999692]
+beta_fc updated to: [10.125088216780858, 1.3482864115037115e-06, 9.501105964511019e-07, 3.7481605534281653e-06, 5.937641075762402]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 1.0722e+00 (1.0722e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.396
+Epoch 67: Learning Rate for backbone: 0.0001397663311073378; Learning Rates for bottleneck: 0.001397663311073378; Learning Rates for head: 0.001397663311073378
+Epoch: [67][ 0/88]	Total Loss 0.4973 (0.4973)	Source 0.3794 (0.3794)	Entropy 0.5360 (0.5360)	MMD 0.0643 (0.0643)	Cls Acc 87.50 (87.50)
+Epoch: [67][87/88]	Total Loss 0.3390 (0.4526)	Source 0.1728 (0.3041)	Entropy 0.2976 (0.4546)	MMD 0.1365 (0.1030)	Cls Acc 90.62 (91.76)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.174806523770624, 2.854296740153253e-06, 2.0508262097284958e-06, 4.695492630383676e-06, 2.48629793233936]
+beta_fc updated to: [11.026285100589801, 1.1854761163992827e-06, 8.527898985264452e-07, 2.5954064420387814e-06, 4.9779602518890815]
+Test: [ 0/25]	Time  0.295 ( 0.295)	Loss 3.1301e-01 (3.1301e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 83.396
+Epoch 68: Learning Rate for backbone: 0.00013877511279383108; Learning Rates for bottleneck: 0.0013877511279383108; Learning Rates for head: 0.0013877511279383108
+Epoch: [68][ 0/88]	Total Loss 0.7401 (0.7401)	Source 0.4812 (0.4812)	Entropy 0.4668 (0.4668)	MMD 0.2122 (0.2122)	Cls Acc 90.62 (90.62)
+Epoch: [68][87/88]	Total Loss 0.3013 (0.4635)	Source 0.1043 (0.3018)	Entropy 0.6461 (0.4472)	MMD 0.1324 (0.1170)	Cls Acc 96.88 (91.73)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.122213095387309, 2.3077371760199867e-06, 1.5391547090601287e-06, 4.113100500942541e-06, 1.8611724734817259]
+beta_fc updated to: [11.311459052920407, 1.6867074411909776e-06, 1.1533484401170894e-06, 3.575778681259522e-06, 4.767359461377669]
+Test: [ 0/25]	Time  0.274 ( 0.274)	Loss 5.0391e-01 (5.0391e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 83.899
+Epoch 69: Learning Rate for backbone: 0.00013780014346666754; Learning Rates for bottleneck: 0.0013780014346666755; Learning Rates for head: 0.0013780014346666755
+Epoch: [69][ 0/88]	Total Loss 0.7875 (0.7875)	Source 0.6122 (0.6122)	Entropy 0.3363 (0.3363)	MMD 0.1417 (0.1417)	Cls Acc 84.38 (84.38)
+Epoch: [69][87/88]	Total Loss 0.2162 (0.4632)	Source 0.1337 (0.2973)	Entropy 0.3944 (0.4537)	MMD 0.0431 (0.1205)	Cls Acc 93.75 (91.16)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.809539869822025, 2.2333032978719995e-06, 1.6729635073507974e-06, 3.7438083093935044e-06, 2.8133744567066343]
+beta_fc updated to: [11.093149764574177, 1.628236212069122e-06, 1.0788408543082687e-06, 3.5352366862605528e-06, 4.802183628011689]
+Test: [ 0/25]	Time  0.287 ( 0.287)	Loss 9.6018e-01 (9.6018e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.151
+Epoch 70: Learning Rate for backbone: 0.00013684100843029077; Learning Rates for bottleneck: 0.0013684100843029076; Learning Rates for head: 0.0013684100843029076
+Epoch: [70][ 0/88]	Total Loss 0.6518 (0.6518)	Source 0.5155 (0.5155)	Entropy 0.3594 (0.3594)	MMD 0.1004 (0.1004)	Cls Acc 84.38 (84.38)
+Epoch: [70][87/88]	Total Loss 0.6504 (0.4618)	Source 0.5055 (0.3058)	Entropy 0.4121 (0.4320)	MMD 0.1037 (0.1128)	Cls Acc 81.25 (91.09)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.136847900433224, 2.402966563328544e-06, 1.7806896272901917e-06, 4.082515464290856e-06, 2.52427353310018]
+beta_fc updated to: [10.030496526416833, 1.1579395797154746e-06, 8.312664717186614e-07, 3.1933377956767365e-06, 5.8804900258603805]
+Test: [ 0/25]	Time  0.271 ( 0.271)	Loss 7.0629e-01 (7.0629e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.151
+Epoch 71: Learning Rate for backbone: 0.00013589730728861483; Learning Rates for bottleneck: 0.0013589730728861482; Learning Rates for head: 0.0013589730728861482
+Epoch: [71][ 0/88]	Total Loss 0.4093 (0.4093)	Source 0.3376 (0.3376)	Entropy 0.5886 (0.5886)	MMD 0.0128 (0.0128)	Cls Acc 90.62 (90.62)
+Epoch: [71][87/88]	Total Loss 0.2583 (0.4852)	Source 0.1962 (0.3076)	Entropy 0.2391 (0.4278)	MMD 0.0382 (0.1347)	Cls Acc 93.75 (91.26)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.664277658950153, 1.5954713401105173e-06, 1.228400827399948e-06, 2.7827972285288314e-06, 3.059357300871337]
+beta_fc updated to: [10.743521939243145, 1.2317842481748594e-06, 8.439266050715649e-07, 2.94168701640191e-06, 5.127374843522344]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 8.1579e-01 (8.1579e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.403
+Epoch 72: Learning Rate for backbone: 0.00013496865332615559; Learning Rates for bottleneck: 0.001349686533261556; Learning Rates for head: 0.001349686533261556
+Epoch: [72][ 0/88]	Total Loss 0.2941 (0.2941)	Source 0.1710 (0.1710)	Entropy 0.2592 (0.2592)	MMD 0.0972 (0.0972)	Cls Acc 96.88 (96.88)
+Epoch: [72][87/88]	Total Loss 0.3426 (0.4408)	Source 0.1659 (0.2799)	Entropy 0.3481 (0.4185)	MMD 0.1419 (0.1190)	Cls Acc 96.88 (91.83)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.65861623317583, 3.810545350513472e-07, 2.8206049896453365e-07, 7.50782752006946e-07, 4.1881637150504645]
+beta_fc updated to: [10.744082263172121, 1.4614003336283919e-06, 9.962093049691115e-07, 3.551142603911305e-06, 5.281722537948183]
+Test: [ 0/25]	Time  0.268 ( 0.268)	Loss 1.9200e+00 (1.9200e+00)	Acc@1  65.62 ( 65.62)
+ * Acc@1 84.654
+Epoch 73: Learning Rate for backbone: 0.00013405467292129243; Learning Rates for bottleneck: 0.0013405467292129242; Learning Rates for head: 0.0013405467292129242
+Epoch: [73][ 0/88]	Total Loss 0.4815 (0.4815)	Source 0.3842 (0.3842)	Entropy 0.3653 (0.3653)	MMD 0.0607 (0.0607)	Cls Acc 90.62 (90.62)
+Epoch: [73][87/88]	Total Loss 0.4937 (0.4797)	Source 0.3261 (0.3216)	Entropy 0.4393 (0.4189)	MMD 0.1237 (0.1162)	Cls Acc 87.50 (90.62)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.19309093543455, 2.8835120986011758e-06, 2.078040842895109e-06, 4.719743286238241e-06, 2.6130568413471478]
+beta_fc updated to: [10.428847922616338, 1.5311057046381955e-06, 1.0261323180596882e-06, 3.863372316950499e-06, 5.454823609293532]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 1.2283e+00 (1.2283e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 83.522
+Epoch 74: Learning Rate for backbone: 0.000133155004989719; Learning Rates for bottleneck: 0.0013315500498971898; Learning Rates for head: 0.0013315500498971898
+Epoch: [74][ 0/88]	Total Loss 0.4469 (0.4469)	Source 0.2905 (0.2905)	Entropy 0.4137 (0.4137)	MMD 0.1150 (0.1150)	Cls Acc 90.62 (90.62)
+Epoch: [74][87/88]	Total Loss 0.4133 (0.4300)	Source 0.1105 (0.2688)	Entropy 0.4957 (0.4322)	MMD 0.2533 (0.1179)	Cls Acc 96.88 (91.69)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.661087089762301, 1.8793933098718319e-06, 1.356217592362519e-06, 3.3174711792792483e-06, 2.304320914465348]
+beta_fc updated to: [11.202345575126733, 1.4905740319900724e-06, 1.019213214868264e-06, 3.2644818303406985e-06, 4.890226905923458]
+Test: [ 0/25]	Time  0.270 ( 0.270)	Loss 6.7912e-01 (6.7912e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 83.145
+Epoch 75: Learning Rate for backbone: 0.0001322693004562764; Learning Rates for bottleneck: 0.001322693004562764; Learning Rates for head: 0.001322693004562764
+Epoch: [75][ 0/88]	Total Loss 0.3572 (0.3572)	Source 0.1116 (0.1116)	Entropy 0.3970 (0.3970)	MMD 0.2060 (0.2060)	Cls Acc 96.88 (96.88)
+Epoch: [75][87/88]	Total Loss 0.5387 (0.4390)	Source 0.1976 (0.2809)	Entropy 0.3795 (0.4160)	MMD 0.3031 (0.1165)	Cls Acc 93.75 (91.62)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.178292443230923, 3.397729846697911e-06, 2.400031026362237e-06, 5.408562079599407e-06, 2.5660132791013073]
+beta_fc updated to: [11.111965120050549, 1.8345443676218072e-06, 1.1910652099802994e-06, 3.981955236393469e-06, 4.86903059029208]
+Test: [ 0/25]	Time  0.279 ( 0.279)	Loss 4.1645e-01 (4.1645e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 83.270
+Epoch 76: Learning Rate for backbone: 0.00013139722175348442; Learning Rates for bottleneck: 0.0013139722175348441; Learning Rates for head: 0.0013139722175348441
+Epoch: [76][ 0/88]	Total Loss 0.7734 (0.7734)	Source 0.3952 (0.3952)	Entropy 0.5032 (0.5032)	MMD 0.3279 (0.3279)	Cls Acc 90.62 (90.62)
+Epoch: [76][87/88]	Total Loss 0.6264 (0.4485)	Source 0.4834 (0.2973)	Entropy 0.3959 (0.4225)	MMD 0.1034 (0.1090)	Cls Acc 87.50 (91.05)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.182122466231602, 2.6408865753899237e-06, 1.9859504995071943e-06, 4.5095843010178145e-06, 2.550394813746732]
+beta_fc updated to: [10.706289390527242, 1.1976415985075185e-06, 8.449888949471852e-07, 2.8392959437516137e-06, 5.296826931094547]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 1.3822e+00 (1.3822e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 83.270
+Epoch 77: Learning Rate for backbone: 0.00013053844234519983; Learning Rates for bottleneck: 0.0013053844234519982; Learning Rates for head: 0.0013053844234519982
+Epoch: [77][ 0/88]	Total Loss 0.3782 (0.3782)	Source 0.1867 (0.1867)	Entropy 0.3473 (0.3473)	MMD 0.1568 (0.1568)	Cls Acc 96.88 (96.88)
+Epoch: [77][87/88]	Total Loss 0.5505 (0.4245)	Source 0.4496 (0.2801)	Entropy 0.3419 (0.3971)	MMD 0.0667 (0.1047)	Cls Acc 87.50 (91.62)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.27949565663136, 1.5079872256409447e-06, 1.1603488958370286e-06, 2.7173885127624896e-06, 2.539791236913646]
+beta_fc updated to: [10.137669779275821, 9.183371377508805e-07, 6.939920733598576e-07, 2.5269581246905727e-06, 6.06330989620491]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 8.0460e-01 (8.0460e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.780
+Epoch 78: Learning Rate for backbone: 0.0001296926462739375; Learning Rates for bottleneck: 0.001296926462739375; Learning Rates for head: 0.001296926462739375
+Epoch: [78][ 0/88]	Total Loss 0.3992 (0.3992)	Source 0.2512 (0.2512)	Entropy 0.2512 (0.2512)	MMD 0.1229 (0.1229)	Cls Acc 93.75 (93.75)
+Epoch: [78][87/88]	Total Loss 0.6034 (0.4493)	Source 0.1993 (0.2827)	Entropy 0.5022 (0.4031)	MMD 0.3538 (0.1262)	Cls Acc 93.75 (91.58)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.41221585692301, 2.039576632668076e-06, 1.4454030125431979e-06, 3.4320461474591805e-06, 3.2497669122043464]
+beta_fc updated to: [9.997392200430177, 1.2072203333681629e-06, 8.740288361027721e-07, 3.361194466428464e-06, 5.958245503504346]
+Test: [ 0/25]	Time  0.416 ( 0.416)	Loss 1.0652e+00 (1.0652e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 83.774
+Epoch 79: Learning Rate for backbone: 0.0001288595277304852; Learning Rates for bottleneck: 0.001288595277304852; Learning Rates for head: 0.001288595277304852
+Epoch: [79][ 0/88]	Total Loss 0.3830 (0.3830)	Source 0.3264 (0.3264)	Entropy 0.3814 (0.3814)	MMD 0.0185 (0.0185)	Cls Acc 93.75 (93.75)
+Epoch: [79][87/88]	Total Loss 0.4186 (0.4601)	Source 0.2749 (0.3106)	Entropy 0.2956 (0.4113)	MMD 0.1141 (0.1083)	Cls Acc 90.62 (91.41)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.29245418103755, 2.5213824985545003e-06, 1.8288744894056929e-06, 4.231030752606798e-06, 2.4417106573466625]
+beta_fc updated to: [10.586480275165272, 1.6411398279179468e-06, 1.0818840558618273e-06, 4.00351789545661e-06, 5.292423317588918]
+Test: [ 0/25]	Time  0.292 ( 0.292)	Loss 6.9281e-01 (6.9281e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 83.522
+Epoch 80: Learning Rate for backbone: 0.00012803879064453505; Learning Rates for bottleneck: 0.0012803879064453504; Learning Rates for head: 0.0012803879064453504
+Epoch: [80][ 0/88]	Total Loss 0.4589 (0.4589)	Source 0.2438 (0.2438)	Entropy 0.3373 (0.3373)	MMD 0.1814 (0.1814)	Cls Acc 96.88 (96.88)
+Epoch: [80][87/88]	Total Loss 0.3046 (0.4282)	Source 0.2455 (0.2730)	Entropy 0.3695 (0.4075)	MMD 0.0221 (0.1144)	Cls Acc 96.88 (91.51)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.454483904445238, 1.99108530142369e-06, 1.4454916271096128e-06, 3.4680524904668584e-06, 2.3436752336027804]
+beta_fc updated to: [11.007053202940616, 1.3621103895261412e-06, 9.416154960222631e-07, 3.060787672931719e-06, 5.021141446924109]
+Test: [ 0/25]	Time  0.404 ( 0.404)	Loss 1.5262e+00 (1.5262e+00)	Acc@1  71.88 ( 71.88)
+ * Acc@1 83.774
+Epoch 81: Learning Rate for backbone: 0.0001272301482951361; Learning Rates for bottleneck: 0.001272301482951361; Learning Rates for head: 0.001272301482951361
+Epoch: [81][ 0/88]	Total Loss 0.5465 (0.5465)	Source 0.2772 (0.2772)	Entropy 0.5522 (0.5522)	MMD 0.2142 (0.2142)	Cls Acc 90.62 (90.62)
+Epoch: [81][87/88]	Total Loss 0.4457 (0.4379)	Source 0.3143 (0.2775)	Entropy 0.5105 (0.4068)	MMD 0.0804 (0.1197)	Cls Acc 87.50 (91.62)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.895345210349989, 2.3544252506978977e-06, 1.7299937022914712e-06, 3.894356696480652e-06, 2.791059019592381]
+beta_fc updated to: [10.513386146492616, 9.688959133939904e-07, 7.200642966702936e-07, 2.3948409057338905e-06, 5.631210323252808]
+Test: [ 0/25]	Time  0.279 ( 0.279)	Loss 2.5249e-01 (2.5249e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.283
+Epoch 82: Learning Rate for backbone: 0.00012643332293985196; Learning Rates for bottleneck: 0.0012643332293985196; Learning Rates for head: 0.0012643332293985196
+Epoch: [82][ 0/88]	Total Loss 0.6057 (0.6057)	Source 0.4461 (0.4461)	Entropy 0.3279 (0.3279)	MMD 0.1269 (0.1269)	Cls Acc 90.62 (90.62)
+Epoch: [82][87/88]	Total Loss 0.6590 (0.4398)	Source 0.3801 (0.2712)	Entropy 0.3818 (0.3941)	MMD 0.2407 (0.1292)	Cls Acc 90.62 (91.69)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.63846899254955, 1.7336858188744173e-06, 1.3087594341837417e-06, 2.9625130668870393e-06, 3.1357522552716555]
+beta_fc updated to: [11.061007465542545, 1.0542478355484515e-06, 7.500875356236756e-07, 2.386980389729396e-06, 4.755227229294092]
+Test: [ 0/25]	Time  0.278 ( 0.278)	Loss 1.2702e+00 (1.2702e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 85.031
+Epoch 83: Learning Rate for backbone: 0.0001256480454615765; Learning Rates for bottleneck: 0.0012564804546157649; Learning Rates for head: 0.0012564804546157649
+Epoch: [83][ 0/88]	Total Loss 0.1896 (0.1896)	Source 0.1060 (0.1060)	Entropy 0.4460 (0.4460)	MMD 0.0389 (0.0389)	Cls Acc 100.00 (100.00)
+Epoch: [83][87/88]	Total Loss 0.4383 (0.4291)	Source 0.2616 (0.2831)	Entropy 0.3559 (0.3951)	MMD 0.1411 (0.1065)	Cls Acc 90.62 (91.80)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.451489637475474, 3.0975541924502387e-06, 2.0585701934045944e-06, 4.9177033087823206e-06, 2.1759130897904977]
+beta_fc updated to: [10.378186499247404, 1.3088321748379173e-06, 9.291896154655541e-07, 3.3834954795985708e-06, 5.4996654949742725]
+Test: [ 0/25]	Time  0.282 ( 0.282)	Loss 1.1798e+00 (1.1798e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 84.277
+Epoch 84: Learning Rate for backbone: 0.00012487405503202987; Learning Rates for bottleneck: 0.0012487405503202986; Learning Rates for head: 0.0012487405503202986
+Epoch: [84][ 0/88]	Total Loss 0.3538 (0.3538)	Source 0.2276 (0.2276)	Entropy 0.4400 (0.4400)	MMD 0.0822 (0.0822)	Cls Acc 93.75 (93.75)
+Epoch: [84][87/88]	Total Loss 1.1635 (0.4822)	Source 0.3765 (0.3130)	Entropy 0.4149 (0.3890)	MMD 0.7455 (0.1302)	Cls Acc 87.50 (91.48)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.80702328638696, 1.1665513385770696e-06, 8.428109574194296e-07, 2.342343263576884e-06, 1.886048174202278]
+beta_fc updated to: [11.236563112698981, 1.5210899801288784e-06, 1.0464147806468125e-06, 3.2194201515433966e-06, 4.766628889084693]
+Test: [ 0/25]	Time  0.269 ( 0.269)	Loss 1.6535e-01 (1.6535e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 84.403
+Epoch 85: Learning Rate for backbone: 0.0001241110987910169; Learning Rates for bottleneck: 0.0012411109879101687; Learning Rates for head: 0.0012411109879101687
+Epoch: [85][ 0/88]	Total Loss 0.5593 (0.5593)	Source 0.2197 (0.2197)	Entropy 0.3882 (0.3882)	MMD 0.3008 (0.3008)	Cls Acc 93.75 (93.75)
+Epoch: [85][87/88]	Total Loss 0.8247 (0.4683)	Source 0.7704 (0.2829)	Entropy 0.3363 (0.4152)	MMD 0.0206 (0.1439)	Cls Acc 84.38 (91.62)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.045816250767949, 2.387222482462487e-06, 1.7747247543905353e-06, 4.000661950249485e-06, 2.696728535555371]
+beta_fc updated to: [10.000400368131729, 9.260123105376585e-07, 6.863237422586951e-07, 2.5605106034274005e-06, 6.018197030967837]
+Test: [ 0/25]	Time  0.264 ( 0.264)	Loss 9.1048e-01 (9.1048e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.025
+Epoch 86: Learning Rate for backbone: 0.0001233589315405882; Learning Rates for bottleneck: 0.001233589315405882; Learning Rates for head: 0.001233589315405882
+Epoch: [86][ 0/88]	Total Loss 0.6710 (0.6710)	Source 0.5205 (0.5205)	Entropy 0.3817 (0.3817)	MMD 0.1124 (0.1124)	Cls Acc 87.50 (87.50)
+Epoch: [86][87/88]	Total Loss 0.1916 (0.3890)	Source 0.1276 (0.2547)	Entropy 0.2714 (0.3925)	MMD 0.0369 (0.0951)	Cls Acc 93.75 (92.47)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.054158750152384, 2.739711345447683e-06, 1.9510577613970508e-06, 4.421155289386537e-06, 2.601839105247846]
+beta_fc updated to: [11.07007347311628, 1.550970328652118e-06, 1.036133411851767e-06, 3.456619176243154e-06, 4.8785812169835845]
+Test: [ 0/25]	Time  0.233 ( 0.233)	Loss 1.4066e+00 (1.4066e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.151
+Epoch 87: Learning Rate for backbone: 0.00012261731545329816; Learning Rates for bottleneck: 0.0012261731545329816; Learning Rates for head: 0.0012261731545329816
+Epoch: [87][ 0/88]	Total Loss 0.4198 (0.4198)	Source 0.2104 (0.2104)	Entropy 0.2706 (0.2706)	MMD 0.1824 (0.1824)	Cls Acc 93.75 (93.75)
+Epoch: [87][87/88]	Total Loss 0.4351 (0.4594)	Source 0.3377 (0.2924)	Entropy 0.3051 (0.4019)	MMD 0.0668 (0.1268)	Cls Acc 87.50 (91.41)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [11.293556642304923, 6.633330655321522e-07, 4.725160673146755e-07, 1.2224624551875039e-06, 5.612954452472878]
+beta_fc updated to: [9.245758835472556, 6.611108033342057e-07, 4.806832413601346e-07, 1.8416597545347124e-06, 6.641935150578937]
+Test: [ 0/25]	Time  0.428 ( 0.428)	Loss 7.9793e-01 (7.9793e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.906
+Epoch 88: Learning Rate for backbone: 0.0001218860197938023; Learning Rates for bottleneck: 0.001218860197938023; Learning Rates for head: 0.001218860197938023
+Epoch: [88][ 0/88]	Total Loss 0.3767 (0.3767)	Source 0.3201 (0.3201)	Entropy 0.3531 (0.3531)	MMD 0.0213 (0.0213)	Cls Acc 93.75 (93.75)
+Epoch: [88][87/88]	Total Loss 0.4141 (0.4318)	Source 0.1117 (0.2863)	Entropy 0.2838 (0.3895)	MMD 0.2741 (0.1065)	Cls Acc 96.88 (91.83)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.767762302703094, 2.6464964723281557e-06, 1.8176347926876567e-06, 4.436192313817724e-06, 2.1082091426804537]
+beta_fc updated to: [11.194744521871494, 2.03800490397686e-06, 1.293971828755884e-06, 4.215606546885703e-06, 4.752307454100473]
+Test: [ 0/25]	Time  0.237 ( 0.237)	Loss 6.1877e-01 (6.1877e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.654
+Epoch 89: Learning Rate for backbone: 0.00012116482065308427; Learning Rates for bottleneck: 0.0012116482065308426; Learning Rates for head: 0.0012116482065308426
+Epoch: [89][ 0/88]	Total Loss 0.4474 (0.4474)	Source 0.3369 (0.3369)	Entropy 0.3842 (0.3842)	MMD 0.0721 (0.0721)	Cls Acc 90.62 (90.62)
+Epoch: [89][87/88]	Total Loss 0.2855 (0.3955)	Source 0.2014 (0.2487)	Entropy 0.4456 (0.3710)	MMD 0.0396 (0.1097)	Cls Acc 96.88 (92.68)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.304384219722937, 2.3798390001331134e-06, 1.668857161890736e-06, 3.873267539116719e-06, 2.516724549177515]
+beta_fc updated to: [11.09069249276156, 1.401749219946987e-06, 9.383123546899219e-07, 2.9833950503340653e-06, 4.7157810928036215]
+Test: [ 0/25]	Time  0.273 ( 0.273)	Loss 1.2312e+00 (1.2312e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 85.031
+Epoch 90: Learning Rate for backbone: 0.00012045350069464499; Learning Rates for bottleneck: 0.0012045350069464498; Learning Rates for head: 0.0012045350069464498
+Epoch: [90][ 0/88]	Total Loss 0.4096 (0.4096)	Source 0.1830 (0.1830)	Entropy 0.4053 (0.4053)	MMD 0.1861 (0.1861)	Cls Acc 90.62 (90.62)
+Epoch: [90][87/88]	Total Loss 0.3710 (0.4318)	Source 0.3066 (0.2666)	Entropy 0.4923 (0.3860)	MMD 0.0152 (0.1266)	Cls Acc 90.62 (92.40)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.321548364511287, 5.810067514166831e-07, 3.923191913825305e-07, 1.1126261540854349e-06, 3.6344699744212168]
+beta_fc updated to: [10.112572924359691, 1.2252323812213373e-06, 8.650623950054116e-07, 3.1816794501247592e-06, 5.9940553923777715]
+Test: [ 0/25]	Time  0.273 ( 0.273)	Loss 2.0652e+00 (2.0652e+00)	Acc@1  65.62 ( 65.62)
+ * Acc@1 84.780
+Epoch 91: Learning Rate for backbone: 0.00011975184891202683; Learning Rates for bottleneck: 0.0011975184891202682; Learning Rates for head: 0.0011975184891202682
+Epoch: [91][ 0/88]	Total Loss 0.3676 (0.3676)	Source 0.2258 (0.2258)	Entropy 0.3978 (0.3978)	MMD 0.1020 (0.1020)	Cls Acc 93.75 (93.75)
+Epoch: [91][87/88]	Total Loss 0.4491 (0.4047)	Source 0.0817 (0.2466)	Entropy 0.3494 (0.3778)	MMD 0.3325 (0.1203)	Cls Acc 96.88 (92.68)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.318088877170178, 1.3986646845478292e-06, 9.567124654899515e-07, 2.401424024058038e-06, 3.42004905776191]
+beta_fc updated to: [11.258723569357077, 1.644713555214677e-06, 1.0642760595475723e-06, 3.339715742855504e-06, 4.611063000581046]
+Test: [ 0/25]	Time  0.277 ( 0.277)	Loss 7.8359e-01 (7.8359e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 85.409
+Epoch 92: Learning Rate for backbone: 0.00011905966039708299; Learning Rates for bottleneck: 0.0011905966039708299; Learning Rates for head: 0.0011905966039708299
+Epoch: [92][ 0/88]	Total Loss 0.4265 (0.4265)	Source 0.2571 (0.2571)	Entropy 0.3267 (0.3267)	MMD 0.1367 (0.1367)	Cls Acc 90.62 (90.62)
+Epoch: [92][87/88]	Total Loss 0.1728 (0.4158)	Source 0.1031 (0.2485)	Entropy 0.2939 (0.3797)	MMD 0.0404 (0.1294)	Cls Acc 96.88 (92.83)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.816298343311615, 7.246582208571952e-07, 4.980454031984991e-07, 1.4288267922770066e-06, 3.6193043573401242]
+beta_fc updated to: [11.517797585982905, 1.7319748747010695e-06, 1.0982367793228875e-06, 3.3121413826840104e-06, 4.247748619982205]
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 9.8471e-01 (9.8471e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.528
+Epoch 93: Learning Rate for backbone: 0.00011837673611843775; Learning Rates for bottleneck: 0.0011837673611843774; Learning Rates for head: 0.0011837673611843774
+Epoch: [93][ 0/88]	Total Loss 0.3672 (0.3672)	Source 0.1802 (0.1802)	Entropy 0.5038 (0.5038)	MMD 0.1366 (0.1366)	Cls Acc 96.88 (96.88)
+Epoch: [93][87/88]	Total Loss 0.3594 (0.4478)	Source 0.2571 (0.2967)	Entropy 0.3873 (0.3873)	MMD 0.0636 (0.1123)	Cls Acc 87.50 (91.51)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.095611532565172, 2.4990340887511362e-06, 1.8062940992080443e-06, 4.057001855196099e-06, 2.7532034000739025]
+beta_fc updated to: [11.041291225598293, 1.409150733851458e-06, 9.359660676664949e-07, 3.0455273871013583e-06, 4.913639691644622]
+Test: [ 0/25]	Time  0.249 ( 0.249)	Loss 1.0703e+00 (1.0703e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.403
+Epoch 94: Learning Rate for backbone: 0.00011770288270961476; Learning Rates for bottleneck: 0.0011770288270961475; Learning Rates for head: 0.0011770288270961475
+Epoch: [94][ 0/88]	Total Loss 0.1903 (0.1903)	Source 0.0984 (0.0984)	Entropy 0.4645 (0.4645)	MMD 0.0454 (0.0454)	Cls Acc 96.88 (96.88)
+Epoch: [94][87/88]	Total Loss 0.1677 (0.4309)	Source 0.1258 (0.2722)	Entropy 0.3751 (0.3728)	MMD 0.0044 (0.1214)	Cls Acc 96.88 (91.97)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [10.558735176219765, 5.205258329459743e-07, 3.778856136135524e-07, 9.955969477815803e-07, 6.949260416626996]
+beta_fc updated to: [9.786068058370924, 1.1472301916671248e-06, 7.783474797007951e-07, 2.7266660020662526e-06, 6.183530895757122]
+Test: [ 0/25]	Time  0.280 ( 0.280)	Loss 4.8815e-01 (4.8815e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.151
+Epoch 95: Learning Rate for backbone: 0.0001170379122663429; Learning Rates for bottleneck: 0.001170379122663429; Learning Rates for head: 0.001170379122663429
+Epoch: [95][ 0/88]	Total Loss 0.1921 (0.1921)	Source 0.1052 (0.1052)	Entropy 0.4572 (0.4572)	MMD 0.0412 (0.0412)	Cls Acc 96.88 (96.88)
+Epoch: [95][87/88]	Total Loss 0.5167 (0.4299)	Source 0.2362 (0.2593)	Entropy 0.4814 (0.3824)	MMD 0.2323 (0.1323)	Cls Acc 87.50 (92.79)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.461318353180808, 3.408871629116333e-06, 2.2766559994171073e-06, 5.201033969847047e-06, 2.6259956583799764]
+beta_fc updated to: [11.995428935339644, 1.2316547806308291e-06, 8.414311653700204e-07, 2.3639887126251136e-06, 4.214075251157931]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 8.0030e-01 (8.0030e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.277
+Epoch 96: Learning Rate for backbone: 0.00011638164215257545; Learning Rates for bottleneck: 0.0011638164215257544; Learning Rates for head: 0.0011638164215257544
+Epoch: [96][ 0/88]	Total Loss 0.4009 (0.4009)	Source 0.2297 (0.2297)	Entropy 0.3128 (0.3128)	MMD 0.1400 (0.1400)	Cls Acc 93.75 (93.75)
+Epoch: [96][87/88]	Total Loss 0.5013 (0.4282)	Source 0.2889 (0.2903)	Entropy 0.2614 (0.3628)	MMD 0.1862 (0.1017)	Cls Acc 93.75 (91.80)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.956761860869204, 2.4584173841770007e-06, 1.5874436525612423e-06, 4.190975018015163e-06, 1.7825646730820692]
+beta_fc updated to: [11.38664374234331, 1.0497484794043927e-06, 7.348592694716433e-07, 2.1538693848267916e-06, 4.4834586100647]
+Test: [ 0/25]	Time  0.286 ( 0.286)	Loss 6.8942e-01 (6.8942e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.780
+Epoch 97: Learning Rate for backbone: 0.00011573389481478669; Learning Rates for bottleneck: 0.0011573389481478668; Learning Rates for head: 0.0011573389481478668
+Epoch: [97][ 0/88]	Total Loss 0.4603 (0.4603)	Source 0.3337 (0.3337)	Entropy 0.2799 (0.2799)	MMD 0.0986 (0.0986)	Cls Acc 90.62 (90.62)
+Epoch: [97][87/88]	Total Loss 0.4683 (0.4303)	Source 0.3751 (0.2722)	Entropy 0.5216 (0.4019)	MMD 0.0411 (0.1179)	Cls Acc 90.62 (92.26)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.926762633647852, 2.160381666417742e-06, 1.6194290312443454e-06, 3.7339123183875823e-06, 2.552167157779903]
+beta_fc updated to: [11.696107092443755, 9.977044831411177e-07, 6.983204587114815e-07, 1.9368551155503973e-06, 4.043666064928565]
+Test: [ 0/25]	Time  0.259 ( 0.259)	Loss 9.5741e-01 (9.5741e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.780
+Epoch 98: Learning Rate for backbone: 0.00011509449760413427; Learning Rates for bottleneck: 0.0011509449760413427; Learning Rates for head: 0.0011509449760413427
+Epoch: [98][ 0/88]	Total Loss 0.3962 (0.3962)	Source 0.3180 (0.3180)	Entropy 0.3103 (0.3103)	MMD 0.0471 (0.0471)	Cls Acc 90.62 (90.62)
+Epoch: [98][87/88]	Total Loss 1.0051 (0.4373)	Source 0.4671 (0.2716)	Entropy 0.3124 (0.3683)	MMD 0.5067 (0.1289)	Cls Acc 84.38 (92.19)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.645827906112018, 2.7922938402981908e-06, 2.0474893325556826e-06, 4.581745880948801e-06, 2.7826543200088354]
+beta_fc updated to: [11.539161243835236, 1.7064331745601909e-06, 1.1417304729947968e-06, 3.2124974132505235e-06, 4.433522250706949]
+Test: [ 0/25]	Time  0.268 ( 0.268)	Loss 9.4028e-02 (9.4028e-02)	Acc@1  96.88 ( 96.88)
+ * Acc@1 85.157
+Epoch 99: Learning Rate for backbone: 0.00011446328260609908; Learning Rates for bottleneck: 0.0011446328260609907; Learning Rates for head: 0.0011446328260609907
+Epoch: [99][ 0/88]	Total Loss 0.3414 (0.3414)	Source 0.2789 (0.2789)	Entropy 0.2410 (0.2410)	MMD 0.0384 (0.0384)	Cls Acc 87.50 (87.50)
+Epoch: [99][87/88]	Total Loss 0.6997 (0.4396)	Source 0.6406 (0.2750)	Entropy 0.2292 (0.3750)	MMD 0.0361 (0.1271)	Cls Acc 90.62 (92.29)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.646783584703579, 1.4088600874050354e-06, 9.974471365400537e-07, 2.7594626555465465e-06, 1.8584048875583237]
+beta_fc updated to: [11.57952650189878, 1.4879953932781877e-06, 9.60943417214841e-07, 2.7139740417247908e-06, 4.036501562776345]
+Test: [ 0/25]	Time  0.274 ( 0.274)	Loss 5.0164e-01 (5.0164e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.403
+Epoch 100: Learning Rate for backbone: 0.0001138400864772361; Learning Rates for bottleneck: 0.001138400864772361; Learning Rates for head: 0.001138400864772361
+Epoch: [100][ 0/88]	Total Loss 0.2660 (0.2660)	Source 0.2105 (0.2105)	Entropy 0.5396 (0.5396)	MMD 0.0015 (0.0015)	Cls Acc 90.62 (90.62)
+Epoch: [100][87/88]	Total Loss 0.6278 (0.3916)	Source 0.4054 (0.2488)	Entropy 0.2951 (0.3715)	MMD 0.1929 (0.1056)	Cls Acc 87.50 (92.58)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.362970411303587, 3.928278741077013e-08, 2.5097790598231266e-08, 5.8060931701876336e-08, 2.2313508555362276]
+beta_fc updated to: [12.047700596825592, 1.5963308845089364e-06, 1.028827056507609e-06, 2.9002345069121497e-06, 3.8507459712355407]
+Test: [ 0/25]	Time  0.287 ( 0.287)	Loss 7.8660e-01 (7.8660e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.151
+Epoch 101: Learning Rate for backbone: 0.00011322475028869059; Learning Rates for bottleneck: 0.0011322475028869058; Learning Rates for head: 0.0011322475028869058
+Epoch: [101][ 0/88]	Total Loss 0.2482 (0.2482)	Source 0.1235 (0.1235)	Entropy 0.3528 (0.3528)	MMD 0.0895 (0.0895)	Cls Acc 96.88 (96.88)
+Epoch: [101][87/88]	Total Loss 0.2562 (0.3899)	Source 0.1949 (0.2446)	Entropy 0.2229 (0.3566)	MMD 0.0391 (0.1097)	Cls Acc 93.75 (92.61)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.44598177169734, 2.7838975782354832e-06, 1.9096247202136575e-06, 4.618010154264054e-06, 2.095823244049251]
+beta_fc updated to: [12.20031456497838, 1.128644562133613e-06, 7.492416091021242e-07, 2.0663287314425046e-06, 3.5899787770430986]
+Test: [ 0/25]	Time  0.278 ( 0.278)	Loss 1.0762e+00 (1.0762e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 83.522
+Epoch 102: Learning Rate for backbone: 0.00011261711937615232; Learning Rates for bottleneck: 0.0011261711937615231; Learning Rates for head: 0.0011261711937615231
+Epoch: [102][ 0/88]	Total Loss 0.2137 (0.2137)	Source 0.1892 (0.1892)	Entropy 0.2321 (0.2321)	MMD 0.0013 (0.0013)	Cls Acc 90.62 (90.62)
+Epoch: [102][87/88]	Total Loss 0.4370 (0.4048)	Source 0.3581 (0.2667)	Entropy 0.3274 (0.3518)	MMD 0.0462 (0.1029)	Cls Acc 90.62 (91.83)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.89255156770469, 1.547417556526245e-06, 1.1924087389613764e-06, 2.711180946150568e-06, 2.87463212333737]
+beta_fc updated to: [11.621836351995576, 1.1343671701518264e-06, 7.838804999746117e-07, 2.301606508604536e-06, 4.315860349417188]
+Test: [ 0/25]	Time  0.258 ( 0.258)	Loss 7.9195e-01 (7.9195e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.528
+Epoch 103: Learning Rate for backbone: 0.00011201704319593983; Learning Rates for bottleneck: 0.0011201704319593983; Learning Rates for head: 0.0011201704319593983
+Epoch: [103][ 0/88]	Total Loss 0.3782 (0.3782)	Source 0.3366 (0.3366)	Entropy 0.3500 (0.3500)	MMD 0.0066 (0.0066)	Cls Acc 87.50 (87.50)
+Epoch: [103][87/88]	Total Loss 0.4436 (0.3906)	Source 0.3416 (0.2385)	Entropy 0.3077 (0.3626)	MMD 0.0712 (0.1158)	Cls Acc 87.50 (92.86)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.583224194821392, 3.3827278443821627e-06, 2.261358916427917e-06, 5.230976482663271e-06, 3.126909742396073]
+beta_fc updated to: [10.962076086137172, 2.0820334691575688e-06, 1.2899756835755408e-06, 4.296680224797468e-06, 4.726114489333416]
+Test: [ 0/25]	Time  0.267 ( 0.267)	Loss 3.6325e-01 (3.6325e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 84.277
+Epoch 104: Learning Rate for backbone: 0.00011142437518692227; Learning Rates for bottleneck: 0.0011142437518692227; Learning Rates for head: 0.0011142437518692227
+Epoch: [104][ 0/88]	Total Loss 0.4318 (0.4318)	Source 0.3895 (0.3895)	Entropy 0.3304 (0.3304)	MMD 0.0092 (0.0092)	Cls Acc 90.62 (90.62)
+Epoch: [104][87/88]	Total Loss 0.5944 (0.3946)	Source 0.3370 (0.2524)	Entropy 0.3935 (0.3568)	MMD 0.2181 (0.1065)	Cls Acc 87.50 (92.86)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.503215387387836, 2.366979664848907e-06, 1.7363037928599648e-06, 3.91929181915926e-06, 2.8885405128907307]
+beta_fc updated to: [11.837818078208441, 1.1597051600879904e-06, 7.773564575136865e-07, 2.2125663812638793e-06, 3.9200737052997336]
+Test: [ 0/25]	Time  0.258 ( 0.258)	Loss 1.4556e+00 (1.4556e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.151
+Epoch 105: Learning Rate for backbone: 0.00011083897263800269; Learning Rates for bottleneck: 0.0011083897263800269; Learning Rates for head: 0.0011083897263800269
+Epoch: [105][ 0/88]	Total Loss 0.9213 (0.9213)	Source 0.6169 (0.6169)	Entropy 0.2766 (0.2766)	MMD 0.2767 (0.2767)	Cls Acc 84.38 (84.38)
+Epoch: [105][87/88]	Total Loss 0.5040 (0.3595)	Source 0.4140 (0.2251)	Entropy 0.2711 (0.3675)	MMD 0.0629 (0.0976)	Cls Acc 93.75 (93.00)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.725393687347282, 2.4505598455303017e-06, 1.5940445219280499e-06, 4.175317649887906e-06, 1.748768809036765]
+beta_fc updated to: [12.178139695920141, 1.3154834858938542e-06, 8.715593658604743e-07, 2.3875672430065138e-06, 3.8609906357252366]
+Test: [ 0/25]	Time  0.289 ( 0.289)	Loss 4.6229e-01 (4.6229e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.403
+Epoch 106: Learning Rate for backbone: 0.00011026069656090239; Learning Rates for bottleneck: 0.0011026069656090238; Learning Rates for head: 0.0011026069656090238
+Epoch: [106][ 0/88]	Total Loss 0.1733 (0.1733)	Source 0.0957 (0.0957)	Entropy 0.3471 (0.3471)	MMD 0.0429 (0.0429)	Cls Acc 96.88 (96.88)
+Epoch: [106][87/88]	Total Loss 0.7558 (0.4291)	Source 0.3937 (0.2677)	Entropy 0.2591 (0.3625)	MMD 0.3361 (0.1251)	Cls Acc 90.62 (92.61)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.130252831901105, 7.445201109379774e-07, 5.461847595557874e-07, 1.4596805506947118e-06, 3.4876748695048954]
+beta_fc updated to: [11.23518014262692, 1.4230984439637549e-06, 9.347295955885114e-07, 2.9445945997189045e-06, 4.454396934982112]
+Test: [ 0/25]	Time  0.270 ( 0.270)	Loss 6.5483e-01 (6.5483e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.654
+Epoch 107: Learning Rate for backbone: 0.0001096894115679983; Learning Rates for bottleneck: 0.001096894115679983; Learning Rates for head: 0.001096894115679983
+Epoch: [107][ 0/88]	Total Loss 0.3139 (0.3139)	Source 0.2509 (0.2509)	Entropy 0.2989 (0.2989)	MMD 0.0330 (0.0330)	Cls Acc 93.75 (93.75)
+Epoch: [107][87/88]	Total Loss 0.2292 (0.4233)	Source 0.1863 (0.2641)	Entropy 0.3479 (0.3492)	MMD 0.0080 (0.1243)	Cls Acc 93.75 (92.44)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.29280188081987, 1.3360273941694134e-06, 1.0103579358196044e-06, 2.3570139298020323e-06, 3.2481188688939544]
+beta_fc updated to: [12.38127017616785, 1.1215698623045148e-06, 7.377016751944336e-07, 2.0020795905068384e-06, 3.490373111976446]
+Test: [ 0/25]	Time  0.290 ( 0.290)	Loss 6.0386e-01 (6.0386e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.031
+Epoch 108: Learning Rate for backbone: 0.0001091249857549797; Learning Rates for bottleneck: 0.0010912498575497969; Learning Rates for head: 0.0010912498575497969
+Epoch: [108][ 0/88]	Total Loss 0.2762 (0.2762)	Source 0.2293 (0.2293)	Entropy 0.2888 (0.2888)	MMD 0.0180 (0.0180)	Cls Acc 87.50 (87.50)
+Epoch: [108][87/88]	Total Loss 0.4344 (0.3738)	Source 0.3810 (0.2351)	Entropy 0.3565 (0.3496)	MMD 0.0177 (0.1037)	Cls Acc 90.62 (93.25)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.641305360912524, 1.7827333285128525e-06, 1.207094710171433e-06, 3.1086983917928904e-06, 2.113540111040352]
+beta_fc updated to: [11.878486474389188, 1.45829675659302e-06, 9.695768035797524e-07, 2.708385749434224e-06, 4.180043889648231]
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 6.7215e-01 (6.7215e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 85.031
+Epoch 109: Learning Rate for backbone: 0.0001085672905881029; Learning Rates for bottleneck: 0.001085672905881029; Learning Rates for head: 0.001085672905881029
+Epoch: [109][ 0/88]	Total Loss 0.3177 (0.3177)	Source 0.1718 (0.1718)	Entropy 0.3191 (0.3191)	MMD 0.1140 (0.1140)	Cls Acc 96.88 (96.88)
+Epoch: [109][87/88]	Total Loss 0.3209 (0.3889)	Source 0.0838 (0.2353)	Entropy 0.3809 (0.3504)	MMD 0.1989 (0.1186)	Cls Acc 100.00 (93.39)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.171747508886474, 3.542882527235386e-06, 2.401053033286662e-06, 5.4505302919720605e-06, 2.414141855802757]
+beta_fc updated to: [12.35899391621308, 1.1786437678354206e-06, 7.888885706624595e-07, 2.135920890982276e-06, 3.603847193436745]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 2.4660e+00 (2.4660e+00)	Acc@1  71.88 ( 71.88)
+ * Acc@1 84.780
+Epoch 110: Learning Rate for backbone: 0.00010801620079583335; Learning Rates for bottleneck: 0.0010801620079583334; Learning Rates for head: 0.0010801620079583334
+Epoch: [110][ 0/88]	Total Loss 0.3472 (0.3472)	Source 0.1782 (0.1782)	Entropy 0.3474 (0.3474)	MMD 0.1342 (0.1342)	Cls Acc 90.62 (90.62)
+Epoch: [110][87/88]	Total Loss 0.1574 (0.4129)	Source 0.0853 (0.2560)	Entropy 0.3392 (0.3439)	MMD 0.0382 (0.1224)	Cls Acc 96.88 (92.54)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.909536981562749, 2.6073938000517374e-06, 1.9107945032446914e-06, 4.288284282324378e-06, 2.795855601911379]
+beta_fc updated to: [11.351534619216698, 1.3774904845103847e-06, 9.306918904338093e-07, 2.743283646091063e-06, 4.452409542302362]
+Test: [ 0/25]	Time  0.284 ( 0.284)	Loss 1.0957e+00 (1.0957e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.654
+Epoch 111: Learning Rate for backbone: 0.00010747159426467614; Learning Rates for bottleneck: 0.0010747159426467614; Learning Rates for head: 0.0010747159426467614
+Epoch: [111][ 0/88]	Total Loss 0.3856 (0.3856)	Source 0.2117 (0.2117)	Entropy 0.3286 (0.3286)	MMD 0.1411 (0.1411)	Cls Acc 93.75 (93.75)
+Epoch: [111][87/88]	Total Loss 0.2685 (0.3719)	Source 0.1777 (0.2339)	Entropy 0.3409 (0.3448)	MMD 0.0567 (0.1035)	Cls Acc 93.75 (93.08)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.345252091767817, 2.3914143615378346e-06, 1.7018260336035796e-06, 4.078326364659069e-06, 2.2620553169722557]
+beta_fc updated to: [11.92131891947017, 1.658856631789099e-06, 1.0781915870877642e-06, 3.0014137547429676e-06, 4.074321050270901]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 9.7108e-01 (9.7108e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.906
+Epoch 112: Learning Rate for backbone: 0.00010693335193900677; Learning Rates for bottleneck: 0.0010693335193900676; Learning Rates for head: 0.0010693335193900676
+Epoch: [112][ 0/88]	Total Loss 0.5078 (0.5078)	Source 0.4737 (0.4737)	Entropy 0.3204 (0.3204)	MMD 0.0021 (0.0021)	Cls Acc 87.50 (87.50)
+Epoch: [112][87/88]	Total Loss 0.1929 (0.3916)	Source 0.1171 (0.2514)	Entropy 0.4882 (0.3400)	MMD 0.0270 (0.1062)	Cls Acc 96.88 (92.47)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.916926687214435, 2.250340226843087e-06, 1.683564597605787e-06, 3.843950205101429e-06, 2.5706417230934875]
+beta_fc updated to: [11.561864628156647, 1.3294284086282783e-06, 8.958909234576129e-07, 2.5314078011566573e-06, 4.4881139381787944]
+Test: [ 0/25]	Time  0.290 ( 0.290)	Loss 1.0697e+00 (1.0697e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 85.031
+Epoch 113: Learning Rate for backbone: 0.00010640135772472201; Learning Rates for bottleneck: 0.00106401357724722; Learning Rates for head: 0.00106401357724722
+Epoch: [113][ 0/88]	Total Loss 0.6510 (0.6510)	Source 0.2828 (0.2828)	Entropy 0.4479 (0.4479)	MMD 0.3235 (0.3235)	Cls Acc 87.50 (87.50)
+Epoch: [113][87/88]	Total Loss 0.4466 (0.4017)	Source 0.3153 (0.2579)	Entropy 0.3803 (0.3393)	MMD 0.0932 (0.1099)	Cls Acc 90.62 (92.40)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.746286485441921, 2.9991907152088524e-06, 2.1262790356356e-06, 4.711628679212991e-06, 2.8959712651116845]
+beta_fc updated to: [12.06576881590125, 8.826622781005042e-07, 6.100334481949395e-07, 1.6835445356731207e-06, 3.6563750904145613]
+Test: [ 0/25]	Time  0.273 ( 0.273)	Loss 5.6631e-01 (5.6631e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.654
+Epoch 114: Learning Rate for backbone: 0.0001058754983965418; Learning Rates for bottleneck: 0.001058754983965418; Learning Rates for head: 0.001058754983965418
+Epoch: [114][ 0/88]	Total Loss 0.2628 (0.2628)	Source 0.1573 (0.1573)	Entropy 0.4853 (0.4853)	MMD 0.0569 (0.0569)	Cls Acc 96.88 (96.88)
+Epoch: [114][87/88]	Total Loss 0.6926 (0.3601)	Source 0.3057 (0.2238)	Entropy 0.2809 (0.3551)	MMD 0.3588 (0.1008)	Cls Acc 90.62 (93.54)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.179765793159266, 2.7873377955477084e-06, 1.9736564827370014e-06, 4.552418890748946e-06, 2.4902023911955276]
+beta_fc updated to: [11.849160656061866, 1.3904603608772096e-06, 8.986521392331215e-07, 2.511945739058274e-06, 3.884247135099116]
+Test: [ 0/25]	Time  0.265 ( 0.265)	Loss 8.1377e-01 (8.1377e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.031
+Epoch 115: Learning Rate for backbone: 0.00010535566350880043; Learning Rates for bottleneck: 0.0010535566350880043; Learning Rates for head: 0.0010535566350880043
+Epoch: [115][ 0/88]	Total Loss 0.5471 (0.5471)	Source 0.4334 (0.4334)	Entropy 0.3188 (0.3188)	MMD 0.0819 (0.0819)	Cls Acc 90.62 (90.62)
+Epoch: [115][87/88]	Total Loss 0.3390 (0.3547)	Source 0.2246 (0.2227)	Entropy 0.2985 (0.3356)	MMD 0.0846 (0.0984)	Cls Acc 93.75 (93.36)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.961468884851728, 2.84547873639122e-06, 2.0200985183301983e-06, 4.563814673040367e-06, 2.8603592203617634]
+beta_fc updated to: [12.088785390445523, 1.4074888912457767e-06, 9.011239273087999e-07, 2.579852852604386e-06, 3.9326752049930263]
+Test: [ 0/25]	Time  0.250 ( 0.250)	Loss 1.5421e+00 (1.5421e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 84.780
+Epoch 116: Learning Rate for backbone: 0.00010484174530957401; Learning Rates for bottleneck: 0.00104841745309574; Learning Rates for head: 0.00104841745309574
+Epoch: [116][ 0/88]	Total Loss 0.1806 (0.1806)	Source 0.0980 (0.0980)	Entropy 0.2452 (0.2452)	MMD 0.0581 (0.0581)	Cls Acc 100.00 (100.00)
+Epoch: [116][87/88]	Total Loss 0.5958 (0.4001)	Source 0.4174 (0.2641)	Entropy 0.2779 (0.3326)	MMD 0.1507 (0.1027)	Cls Acc 84.38 (92.86)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.872753422478416, 6.616430616929766e-07, 4.7144767931505994e-07, 1.2721362432987501e-06, 4.285550583156277]
+beta_fc updated to: [12.081850650323641, 1.599471789284718e-06, 1.022400073385098e-06, 2.7430432884235247e-06, 3.7725790048864787]
+Test: [ 0/25]	Time  0.241 ( 0.241)	Loss 9.9847e-01 (9.9847e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.025
+Epoch 117: Learning Rate for backbone: 0.00010433363865799848; Learning Rates for bottleneck: 0.0010433363865799848; Learning Rates for head: 0.0010433363865799848
+Epoch: [117][ 0/88]	Total Loss 0.0812 (0.0812)	Source 0.0248 (0.0248)	Entropy 0.2286 (0.2286)	MMD 0.0336 (0.0336)	Cls Acc 100.00 (100.00)
+Epoch: [117][87/88]	Total Loss 0.4345 (0.3400)	Source 0.3510 (0.2165)	Entropy 0.3795 (0.3241)	MMD 0.0455 (0.0912)	Cls Acc 84.38 (93.82)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.602667229500996, 2.2199436447493053e-06, 1.462337736699599e-06, 3.7115376693113347e-06, 2.1000530875379795]
+beta_fc updated to: [12.383661050098098, 1.3778519929558484e-06, 8.796075862493066e-07, 2.3853721956748177e-06, 3.5940720417276424]
+Test: [ 0/25]	Time  0.269 ( 0.269)	Loss 6.7079e-01 (6.7079e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.906
+Epoch 118: Learning Rate for backbone: 0.00010383124094464014; Learning Rates for bottleneck: 0.0010383124094464013; Learning Rates for head: 0.0010383124094464013
+Epoch: [118][ 0/88]	Total Loss 0.5089 (0.5089)	Source 0.4468 (0.4468)	Entropy 0.3896 (0.3896)	MMD 0.0231 (0.0231)	Cls Acc 90.62 (90.62)
+Epoch: [118][87/88]	Total Loss 0.4354 (0.3833)	Source 0.1329 (0.2357)	Entropy 0.4322 (0.3427)	MMD 0.2593 (0.1134)	Cls Acc 96.88 (93.25)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.526325009510506, 1.1192536733398404e-06, 7.544672657155955e-07, 2.1111241688224355e-06, 4.274233074177944]
+beta_fc updated to: [11.226712694908134, 1.4028959358658707e-06, 9.343949167754044e-07, 2.7409580969083977e-06, 4.569452530743799]
+Test: [ 0/25]	Time  0.265 ( 0.265)	Loss 2.0865e+00 (2.0865e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 83.899
+Epoch 119: Learning Rate for backbone: 0.00010333445201478717; Learning Rates for bottleneck: 0.0010333445201478717; Learning Rates for head: 0.0010333445201478717
+Epoch: [119][ 0/88]	Total Loss 0.3900 (0.3900)	Source 0.3304 (0.3304)	Entropy 0.3027 (0.3027)	MMD 0.0294 (0.0294)	Cls Acc 87.50 (87.50)
+Epoch: [119][87/88]	Total Loss 0.2695 (0.4065)	Source 0.0982 (0.2577)	Entropy 0.3885 (0.3340)	MMD 0.1324 (0.1154)	Cls Acc 100.00 (92.86)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.720863154519927, 2.5035143355591623e-06, 1.8473299031307408e-06, 4.152656734484153e-06, 2.9531233070724596]
+beta_fc updated to: [11.706980566333778, 1.4779221141113243e-06, 9.210963985174774e-07, 2.5547120368189258e-06, 3.8537640593123177]
+Test: [ 0/25]	Time  0.271 ( 0.271)	Loss 5.4079e-01 (5.4079e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.780
+Epoch 120: Learning Rate for backbone: 0.00010284317409453698; Learning Rates for bottleneck: 0.0010284317409453697; Learning Rates for head: 0.0010284317409453697
+Epoch: [120][ 0/88]	Total Loss 0.1129 (0.1129)	Source 0.0799 (0.0799)	Entropy 0.2960 (0.2960)	MMD 0.0035 (0.0035)	Cls Acc 96.88 (96.88)
+Epoch: [120][87/88]	Total Loss 1.0088 (0.3750)	Source 0.8605 (0.2394)	Entropy 0.3251 (0.3233)	MMD 0.1158 (0.1033)	Cls Acc 87.50 (93.54)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.252375213269142, 3.0773035694984267e-06, 2.1512610322123674e-06, 4.891105513251123e-06, 2.675539878589092]
+beta_fc updated to: [12.375820466690444, 1.3169454145479063e-06, 8.559590757120883e-07, 2.304946081518076e-06, 3.5571761190458546]
+Test: [ 0/25]	Time  0.280 ( 0.280)	Loss 9.8777e-01 (9.8777e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 84.025
+Epoch 121: Learning Rate for backbone: 0.00010235731171956078; Learning Rates for bottleneck: 0.0010235731171956077; Learning Rates for head: 0.0010235731171956077
+Epoch: [121][ 0/88]	Total Loss 0.4674 (0.4674)	Source 0.2496 (0.2496)	Entropy 0.3529 (0.3529)	MMD 0.1825 (0.1825)	Cls Acc 90.62 (90.62)
+Epoch: [121][87/88]	Total Loss 0.4260 (0.3609)	Source 0.3087 (0.2276)	Entropy 0.3439 (0.3063)	MMD 0.0829 (0.1027)	Cls Acc 90.62 (93.43)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.986665349259093, 1.7477774584492237e-06, 1.1383816179959393e-06, 3.1067090044721996e-06, 2.007549558820645]
+beta_fc updated to: [11.54829904241667, 1.8333870497068708e-06, 1.1733050678344083e-06, 3.509529905997427e-06, 4.421219801880512]
+Test: [ 0/25]	Time  0.284 ( 0.284)	Loss 1.9418e-01 (1.9418e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.403
+Epoch 122: Learning Rate for backbone: 0.00010187677166643218; Learning Rates for bottleneck: 0.0010187677166643217; Learning Rates for head: 0.0010187677166643217
+Epoch: [122][ 0/88]	Total Loss 0.2422 (0.2422)	Source 0.1363 (0.1363)	Entropy 0.2368 (0.2368)	MMD 0.0823 (0.0823)	Cls Acc 96.88 (96.88)
+Epoch: [122][87/88]	Total Loss 0.4350 (0.3679)	Source 0.2123 (0.2244)	Entropy 0.2866 (0.3283)	MMD 0.1941 (0.1108)	Cls Acc 90.62 (93.39)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.398343973178509, 3.0195404676034004e-06, 2.1164944133399236e-06, 4.824282611781043e-06, 2.5137993135600456]
+beta_fc updated to: [12.126394579837088, 1.4941276838544432e-06, 9.619028616238084e-07, 2.694140532091399e-06, 3.8200675174082943]
+Test: [ 0/25]	Time  0.255 ( 0.255)	Loss 5.4649e-01 (5.4649e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.403
+Epoch 123: Learning Rate for backbone: 0.00010140146288641191; Learning Rates for bottleneck: 0.0010140146288641191; Learning Rates for head: 0.0010140146288641191
+Epoch: [123][ 0/88]	Total Loss 0.4813 (0.4813)	Source 0.4126 (0.4126)	Entropy 0.2556 (0.2556)	MMD 0.0431 (0.0431)	Cls Acc 93.75 (93.75)
+Epoch: [123][87/88]	Total Loss 0.1552 (0.3400)	Source 0.0955 (0.2092)	Entropy 0.2735 (0.3301)	MMD 0.0324 (0.0977)	Cls Acc 96.88 (93.89)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.50780457893063, 2.5425643242400523e-06, 1.7234029920276066e-06, 4.162118429419332e-06, 2.216205683561303]
+beta_fc updated to: [11.839604449892835, 1.306428435986004e-06, 8.830206299512878e-07, 2.4615517998009243e-06, 4.241943806905526]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 1.2247e+00 (1.2247e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.906
+Epoch 124: Learning Rate for backbone: 0.00010093129644158662; Learning Rates for bottleneck: 0.0010093129644158662; Learning Rates for head: 0.0010093129644158662
+Epoch: [124][ 0/88]	Total Loss 0.3610 (0.3610)	Source 0.1899 (0.1899)	Entropy 0.2732 (0.2732)	MMD 0.1438 (0.1438)	Cls Acc 96.88 (96.88)
+Epoch: [124][87/88]	Total Loss 0.1989 (0.3422)	Source 0.1172 (0.2087)	Entropy 0.2520 (0.3212)	MMD 0.0565 (0.1014)	Cls Acc 93.75 (94.00)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.69307603232877, 2.508082733300663e-06, 1.767456862278994e-06, 4.0223484164910765e-06, 3.1113057741974584]
+beta_fc updated to: [12.697859971495786, 1.2640599558005706e-06, 8.256479793420363e-07, 2.2414158665278616e-06, 3.5387238469619615]
+Test: [ 0/25]	Time  0.388 ( 0.388)	Loss 1.4088e+00 (1.4088e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.780
+Epoch 125: Learning Rate for backbone: 0.00010046618544326371; Learning Rates for bottleneck: 0.001004661854432637; Learning Rates for head: 0.001004661854432637
+Epoch: [125][ 0/88]	Total Loss 0.8734 (0.8734)	Source 0.6396 (0.6396)	Entropy 0.3269 (0.3269)	MMD 0.2011 (0.2011)	Cls Acc 81.25 (81.25)
+Epoch: [125][87/88]	Total Loss 0.1308 (0.3808)	Source 0.0706 (0.2209)	Entropy 0.2337 (0.3158)	MMD 0.0369 (0.1283)	Cls Acc 96.88 (93.57)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.183523248089928, 4.425476519972062e-07, 3.1041456604916156e-07, 8.710216710812652e-07, 3.5786259432123937]
+beta_fc updated to: [12.10542932738465, 1.4153819492285505e-06, 9.167501757054888e-07, 2.523823065472185e-06, 3.7111450528686762]
+Test: [ 0/25]	Time  0.416 ( 0.416)	Loss 7.2696e-01 (7.2696e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.654
+Epoch 126: Learning Rate for backbone: 0.00010000604499252932; Learning Rates for bottleneck: 0.001000060449925293; Learning Rates for head: 0.001000060449925293
+Epoch: [126][ 0/88]	Total Loss 0.4640 (0.4640)	Source 0.0884 (0.0884)	Entropy 0.3801 (0.3801)	MMD 0.3375 (0.3375)	Cls Acc 93.75 (93.75)
+Epoch: [126][87/88]	Total Loss 0.3660 (0.3891)	Source 0.1606 (0.2281)	Entropy 0.3635 (0.3109)	MMD 0.1690 (0.1300)	Cls Acc 96.88 (93.79)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.21738539329806, 2.6871988280144096e-06, 1.9148231107936466e-06, 4.469811264615839e-06, 2.3443128308740286]
+beta_fc updated to: [11.65066173719337, 1.6396190906865646e-06, 1.038066739312943e-06, 3.011012818287237e-06, 4.125663708128929]
+Test: [ 0/25]	Time  0.282 ( 0.282)	Loss 8.9856e-01 (8.9856e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.403
+Epoch 127: Learning Rate for backbone: 9.955079212288093e-05; Learning Rates for bottleneck: 0.0009955079212288092; Learning Rates for head: 0.0009955079212288092
+Epoch: [127][ 0/88]	Total Loss 0.3384 (0.3384)	Source 0.2842 (0.2842)	Entropy 0.4234 (0.4234)	MMD 0.0119 (0.0119)	Cls Acc 90.62 (90.62)
+Epoch: [127][87/88]	Total Loss 0.3579 (0.3723)	Source 0.2739 (0.2239)	Entropy 0.3282 (0.3066)	MMD 0.0511 (0.1177)	Cls Acc 90.62 (93.71)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.616863394335581, 2.1996007255674423e-06, 1.6419123036242071e-06, 3.6753127446769177e-06, 2.970354017056663]
+beta_fc updated to: [11.865869804889412, 1.1011948687015273e-06, 7.424266375419997e-07, 2.0531397126231845e-06, 4.008456243987222]
+Test: [ 0/25]	Time  0.266 ( 0.266)	Loss 1.0753e+00 (1.0753e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.528
+Epoch 128: Learning Rate for backbone: 9.910034574485035e-05; Learning Rates for bottleneck: 0.0009910034574485034; Learning Rates for head: 0.0009910034574485034
+Epoch: [128][ 0/88]	Total Loss 0.6634 (0.6634)	Source 0.4173 (0.4173)	Entropy 0.3344 (0.3344)	MMD 0.2127 (0.2127)	Cls Acc 93.75 (93.75)
+Epoch: [128][87/88]	Total Loss 0.3202 (0.3442)	Source 0.1161 (0.2104)	Entropy 0.2850 (0.3058)	MMD 0.1756 (0.1032)	Cls Acc 96.88 (94.07)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.918485152117936, 3.7048921845447518e-06, 2.5015533478230896e-06, 5.699257891994624e-06, 2.9188914768443914]
+beta_fc updated to: [12.33127140060859, 1.356329998272161e-06, 8.621176902718388e-07, 2.3186123136439714e-06, 3.5699052763735404]
+Test: [ 0/25]	Time  0.247 ( 0.247)	Loss 2.7639e+00 (2.7639e+00)	Acc@1  59.38 ( 59.38)
+ * Acc@1 83.899
+Epoch 129: Learning Rate for backbone: 9.865462659253561e-05; Learning Rates for bottleneck: 0.000986546265925356; Learning Rates for head: 0.000986546265925356
+Epoch: [129][ 0/88]	Total Loss 0.3702 (0.3702)	Source 0.1630 (0.1630)	Entropy 0.2538 (0.2538)	MMD 0.1818 (0.1818)	Cls Acc 90.62 (90.62)
+Epoch: [129][87/88]	Total Loss 0.3699 (0.3837)	Source 0.2322 (0.2365)	Entropy 0.4506 (0.3173)	MMD 0.0926 (0.1154)	Cls Acc 93.75 (93.11)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.036635429765802, 3.2956229818586336e-06, 2.3440131081426815e-06, 5.272337236744077e-06, 2.6286220061870993]
+beta_fc updated to: [12.363069669741574, 1.5362622096066575e-06, 9.903749474449955e-07, 2.591068820626296e-06, 3.6286482438592227]
+Test: [ 0/25]	Time  0.402 ( 0.402)	Loss 1.0941e+00 (1.0941e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 84.906
+Epoch 130: Learning Rate for backbone: 9.821355717196609e-05; Learning Rates for bottleneck: 0.0009821355717196608; Learning Rates for head: 0.0009821355717196608
+Epoch: [130][ 0/88]	Total Loss 0.3988 (0.3988)	Source 0.1094 (0.1094)	Entropy 0.2859 (0.2859)	MMD 0.2608 (0.2608)	Cls Acc 96.88 (96.88)
+Epoch: [130][87/88]	Total Loss 0.5314 (0.4009)	Source 0.4158 (0.2461)	Entropy 0.2212 (0.3080)	MMD 0.0935 (0.1240)	Cls Acc 87.50 (93.08)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.548740460900392, 2.23426883871976e-06, 1.6318903610331928e-06, 3.6930443163313816e-06, 2.990405296961958]
+beta_fc updated to: [11.345374795038717, 2.157300261728516e-06, 1.3584058966578337e-06, 4.031948686882984e-06, 4.383562210271136]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 1.3619e+00 (1.3619e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 84.528
+Epoch 131: Learning Rate for backbone: 9.777706171122685e-05; Learning Rates for bottleneck: 0.0009777706171122684; Learning Rates for head: 0.0009777706171122684
+Epoch: [131][ 0/88]	Total Loss 0.2523 (0.2523)	Source 0.1895 (0.1895)	Entropy 0.4018 (0.4018)	MMD 0.0227 (0.0227)	Cls Acc 93.75 (93.75)
+Epoch: [131][87/88]	Total Loss 0.6021 (0.3181)	Source 0.5493 (0.1964)	Entropy 0.2015 (0.3164)	MMD 0.0327 (0.0900)	Cls Acc 87.50 (94.11)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.202523527021814, 3.44023237717091e-06, 2.334795402751349e-06, 5.362933183483349e-06, 2.389638684418446]
+beta_fc updated to: [11.710919366490783, 1.2333299040047184e-06, 8.241152820301062e-07, 2.305027365257955e-06, 4.266783386411322]
+Test: [ 0/25]	Time  0.255 ( 0.255)	Loss 1.2289e+00 (1.2289e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.157
+Epoch 132: Learning Rate for backbone: 9.734506611227222e-05; Learning Rates for bottleneck: 0.0009734506611227222; Learning Rates for head: 0.0009734506611227222
+Epoch: [132][ 0/88]	Total Loss 0.4929 (0.4929)	Source 0.4236 (0.4236)	Entropy 0.2640 (0.2640)	MMD 0.0429 (0.0429)	Cls Acc 93.75 (93.75)
+Epoch: [132][87/88]	Total Loss 0.6355 (0.3815)	Source 0.2654 (0.2384)	Entropy 0.2109 (0.2993)	MMD 0.3490 (0.1132)	Cls Acc 90.62 (93.11)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.270001585977603, 2.1948317674159604e-06, 1.5998691141982145e-06, 3.6847812825467656e-06, 2.6274492857154232]
+beta_fc updated to: [12.585020730537611, 1.2692638571102267e-06, 8.214389179676153e-07, 2.2176474049354795e-06, 3.4132379220167484]
+Test: [ 0/25]	Time  0.260 ( 0.260)	Loss 1.6399e+00 (1.6399e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.403
+Epoch 133: Learning Rate for backbone: 9.691749790436245e-05; Learning Rates for bottleneck: 0.0009691749790436245; Learning Rates for head: 0.0009691749790436245
+Epoch: [133][ 0/88]	Total Loss 0.3879 (0.3879)	Source 0.3513 (0.3513)	Entropy 0.2959 (0.2959)	MMD 0.0070 (0.0070)	Cls Acc 90.62 (90.62)
+Epoch: [133][87/88]	Total Loss 0.5068 (0.3796)	Source 0.2259 (0.2203)	Entropy 0.2165 (0.3095)	MMD 0.2593 (0.1283)	Cls Acc 96.88 (93.96)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.378539120314203, 2.446757345497222e-06, 1.714599735898927e-06, 3.998245926711381e-06, 2.4506896805383596]
+beta_fc updated to: [12.101224026979521, 1.3422268268176254e-06, 8.780863483471982e-07, 2.3854745737824317e-06, 3.825632112116953]
+Test: [ 0/25]	Time  0.334 ( 0.334)	Loss 8.4238e-01 (8.4238e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.157
+Epoch 134: Learning Rate for backbone: 9.649428619905874e-05; Learning Rates for bottleneck: 0.0009649428619905874; Learning Rates for head: 0.0009649428619905874
+Epoch: [134][ 0/88]	Total Loss 0.2720 (0.2720)	Source 0.1742 (0.1742)	Entropy 0.3092 (0.3092)	MMD 0.0669 (0.0669)	Cls Acc 93.75 (93.75)
+Epoch: [134][87/88]	Total Loss 0.2854 (0.3425)	Source 0.1795 (0.2038)	Entropy 0.2434 (0.3118)	MMD 0.0815 (0.1075)	Cls Acc 96.88 (93.71)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.636736194775773, 1.5268088134759514e-06, 1.0527285234845246e-06, 2.9001984467126358e-06, 1.9712726413419763]
+beta_fc updated to: [12.509404245397985, 1.2470485903835566e-06, 8.080556559715035e-07, 2.114852753353571e-06, 3.5095236306270428]
+Test: [ 0/25]	Time  0.279 ( 0.279)	Loss 8.4903e-01 (8.4903e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.157
+Epoch 135: Learning Rate for backbone: 9.607536164671654e-05; Learning Rates for bottleneck: 0.0009607536164671654; Learning Rates for head: 0.0009607536164671654
+Epoch: [135][ 0/88]	Total Loss 0.2217 (0.2217)	Source 0.1186 (0.1186)	Entropy 0.4811 (0.4811)	MMD 0.0550 (0.0550)	Cls Acc 93.75 (93.75)
+Epoch: [135][87/88]	Total Loss 0.2928 (0.3372)	Source 0.1577 (0.2018)	Entropy 0.4534 (0.3154)	MMD 0.0898 (0.1038)	Cls Acc 93.75 (93.47)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.709843459462633, 2.1709609033941335e-06, 1.4111307502858104e-06, 3.776861688928775e-06, 1.9301129696450963]
+beta_fc updated to: [13.092425059096657, 1.1170267658126867e-06, 7.177787351994198e-07, 2.0056166437654334e-06, 2.9115690111302586]
+Test: [ 0/25]	Time  0.264 ( 0.264)	Loss 7.7981e-01 (7.7981e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 84.528
+Epoch 136: Learning Rate for backbone: 9.566065639441857e-05; Learning Rates for bottleneck: 0.0009566065639441857; Learning Rates for head: 0.0009566065639441857
+Epoch: [136][ 0/88]	Total Loss 0.1777 (0.1777)	Source 0.0716 (0.0716)	Entropy 0.2690 (0.2690)	MMD 0.0793 (0.0793)	Cls Acc 96.88 (96.88)
+Epoch: [136][87/88]	Total Loss 0.2235 (0.3589)	Source 0.1752 (0.2412)	Entropy 0.2408 (0.2962)	MMD 0.0241 (0.0881)	Cls Acc 93.75 (93.29)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.166619977205883, 8.078559786696482e-07, 5.390376620764381e-07, 1.5179834253240562e-06, 3.671480209239121]
+beta_fc updated to: [11.793509263975794, 1.4020871347538723e-06, 9.23960462405461e-07, 2.53774819558813e-06, 3.9332788210725886]
+Test: [ 0/25]	Time  0.274 ( 0.274)	Loss 9.0260e-01 (9.0260e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.403
+Epoch 137: Learning Rate for backbone: 9.525010404529192e-05; Learning Rates for bottleneck: 0.0009525010404529191; Learning Rates for head: 0.0009525010404529191
+Epoch: [137][ 0/88]	Total Loss 0.3720 (0.3720)	Source 0.1226 (0.1226)	Entropy 0.3893 (0.3893)	MMD 0.2105 (0.2105)	Cls Acc 96.88 (96.88)
+Epoch: [137][87/88]	Total Loss 0.2836 (0.3763)	Source 0.2480 (0.2387)	Entropy 0.3450 (0.2924)	MMD 0.0012 (0.1083)	Cls Acc 90.62 (93.47)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.346208667449757, 3.1754254777214736e-06, 2.154940881119054e-06, 4.976330244654987e-06, 2.429890318816353]
+beta_fc updated to: [12.710576300204396, 8.30530919357092e-07, 5.707606855751714e-07, 1.5578427698033057e-06, 3.2705217323318667]
+Test: [ 0/25]	Time  0.258 ( 0.258)	Loss 9.7815e-01 (9.7815e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.780
+Epoch 138: Learning Rate for backbone: 9.484363961915625e-05; Learning Rates for bottleneck: 0.0009484363961915624; Learning Rates for head: 0.0009484363961915624
+Epoch: [138][ 0/88]	Total Loss 0.3436 (0.3436)	Source 0.2567 (0.2567)	Entropy 0.3580 (0.3580)	MMD 0.0511 (0.0511)	Cls Acc 90.62 (90.62)
+Epoch: [138][87/88]	Total Loss 0.2631 (0.3578)	Source 0.1863 (0.2099)	Entropy 0.3397 (0.3176)	MMD 0.0429 (0.1161)	Cls Acc 96.88 (93.96)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.548112065051496, 1.8106316316079667e-06, 1.276103270228415e-06, 3.2091288393732836e-06, 2.128499319291592]
+beta_fc updated to: [12.278809062590039, 1.023326227111412e-06, 6.921981942300116e-07, 1.8344848861151283e-06, 3.4842277793534366]
+Test: [ 0/25]	Time  0.262 ( 0.262)	Loss 4.8189e-01 (4.8189e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.654
+Epoch 139: Learning Rate for backbone: 9.444119951445206e-05; Learning Rates for bottleneck: 0.0009444119951445205; Learning Rates for head: 0.0009444119951445205
+Epoch: [139][ 0/88]	Total Loss 0.5862 (0.5862)	Source 0.2689 (0.2689)	Entropy 0.4563 (0.4563)	MMD 0.2717 (0.2717)	Cls Acc 90.62 (90.62)
+Epoch: [139][87/88]	Total Loss 0.4753 (0.3523)	Source 0.4064 (0.2086)	Entropy 0.2143 (0.3169)	MMD 0.0474 (0.1120)	Cls Acc 84.38 (93.86)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.774939819502487, 1.937142948648494e-06, 1.3303726143168017e-06, 3.452934385457551e-06, 2.068523559171269]
+beta_fc updated to: [13.073992113358814, 2.3795141263286492e-06, 1.6875827378909346e-06, 3.953072214984007e-06, 2.6343102866710852]
+Test: [ 0/25]	Time  0.248 ( 0.248)	Loss 1.6912e+00 (1.6912e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.277
+Epoch 140: Learning Rate for backbone: 9.404272147140054e-05; Learning Rates for bottleneck: 0.0009404272147140053; Learning Rates for head: 0.0009404272147140053
+Epoch: [140][ 0/88]	Total Loss 0.3074 (0.3074)	Source 0.2273 (0.2273)	Entropy 0.2151 (0.2151)	MMD 0.0586 (0.0586)	Cls Acc 93.75 (93.75)
+Epoch: [140][87/88]	Total Loss 0.1648 (0.3577)	Source 0.1231 (0.2240)	Entropy 0.3626 (0.2990)	MMD 0.0054 (0.1038)	Cls Acc 96.88 (93.04)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [11.884386319505943, 6.118963612827454e-07, 4.39902771978026e-07, 1.168229865416586e-06, 5.3183646380742555]
+beta_fc updated to: [12.5161536468426, 1.2131263730576678e-06, 7.924164777346969e-07, 2.1176748358994032e-06, 3.457697241053774]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 2.1463e+00 (2.1463e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 84.528
+Epoch 141: Learning Rate for backbone: 9.364814453634852e-05; Learning Rates for bottleneck: 0.0009364814453634851; Learning Rates for head: 0.0009364814453634851
+Epoch: [141][ 0/88]	Total Loss 0.7967 (0.7967)	Source 0.5692 (0.5692)	Entropy 0.3350 (0.3350)	MMD 0.1940 (0.1940)	Cls Acc 84.38 (84.38)
+Epoch: [141][87/88]	Total Loss 0.7498 (0.3603)	Source 0.4804 (0.2220)	Entropy 0.3595 (0.2985)	MMD 0.2334 (0.1085)	Cls Acc 90.62 (93.89)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.946206922060389, 1.3478769597959816e-06, 9.292724869923791e-07, 2.5665209990096773e-06, 1.9952826617881914]
+beta_fc updated to: [13.015792941855343, 1.3650925402330208e-06, 9.113536271083311e-07, 2.411540601753968e-06, 2.7963256821995435]
+Test: [ 0/25]	Time  0.258 ( 0.258)	Loss 1.0695e+00 (1.0695e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.528
+Epoch 142: Learning Rate for backbone: 9.325740902725384e-05; Learning Rates for bottleneck: 0.0009325740902725384; Learning Rates for head: 0.0009325740902725384
+Epoch: [142][ 0/88]	Total Loss 0.7267 (0.7267)	Source 0.5537 (0.5537)	Entropy 0.2378 (0.2378)	MMD 0.1493 (0.1493)	Cls Acc 93.75 (93.75)
+Epoch: [142][87/88]	Total Loss 0.4155 (0.3352)	Source 0.3828 (0.1962)	Entropy 0.2714 (0.2828)	MMD 0.0056 (0.1107)	Cls Acc 87.50 (94.39)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.201863358912682, 4.592859398243298e-07, 3.287062275551981e-07, 9.071911226780324e-07, 4.137259518013507]
+beta_fc updated to: [12.761305486148114, 9.864160095846816e-07, 6.514198118059389e-07, 1.7669270678994747e-06, 3.2084620999461126]
+Test: [ 0/25]	Time  0.242 ( 0.242)	Loss 1.0886e+00 (1.0886e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 84.403
+Epoch 143: Learning Rate for backbone: 9.287045650026893e-05; Learning Rates for bottleneck: 0.0009287045650026892; Learning Rates for head: 0.0009287045650026892
+Epoch: [143][ 0/88]	Total Loss 0.4010 (0.4010)	Source 0.0675 (0.0675)	Entropy 0.4358 (0.4358)	MMD 0.2900 (0.2900)	Cls Acc 96.88 (96.88)
+Epoch: [143][87/88]	Total Loss 0.5098 (0.3831)	Source 0.2454 (0.2451)	Entropy 0.3349 (0.3002)	MMD 0.2309 (0.1080)	Cls Acc 93.75 (93.15)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.08721394548761, 3.736263756415843e-08, 2.528722035188787e-08, 5.69326434737847e-08, 2.74611555816167]
+beta_fc updated to: [13.094674597270643, 1.3884643678335898e-06, 1.017297621702423e-06, 2.4646436897928415e-06, 2.6847609354459974]
+Test: [ 0/25]	Time  0.270 ( 0.270)	Loss 9.2715e-01 (9.2715e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.283
+Epoch 144: Learning Rate for backbone: 9.248722971738117e-05; Learning Rates for bottleneck: 0.0009248722971738117; Learning Rates for head: 0.0009248722971738117
+Epoch: [144][ 0/88]	Total Loss 0.2441 (0.2441)	Source 0.1080 (0.1080)	Entropy 0.2353 (0.2353)	MMD 0.1126 (0.1126)	Cls Acc 93.75 (93.75)
+Epoch: [144][87/88]	Total Loss 0.5593 (0.3746)	Source 0.2001 (0.2253)	Entropy 0.3345 (0.2938)	MMD 0.3258 (0.1199)	Cls Acc 93.75 (93.57)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.960806517426672, 2.440175074798622e-06, 1.7751456723724925e-06, 4.011272706988377e-06, 2.9163174597280825]
+beta_fc updated to: [12.908308769306347, 9.31566824789865e-07, 6.087966438611917e-07, 1.6853445854404966e-06, 2.9068858435111045]
+Test: [ 0/25]	Time  0.256 ( 0.256)	Loss 7.7798e-01 (7.7798e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.031
+Epoch 145: Learning Rate for backbone: 9.210767261507188e-05; Learning Rates for bottleneck: 0.0009210767261507187; Learning Rates for head: 0.0009210767261507187
+Epoch: [145][ 0/88]	Total Loss 0.9977 (0.9977)	Source 0.5988 (0.5988)	Entropy 0.3183 (0.3183)	MMD 0.3670 (0.3670)	Cls Acc 81.25 (81.25)
+Epoch: [145][87/88]	Total Loss 0.3144 (0.3786)	Source 0.2887 (0.2288)	Entropy 0.2354 (0.2944)	MMD 0.0022 (0.1203)	Cls Acc 84.38 (93.57)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.05221857684478, 2.8754246211135662e-06, 2.0016079526340182e-06, 4.642418152868444e-06, 2.3397858402269307]
+beta_fc updated to: [12.632426000921827, 7.200037932740615e-07, 4.91347089808065e-07, 1.2834830978331772e-06, 3.106526551801198]
+Test: [ 0/25]	Time  0.269 ( 0.269)	Loss 5.2807e-01 (5.2807e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 84.025
+Epoch 146: Learning Rate for backbone: 9.173173027395545e-05; Learning Rates for bottleneck: 0.0009173173027395544; Learning Rates for head: 0.0009173173027395544
+Epoch: [146][ 0/88]	Total Loss 0.1436 (0.1436)	Source 0.0646 (0.0646)	Entropy 0.2361 (0.2361)	MMD 0.0554 (0.0554)	Cls Acc 96.88 (96.88)
+Epoch: [146][87/88]	Total Loss 0.3432 (0.3847)	Source 0.1913 (0.2281)	Entropy 0.4444 (0.2881)	MMD 0.1075 (0.1278)	Cls Acc 96.88 (93.79)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.1262006604981, 3.5804713226936952e-06, 2.3321428388011384e-06, 5.483763660156723e-06, 2.1286181860154922]
+beta_fc updated to: [13.288208221952548, 3.400672539118593e-08, 2.439379339112712e-08, 5.4144171006637896e-08, 2.186999218718889]
+Test: [ 0/25]	Time  0.279 ( 0.279)	Loss 7.8687e-01 (7.8687e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.780
+Epoch 147: Learning Rate for backbone: 9.135934888936402e-05; Learning Rates for bottleneck: 0.0009135934888936401; Learning Rates for head: 0.0009135934888936401
+Epoch: [147][ 0/88]	Total Loss 0.3202 (0.3202)	Source 0.1929 (0.1929)	Entropy 0.2799 (0.2799)	MMD 0.0993 (0.0993)	Cls Acc 96.88 (96.88)
+Epoch: [147][87/88]	Total Loss 0.2277 (0.3375)	Source 0.1088 (0.2054)	Entropy 0.2774 (0.2868)	MMD 0.0911 (0.1034)	Cls Acc 96.88 (94.39)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.243857470804173, 2.5120413637939414e-06, 1.5607335290426944e-06, 4.1346074540667465e-06, 1.8757289533142198]
+beta_fc updated to: [14.001886147016938, 3.7314028870292023e-08, 2.597960097765832e-08, 5.900056132851473e-08, 1.8583995244700668]
+Test: [ 0/25]	Time  0.293 ( 0.293)	Loss 1.0734e+00 (1.0734e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.409
+Epoch 148: Learning Rate for backbone: 9.099047574284217e-05; Learning Rates for bottleneck: 0.0009099047574284216; Learning Rates for head: 0.0009099047574284216
+Epoch: [148][ 0/88]	Total Loss 0.3140 (0.3140)	Source 0.2727 (0.2727)	Entropy 0.3804 (0.3804)	MMD 0.0033 (0.0033)	Cls Acc 87.50 (87.50)
+Epoch: [148][87/88]	Total Loss 0.2925 (0.3543)	Source 0.1437 (0.2128)	Entropy 0.2187 (0.2907)	MMD 0.1269 (0.1124)	Cls Acc 93.75 (94.28)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.675959056676287, 1.8974649591409036e-06, 1.4079135063054585e-06, 3.189999534921686e-06, 3.0389689628822634]
+beta_fc updated to: [13.662265911200162, 3.949867920501047e-08, 2.8532952508850715e-08, 6.270260689889813e-08, 2.2387285821883838]
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 4.2896e-01 (4.2896e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 84.780
+Epoch 149: Learning Rate for backbone: 9.062505917451957e-05; Learning Rates for bottleneck: 0.0009062505917451956; Learning Rates for head: 0.0009062505917451956
+Epoch: [149][ 0/88]	Total Loss 0.3688 (0.3688)	Source 0.2736 (0.2736)	Entropy 0.3270 (0.3270)	MMD 0.0625 (0.0625)	Cls Acc 93.75 (93.75)
+Epoch: [149][87/88]	Total Loss 0.2577 (0.3879)	Source 0.0743 (0.2437)	Entropy 0.3522 (0.2871)	MMD 0.1482 (0.1155)	Cls Acc 100.00 (93.47)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.004852787865039, 4.797483071025606e-07, 3.4686600557887094e-07, 9.668362357579802e-07, 3.9248295051209614]
+beta_fc updated to: [13.262211979371951, 2.186320067982534e-06, 1.6027591590613516e-06, 3.6183533869969765e-06, 2.5537222824822563]
+Test: [ 0/25]	Time  0.255 ( 0.255)	Loss 5.0440e-01 (5.0440e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.031
+Epoch 150: Learning Rate for backbone: 9.02630485563297e-05; Learning Rates for bottleneck: 0.000902630485563297; Learning Rates for head: 0.000902630485563297
+Epoch: [150][ 0/88]	Total Loss 0.3733 (0.3733)	Source 0.0745 (0.0745)	Entropy 0.2198 (0.2198)	MMD 0.2768 (0.2768)	Cls Acc 96.88 (96.88)
+Epoch: [150][87/88]	Total Loss 0.1814 (0.3689)	Source 0.0634 (0.2393)	Entropy 0.3177 (0.2878)	MMD 0.0862 (0.1008)	Cls Acc 100.00 (93.04)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.542200637637949, 2.822431312698564e-06, 1.96278699602656e-06, 4.653819867786184e-06, 2.253539205898183]
+beta_fc updated to: [13.692912731310484, 2.947623962231605e-06, 2.2116651747068194e-06, 4.866923723866421e-06, 2.0700001410888365]
+Test: [ 0/25]	Time  0.259 ( 0.259)	Loss 1.1497e+00 (1.1497e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.528
+Epoch 151: Learning Rate for backbone: 8.990439426604421e-05; Learning Rates for bottleneck: 0.000899043942660442; Learning Rates for head: 0.000899043942660442
+Epoch: [151][ 0/88]	Total Loss 0.4505 (0.4505)	Source 0.3816 (0.3816)	Entropy 0.1620 (0.1620)	MMD 0.0527 (0.0527)	Cls Acc 84.38 (84.38)
+Epoch: [151][87/88]	Total Loss 0.4715 (0.3870)	Source 0.1998 (0.2362)	Entropy 0.2985 (0.2919)	MMD 0.2419 (0.1216)	Cls Acc 93.75 (93.25)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.776570810862703, 1.6880180644580052e-06, 1.2918839467158714e-06, 2.92051653968465e-06, 2.9165537134105173]
+beta_fc updated to: [13.594135684230574, 2.5512040707926077e-06, 1.938305775210515e-06, 4.229143760237898e-06, 2.2301536523070506]
+Test: [ 0/25]	Time  0.277 ( 0.277)	Loss 7.2605e-01 (7.2605e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.535
+Epoch 152: Learning Rate for backbone: 8.954904766209441e-05; Learning Rates for bottleneck: 0.0008954904766209441; Learning Rates for head: 0.0008954904766209441
+Epoch: [152][ 0/88]	Total Loss 0.4367 (0.4367)	Source 0.1251 (0.1251)	Entropy 0.1902 (0.1902)	MMD 0.2926 (0.2926)	Cls Acc 96.88 (96.88)
+Epoch: [152][87/88]	Total Loss 0.3033 (0.3428)	Source 0.0314 (0.2021)	Entropy 0.3328 (0.2989)	MMD 0.2386 (0.1108)	Cls Acc 100.00 (94.32)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.67614514346622, 2.769201616720128e-06, 1.7752148158560168e-06, 4.393051079342541e-06, 2.0869008665414905]
+beta_fc updated to: [13.916537914802484, 3.2818930225604005e-08, 2.4100802953926002e-08, 5.4612622003206416e-08, 1.951037787629889]
+Test: [ 0/25]	Time  0.290 ( 0.290)	Loss 1.6233e+00 (1.6233e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 84.403
+Epoch 153: Learning Rate for backbone: 8.919696105915151e-05; Learning Rates for bottleneck: 0.000891969610591515; Learning Rates for head: 0.000891969610591515
+Epoch: [153][ 0/88]	Total Loss 0.3420 (0.3420)	Source 0.2113 (0.2113)	Entropy 0.4062 (0.4062)	MMD 0.0901 (0.0901)	Cls Acc 90.62 (90.62)
+Epoch: [153][87/88]	Total Loss 0.6291 (0.3503)	Source 0.4431 (0.2213)	Entropy 0.2065 (0.2801)	MMD 0.1653 (0.1010)	Cls Acc 87.50 (93.32)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.886252070869851, 3.2753171501082745e-06, 2.283407735454175e-06, 5.153781284628476e-06, 2.827343272805304]
+beta_fc updated to: [14.1445596646998, 3.040040085811161e-06, 2.235972224928506e-06, 5.0326721729246436e-06, 1.697065956898576]
+Test: [ 0/25]	Time  0.277 ( 0.277)	Loss 5.0380e-01 (5.0380e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 85.283
+Epoch 154: Learning Rate for backbone: 8.884808770443918e-05; Learning Rates for bottleneck: 0.0008884808770443917; Learning Rates for head: 0.0008884808770443917
+Epoch: [154][ 0/88]	Total Loss 0.4441 (0.4441)	Source 0.3574 (0.3574)	Entropy 0.3204 (0.3204)	MMD 0.0546 (0.0546)	Cls Acc 90.62 (90.62)
+Epoch: [154][87/88]	Total Loss 0.3946 (0.3547)	Source 0.3190 (0.2266)	Entropy 0.4205 (0.2871)	MMD 0.0336 (0.0994)	Cls Acc 93.75 (93.61)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.821772826064361, 2.3651028353577806e-06, 1.729992112828966e-06, 3.908375962844976e-06, 2.7394953151968786]
+beta_fc updated to: [13.263322407195156, 2.6243038722463126e-06, 1.9744049287603554e-06, 4.429969946012791e-06, 2.461151820343171]
+Test: [ 0/25]	Time  0.256 ( 0.256)	Loss 1.3349e+00 (1.3349e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.780
+Epoch 155: Learning Rate for backbone: 8.850238175475272e-05; Learning Rates for bottleneck: 0.0008850238175475272; Learning Rates for head: 0.0008850238175475272
+Epoch: [155][ 0/88]	Total Loss 0.3790 (0.3790)	Source 0.2806 (0.2806)	Entropy 0.4044 (0.4044)	MMD 0.0579 (0.0579)	Cls Acc 90.62 (90.62)
+Epoch: [155][87/88]	Total Loss 0.3147 (0.3791)	Source 0.1475 (0.2300)	Entropy 0.3939 (0.2878)	MMD 0.1278 (0.1203)	Cls Acc 93.75 (93.50)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.157255783335042, 1.931975343289402e-06, 1.4240101161112232e-06, 3.343787705866956e-06, 2.471208977599097]
+beta_fc updated to: [13.473015425005233, 2.1091173837280785e-06, 1.6324272358370808e-06, 3.6141514688946305e-06, 2.170586124735573]
+Test: [ 0/25]	Time  0.279 ( 0.279)	Loss 9.0298e-01 (9.0298e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.283
+Epoch 156: Learning Rate for backbone: 8.815979825416036e-05; Learning Rates for bottleneck: 0.0008815979825416035; Learning Rates for head: 0.0008815979825416035
+Epoch: [156][ 0/88]	Total Loss 0.4345 (0.4345)	Source 0.2183 (0.2183)	Entropy 0.3416 (0.3416)	MMD 0.1821 (0.1821)	Cls Acc 93.75 (93.75)
+Epoch: [156][87/88]	Total Loss 0.1811 (0.3391)	Source 0.0650 (0.2009)	Entropy 0.3302 (0.2937)	MMD 0.0831 (0.1088)	Cls Acc 96.88 (94.28)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.078974756043449, 3.4032253766109543e-06, 2.3254346815137404e-06, 5.2921421854924435e-06, 2.820966560993155]
+beta_fc updated to: [13.859217528495584, 2.68655708593514e-06, 2.0041047106762943e-06, 4.523646324741974e-06, 1.7760338162423563]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 6.2890e-01 (6.2890e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.654
+Epoch 157: Learning Rate for backbone: 8.782029311236262e-05; Learning Rates for bottleneck: 0.0008782029311236262; Learning Rates for head: 0.0008782029311236262
+Epoch: [157][ 0/88]	Total Loss 0.2370 (0.2370)	Source 0.0815 (0.0815)	Entropy 0.2299 (0.2299)	MMD 0.1325 (0.1325)	Cls Acc 96.88 (96.88)
+Epoch: [157][87/88]	Total Loss 0.3472 (0.3672)	Source 0.0835 (0.2209)	Entropy 0.3049 (0.2784)	MMD 0.2332 (0.1185)	Cls Acc 100.00 (93.75)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.15113057600192, 4.5844470747696584e-07, 3.2248170195333896e-07, 9.190839418442018e-07, 3.7807948882877143]
+beta_fc updated to: [14.453149894923044, 1.8829914429915131e-06, 1.3701086092195967e-06, 3.679512357816179e-06, 1.2250616808639447]
+Test: [ 0/25]	Time  0.276 ( 0.276)	Loss 1.0111e+00 (1.0111e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 84.654
+Epoch 158: Learning Rate for backbone: 8.748382308368773e-05; Learning Rates for bottleneck: 0.0008748382308368772; Learning Rates for head: 0.0008748382308368772
+Epoch: [158][ 0/88]	Total Loss 0.3518 (0.3518)	Source 0.1896 (0.1896)	Entropy 0.3406 (0.3406)	MMD 0.1282 (0.1282)	Cls Acc 93.75 (93.75)
+Epoch: [158][87/88]	Total Loss 0.5324 (0.3338)	Source 0.4041 (0.2074)	Entropy 0.2288 (0.2729)	MMD 0.1054 (0.0991)	Cls Acc 90.62 (93.96)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.944704725479985, 2.567999044854655e-06, 1.8707859625741215e-06, 4.223354445809207e-06, 2.738047103790922]
+beta_fc updated to: [14.193965211427948, 1.5350409040112076e-06, 1.1268051714114668e-06, 3.0265848547789928e-06, 1.4776480147369901]
+Test: [ 0/25]	Time  0.260 ( 0.260)	Loss 1.4594e+00 (1.4594e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.528
+Epoch 159: Learning Rate for backbone: 8.715034574670052e-05; Learning Rates for bottleneck: 0.0008715034574670052; Learning Rates for head: 0.0008715034574670052
+Epoch: [159][ 0/88]	Total Loss 0.1461 (0.1461)	Source 0.0936 (0.0936)	Entropy 0.3268 (0.3268)	MMD 0.0198 (0.0198)	Cls Acc 96.88 (96.88)
+Epoch: [159][87/88]	Total Loss 0.3645 (0.3638)	Source 0.1905 (0.2381)	Entropy 0.2921 (0.2822)	MMD 0.1448 (0.0975)	Cls Acc 93.75 (92.83)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.92152846788878, 2.3951879161728038e-06, 1.7553816557975554e-06, 3.919818284399321e-06, 2.7590635409411095]
+beta_fc updated to: [13.742413219098108, 2.9496918848411767e-06, 2.190925352195572e-06, 4.765008149507607e-06, 1.928954031337073]
+Test: [ 0/25]	Time  0.281 ( 0.281)	Loss 1.0535e+00 (1.0535e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.409
+Epoch 160: Learning Rate for backbone: 8.681981948440451e-05; Learning Rates for bottleneck: 0.0008681981948440451; Learning Rates for head: 0.0008681981948440451
+Epoch: [160][ 0/88]	Total Loss 0.4993 (0.4993)	Source 0.0596 (0.0596)	Entropy 0.2066 (0.2066)	MMD 0.4191 (0.4191)	Cls Acc 96.88 (96.88)
+Epoch: [160][87/88]	Total Loss 0.3589 (0.3623)	Source 0.0382 (0.2359)	Entropy 0.0823 (0.2844)	MMD 0.3124 (0.0979)	Cls Acc 100.00 (92.76)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.492002627497106, 1.8861859756812996e-06, 1.2852295910876953e-06, 3.165526684498564e-06, 3.388458113077058]
+beta_fc updated to: [13.988274830352974, 3.6399085622203647e-08, 2.5463146209263134e-08, 5.550093558824896e-08, 1.7895816844673358]
+Test: [ 0/25]	Time  0.246 ( 0.246)	Loss 1.3366e+00 (1.3366e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.277
+Epoch 161: Learning Rate for backbone: 8.649220346501656e-05; Learning Rates for bottleneck: 0.0008649220346501655; Learning Rates for head: 0.0008649220346501655
+Epoch: [161][ 0/88]	Total Loss 0.2158 (0.2158)	Source 0.1063 (0.1063)	Entropy 0.1633 (0.1633)	MMD 0.0931 (0.0931)	Cls Acc 93.75 (93.75)
+Epoch: [161][87/88]	Total Loss 0.4842 (0.3440)	Source 0.2480 (0.2053)	Entropy 0.2708 (0.2866)	MMD 0.2091 (0.1100)	Cls Acc 90.62 (94.21)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.170517240032202, 3.9848524606067336e-08, 2.6937243715315366e-08, 6.106630037986604e-08, 2.547312362347427]
+beta_fc updated to: [14.902375780370233, 2.618773544109199e-08, 1.8939506848030138e-08, 5.329316908864035e-08, 0.9058128789232139]
+Test: [ 0/25]	Time  0.259 ( 0.259)	Loss 8.3550e-01 (8.3550e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.031
+Epoch 162: Learning Rate for backbone: 8.616745762329506e-05; Learning Rates for bottleneck: 0.0008616745762329506; Learning Rates for head: 0.0008616745762329506
+Epoch: [162][ 0/88]	Total Loss 0.3007 (0.3007)	Source 0.0743 (0.0743)	Entropy 0.1952 (0.1952)	MMD 0.2069 (0.2069)	Cls Acc 96.88 (96.88)
+Epoch: [162][87/88]	Total Loss 0.5146 (0.3656)	Source 0.2224 (0.2217)	Entropy 0.2324 (0.2774)	MMD 0.2690 (0.1162)	Cls Acc 90.62 (93.54)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.206020811638234, 1.1569370331690924e-06, 8.65273054254439e-07, 2.104498819491795e-06, 3.342725559751014]
+beta_fc updated to: [13.496126547022808, 1.8372092686382342e-06, 1.5056606942108618e-06, 3.3196605927584243e-06, 2.151784869843036]
+Test: [ 0/25]	Time  0.277 ( 0.277)	Loss 5.3048e-01 (5.3048e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.403
+Epoch 163: Learning Rate for backbone: 8.584554264240283e-05; Learning Rates for bottleneck: 0.0008584554264240282; Learning Rates for head: 0.0008584554264240282
+Epoch: [163][ 0/88]	Total Loss 0.3595 (0.3595)	Source 0.3217 (0.3217)	Entropy 0.2672 (0.2672)	MMD 0.0110 (0.0110)	Cls Acc 87.50 (87.50)
+Epoch: [163][87/88]	Total Loss 0.2993 (0.3775)	Source 0.1106 (0.2327)	Entropy 0.3899 (0.2705)	MMD 0.1497 (0.1177)	Cls Acc 96.88 (93.50)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.03507308401698, 3.252164583276551e-07, 2.4082297790471563e-07, 6.915310262249128e-07, 3.7207540347674817]
+beta_fc updated to: [12.869823250085222, 4.280479862913945e-07, 3.005247661998202e-07, 7.577691913925214e-07, 2.759528433133218]
+Test: [ 0/25]	Time  0.404 ( 0.404)	Loss 7.1307e-01 (7.1307e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.780
+Epoch 164: Learning Rate for backbone: 8.552641993628702e-05; Learning Rates for bottleneck: 0.0008552641993628701; Learning Rates for head: 0.0008552641993628701
+Epoch: [164][ 0/88]	Total Loss 0.3708 (0.3708)	Source 0.3033 (0.3033)	Entropy 0.2038 (0.2038)	MMD 0.0471 (0.0471)	Cls Acc 93.75 (93.75)
+Epoch: [164][87/88]	Total Loss 0.3789 (0.3371)	Source 0.2613 (0.2108)	Entropy 0.3087 (0.2877)	MMD 0.0867 (0.0976)	Cls Acc 96.88 (93.68)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.315786523180982, 2.1409686434256847e-06, 1.5827129657984554e-06, 3.625929373206789e-06, 2.619410334622155]
+beta_fc updated to: [13.388876726948709, 2.8185406610611234e-06, 2.1072562923081764e-06, 4.670209090747266e-06, 2.1227208372078854]
+Test: [ 0/25]	Time  0.272 ( 0.272)	Loss 1.1054e+00 (1.1054e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.283
+Epoch 165: Learning Rate for backbone: 8.521005163255859e-05; Learning Rates for bottleneck: 0.0008521005163255859; Learning Rates for head: 0.0008521005163255859
+Epoch: [165][ 0/88]	Total Loss 0.2294 (0.2294)	Source 0.1267 (0.1267)	Entropy 0.2426 (0.2426)	MMD 0.0785 (0.0785)	Cls Acc 93.75 (93.75)
+Epoch: [165][87/88]	Total Loss 0.2985 (0.3487)	Source 0.0478 (0.2100)	Entropy 0.2775 (0.2836)	MMD 0.2230 (0.1104)	Cls Acc 100.00 (94.18)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.996069469639023, 9.02592414614382e-07, 5.954046359874159e-07, 1.6876565275852912e-06, 3.8898529507226445]
+beta_fc updated to: [14.192977607428976, 1.398980039439783e-06, 1.0292175933883047e-06, 2.463178869866879e-06, 1.4044135149845631]
+Test: [ 0/25]	Time  0.290 ( 0.290)	Loss 1.6846e+00 (1.6846e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.031
+Epoch 166: Learning Rate for backbone: 8.489640055585511e-05; Learning Rates for bottleneck: 0.000848964005558551; Learning Rates for head: 0.000848964005558551
+Epoch: [166][ 0/88]	Total Loss 0.2113 (0.2113)	Source 0.0827 (0.0827)	Entropy 0.3146 (0.3146)	MMD 0.0972 (0.0972)	Cls Acc 96.88 (96.88)
+Epoch: [166][87/88]	Total Loss 0.2465 (0.3318)	Source 0.0319 (0.1880)	Entropy 0.2072 (0.2721)	MMD 0.1939 (0.1166)	Cls Acc 100.00 (94.50)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.194654719261562, 2.0869357757396526e-06, 1.5392464088515612e-06, 3.5020900098557633e-06, 2.6613376495744876]
+beta_fc updated to: [14.42551751452251, 1.8500092193344378e-06, 1.3259143985764148e-06, 3.564886088680476e-06, 1.3255934139553145]
+Test: [ 0/25]	Time  0.277 ( 0.277)	Loss 1.4818e+00 (1.4818e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.157
+Epoch 167: Learning Rate for backbone: 8.458543021167059e-05; Learning Rates for bottleneck: 0.0008458543021167058; Learning Rates for head: 0.0008458543021167058
+Epoch: [167][ 0/88]	Total Loss 0.1682 (0.1682)	Source 0.0664 (0.0664)	Entropy 0.2879 (0.2879)	MMD 0.0730 (0.0730)	Cls Acc 96.88 (96.88)
+Epoch: [167][87/88]	Total Loss 0.6560 (0.3608)	Source 0.3922 (0.2275)	Entropy 0.1952 (0.2924)	MMD 0.2443 (0.1041)	Cls Acc 84.38 (93.93)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [11.364153716368369, 6.911364355498201e-07, 5.071139981938664e-07, 1.3589494902592977e-06, 5.7191027568434665]
+beta_fc updated to: [13.845257339636285, 2.6193818063375695e-06, 2.0181090660645298e-06, 4.340547664319638e-06, 2.035462766163867]
+Test: [ 0/25]	Time  0.252 ( 0.252)	Loss 8.2821e-01 (8.2821e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.031
+Epoch 168: Learning Rate for backbone: 8.42771047706373e-05; Learning Rates for bottleneck: 0.0008427710477063729; Learning Rates for head: 0.0008427710477063729
+Epoch: [168][ 0/88]	Total Loss 0.5148 (0.5148)	Source 0.3438 (0.3438)	Entropy 0.2879 (0.2879)	MMD 0.1422 (0.1422)	Cls Acc 87.50 (87.50)
+Epoch: [168][87/88]	Total Loss 0.5142 (0.3577)	Source 0.3516 (0.2165)	Entropy 0.3564 (0.2894)	MMD 0.1270 (0.1123)	Cls Acc 87.50 (94.03)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.360822439545919, 2.9729494785981396e-06, 2.0419478943155593e-06, 4.704876938025108e-06, 2.44987349166226]
+beta_fc updated to: [14.039409092444076, 2.1264893096421712e-06, 1.6059311479633384e-06, 3.896946066892998e-06, 1.543984767255933]
+Test: [ 0/25]	Time  0.276 ( 0.276)	Loss 7.4156e-01 (7.4156e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.528
+Epoch 169: Learning Rate for backbone: 8.397138905324478e-05; Learning Rates for bottleneck: 0.0008397138905324478; Learning Rates for head: 0.0008397138905324478
+Epoch: [169][ 0/88]	Total Loss 0.2450 (0.2450)	Source 0.0239 (0.0239)	Entropy 0.2993 (0.2993)	MMD 0.1912 (0.1912)	Cls Acc 100.00 (100.00)
+Epoch: [169][87/88]	Total Loss 0.3738 (0.3804)	Source 0.2681 (0.2206)	Entropy 0.2007 (0.2717)	MMD 0.0856 (0.1326)	Cls Acc 90.62 (93.86)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.56679662480953, 7.845105904129047e-07, 5.429828412433582e-07, 1.4511538747940366e-06, 4.434959264858584]
+beta_fc updated to: [12.397170721149642, 8.536529123472693e-07, 6.115239859008236e-07, 1.3506019327981111e-06, 3.4306169608597963]
+Test: [ 0/25]	Time  0.282 ( 0.282)	Loss 6.5044e-01 (6.5044e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.283
+Epoch 170: Learning Rate for backbone: 8.366824851498165e-05; Learning Rates for bottleneck: 0.0008366824851498164; Learning Rates for head: 0.0008366824851498164
+Epoch: [170][ 0/88]	Total Loss 0.3656 (0.3656)	Source 0.2366 (0.2366)	Entropy 0.2627 (0.2627)	MMD 0.1027 (0.1027)	Cls Acc 93.75 (93.75)
+Epoch: [170][87/88]	Total Loss 0.3310 (0.3627)	Source 0.2075 (0.2180)	Entropy 0.2816 (0.2646)	MMD 0.0953 (0.1182)	Cls Acc 93.75 (93.64)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.233024332395884, 8.01192797804851e-07, 5.452653869498143e-07, 1.557128290362233e-06, 3.5451526872592742]
+beta_fc updated to: [14.744984479939351, 1.800700673415393e-06, 1.3641844162457092e-06, 3.785110247805512e-06, 0.9730303678077123]
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 1.0017e+00 (1.0017e+00)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.157
+Epoch 171: Learning Rate for backbone: 8.336764923188677e-05; Learning Rates for bottleneck: 0.0008336764923188676; Learning Rates for head: 0.0008336764923188676
+Epoch: [171][ 0/88]	Total Loss 0.3447 (0.3447)	Source 0.2928 (0.2928)	Entropy 0.4368 (0.4368)	MMD 0.0082 (0.0082)	Cls Acc 90.62 (90.62)
+Epoch: [171][87/88]	Total Loss 0.2404 (0.3260)	Source 0.0105 (0.1932)	Entropy 0.3009 (0.2808)	MMD 0.1997 (0.1047)	Cls Acc 100.00 (93.96)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.983983161702245, 2.5304834321006853e-06, 1.8311860813903055e-06, 4.124215223812794e-06, 3.106696948824847]
+beta_fc updated to: [14.686570921200875, 1.8602190297551194e-06, 1.3526614106872317e-06, 3.6429508583291667e-06, 1.0362461264386156]
+Test: [ 0/25]	Time  0.266 ( 0.266)	Loss 3.3879e-01 (3.3879e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.403
+Epoch 172: Learning Rate for backbone: 8.306955788649648e-05; Learning Rates for bottleneck: 0.0008306955788649648; Learning Rates for head: 0.0008306955788649648
+Epoch: [172][ 0/88]	Total Loss 0.2053 (0.2053)	Source 0.1223 (0.1223)	Entropy 0.4485 (0.4485)	MMD 0.0381 (0.0381)	Cls Acc 93.75 (93.75)
+Epoch: [172][87/88]	Total Loss 0.2671 (0.3369)	Source 0.2126 (0.2070)	Entropy 0.3161 (0.2865)	MMD 0.0229 (0.1012)	Cls Acc 93.75 (93.71)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [15.068279668795098, 2.102845171874852e-06, 1.3854719575240175e-06, 3.668405086554136e-06, 1.6027702396623211]
+beta_fc updated to: [14.472430715712033, 1.984330861806239e-06, 1.386860399899844e-06, 3.6143737951284563e-06, 1.2446653462850341]
+Test: [ 0/25]	Time  0.255 ( 0.255)	Loss 1.0753e+00 (1.0753e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.780
+Epoch 173: Learning Rate for backbone: 8.277394175417526e-05; Learning Rates for bottleneck: 0.0008277394175417524; Learning Rates for head: 0.0008277394175417524
+Epoch: [173][ 0/88]	Total Loss 0.4314 (0.4314)	Source 0.3233 (0.3233)	Entropy 0.2549 (0.2549)	MMD 0.0826 (0.0826)	Cls Acc 90.62 (90.62)
+Epoch: [173][87/88]	Total Loss 0.4687 (0.3313)	Source 0.3160 (0.2016)	Entropy 0.3372 (0.2685)	MMD 0.1190 (0.1029)	Cls Acc 93.75 (94.50)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.527069691331043, 2.5377430158642787e-06, 1.6977296489882855e-06, 4.14676208753705e-06, 2.1422243690654783]
+beta_fc updated to: [15.218511189988838, 1.9125434349743024e-08, 1.519844416517783e-08, 4.7255239263689584e-08, 0.6825418990599698]
+Test: [ 0/25]	Time  0.272 ( 0.272)	Loss 1.2096e+00 (1.2096e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 85.157
+Epoch 174: Learning Rate for backbone: 8.248076868981743e-05; Learning Rates for bottleneck: 0.0008248076868981743; Learning Rates for head: 0.0008248076868981743
+Epoch: [174][ 0/88]	Total Loss 0.2561 (0.2561)	Source 0.2068 (0.2068)	Entropy 0.1806 (0.1806)	MMD 0.0313 (0.0313)	Cls Acc 93.75 (93.75)
+Epoch: [174][87/88]	Total Loss 0.3590 (0.3466)	Source 0.1753 (0.2205)	Entropy 0.2656 (0.2741)	MMD 0.1572 (0.0987)	Cls Acc 96.88 (93.75)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.300657124317071, 5.394092386032302e-07, 3.71189098641387e-07, 1.0523737833919625e-06, 3.660510550870253]
+beta_fc updated to: [15.250532193657934, 2.4300351990912467e-08, 1.8488262938820257e-08, 5.70456334596305e-08, 0.6550298863703685]
+Test: [ 0/25]	Time  0.250 ( 0.250)	Loss 9.0839e-01 (9.0839e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.031
+Epoch 175: Learning Rate for backbone: 8.219000711490858e-05; Learning Rates for bottleneck: 0.0008219000711490857; Learning Rates for head: 0.0008219000711490857
+Epoch: [175][ 0/88]	Total Loss 0.3199 (0.3199)	Source 0.0423 (0.0423)	Entropy 0.2359 (0.2359)	MMD 0.2540 (0.2540)	Cls Acc 100.00 (100.00)
+Epoch: [175][87/88]	Total Loss 0.4404 (0.3727)	Source 0.2710 (0.2178)	Entropy 0.2348 (0.2824)	MMD 0.1459 (0.1266)	Cls Acc 93.75 (93.79)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.527154859832255, 2.064265907031309e-06, 1.5160240813601372e-06, 3.4634830441248864e-06, 3.088099289204318]
+beta_fc updated to: [13.857127943057048, 1.39391475280208e-06, 1.1471588485618107e-06, 2.8482876660363566e-06, 1.5615073761766398]
+Test: [ 0/25]	Time  0.278 ( 0.278)	Loss 9.6590e-01 (9.6590e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.906
+Epoch 176: Learning Rate for backbone: 8.190162600493459e-05; Learning Rates for bottleneck: 0.0008190162600493459; Learning Rates for head: 0.0008190162600493459
+Epoch: [176][ 0/88]	Total Loss 0.6367 (0.6367)	Source 0.5764 (0.5764)	Entropy 0.2054 (0.2054)	MMD 0.0398 (0.0398)	Cls Acc 84.38 (84.38)
+Epoch: [176][87/88]	Total Loss 0.3066 (0.3482)	Source 0.1558 (0.2121)	Entropy 0.2393 (0.2608)	MMD 0.1269 (0.1100)	Cls Acc 90.62 (94.11)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.931434697072179, 3.464336569512282e-06, 2.3650086351502657e-06, 5.421443256711482e-06, 3.025060634176505]
+beta_fc updated to: [15.093880479054995, 2.2232316185006122e-08, 1.6816480317545234e-08, 4.848014305546065e-08, 0.84566372011148]
+Test: [ 0/25]	Time  0.302 ( 0.302)	Loss 1.0913e+00 (1.0913e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.906
+Epoch 177: Learning Rate for backbone: 8.161559487712827e-05; Learning Rates for bottleneck: 0.0008161559487712826; Learning Rates for head: 0.0008161559487712826
+Epoch: [177][ 0/88]	Total Loss 0.0679 (0.0679)	Source 0.0069 (0.0069)	Entropy 0.4014 (0.4014)	MMD 0.0209 (0.0209)	Cls Acc 100.00 (100.00)
+Epoch: [177][87/88]	Total Loss 0.4190 (0.3449)	Source 0.2905 (0.2082)	Entropy 0.2401 (0.2726)	MMD 0.1044 (0.1095)	Cls Acc 87.50 (93.96)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.62898535795653, 1.8667937292592324e-06, 1.3869723858416843e-06, 3.182076960957213e-06, 3.140086202785472]
+beta_fc updated to: [15.110047300448409, 1.3958299840729577e-08, 1.100954431868297e-08, 3.4953019576205404e-08, 0.59528288860088]
+Test: [ 0/25]	Time  0.276 ( 0.276)	Loss 1.6302e+00 (1.6302e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.283
+Epoch 178: Learning Rate for backbone: 8.13318837785421e-05; Learning Rates for bottleneck: 0.000813318837785421; Learning Rates for head: 0.000813318837785421
+Epoch: [178][ 0/88]	Total Loss 0.1581 (0.1581)	Source 0.1104 (0.1104)	Entropy 0.2754 (0.2754)	MMD 0.0202 (0.0202)	Cls Acc 96.88 (96.88)
+Epoch: [178][87/88]	Total Loss 0.3621 (0.3257)	Source 0.0107 (0.1880)	Entropy 0.2600 (0.2583)	MMD 0.3254 (0.1119)	Cls Acc 100.00 (94.82)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.213186348820868, 1.822704887949297e-06, 1.3302041316710708e-06, 3.1663422661301973e-06, 2.4424328466662457]
+beta_fc updated to: [14.784504319813934, 1.5337945627737962e-06, 1.2204896976443469e-06, 3.4349267797757244e-06, 0.9562777130197189]
+Test: [ 0/25]	Time  0.389 ( 0.389)	Loss 1.7787e+00 (1.7787e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 85.157
+Epoch 179: Learning Rate for backbone: 8.105046327443772e-05; Learning Rates for bottleneck: 0.0008105046327443772; Learning Rates for head: 0.0008105046327443772
+Epoch: [179][ 0/88]	Total Loss 0.0821 (0.0821)	Source 0.0382 (0.0382)	Entropy 0.2317 (0.2317)	MMD 0.0207 (0.0207)	Cls Acc 100.00 (100.00)
+Epoch: [179][87/88]	Total Loss 0.2739 (0.3664)	Source 0.1439 (0.2372)	Entropy 0.3394 (0.2728)	MMD 0.0961 (0.1019)	Cls Acc 96.88 (93.32)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.79534089258779, 3.240724684598299e-06, 2.0312468431020814e-06, 4.96363867102411e-06, 2.0706938170854317]
+beta_fc updated to: [15.023555333247783, 2.2150059858695978e-08, 1.6249582214546814e-08, 4.903490401378196e-08, 0.6755582212240291]
+Test: [ 0/25]	Time  0.244 ( 0.244)	Loss 1.4776e+00 (1.4776e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 84.151
+Epoch 180: Learning Rate for backbone: 8.07713044369819e-05; Learning Rates for bottleneck: 0.000807713044369819; Learning Rates for head: 0.000807713044369819
+Epoch: [180][ 0/88]	Total Loss 0.2113 (0.2113)	Source 0.0824 (0.0824)	Entropy 0.1960 (0.1960)	MMD 0.1093 (0.1093)	Cls Acc 96.88 (96.88)
+Epoch: [180][87/88]	Total Loss 0.1282 (0.3618)	Source 0.0261 (0.2093)	Entropy 0.1851 (0.2580)	MMD 0.0836 (0.1267)	Cls Acc 100.00 (93.75)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.278980861890226, 3.4050061838519967e-06, 2.3510705500796384e-06, 5.279799058892591e-06, 2.688195372678217]
+beta_fc updated to: [15.803121901112297, 1.2608280691062568e-07, 8.567394804233092e-08, 1.494958553726694e-07, 0.0016115433441433631]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 1.1664e+00 (1.1664e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.780
+Epoch 181: Learning Rate for backbone: 8.04943788342395e-05; Learning Rates for bottleneck: 0.000804943788342395; Learning Rates for head: 0.000804943788342395
+Epoch: [181][ 0/88]	Total Loss 0.2322 (0.2322)	Source 0.1298 (0.1298)	Entropy 0.2520 (0.2520)	MMD 0.0772 (0.0772)	Cls Acc 96.88 (96.88)
+Epoch: [181][87/88]	Total Loss 0.6738 (0.3402)	Source 0.4280 (0.2048)	Entropy 0.2683 (0.2573)	MMD 0.2190 (0.1097)	Cls Acc 90.62 (94.11)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.805206671839295, 2.260753928122492e-06, 1.620025947611219e-06, 3.6865794936690574e-06, 3.104643458709]
+beta_fc updated to: [15.131322281885726, 1.4793096073638422e-08, 1.1775556141676478e-08, 3.8062719381008987e-08, 0.4021130946108536]
+Test: [ 0/25]	Time  0.281 ( 0.281)	Loss 7.0437e-01 (7.0437e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.283
+Epoch 182: Learning Rate for backbone: 8.021965851945469e-05; Learning Rates for bottleneck: 0.0008021965851945468; Learning Rates for head: 0.0008021965851945468
+Epoch: [182][ 0/88]	Total Loss 0.4956 (0.4956)	Source 0.3415 (0.3415)	Entropy 0.2027 (0.2027)	MMD 0.1338 (0.1338)	Cls Acc 84.38 (84.38)
+Epoch: [182][87/88]	Total Loss 0.3891 (0.3548)	Source 0.3228 (0.2164)	Entropy 0.3315 (0.2569)	MMD 0.0331 (0.1127)	Cls Acc 90.62 (94.35)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.57212570224813, 3.1855368137459437e-06, 2.0953506621321853e-06, 4.973678687667676e-06, 2.233624271625498]
+beta_fc updated to: [15.22385049875471, 1.4809310493254546e-08, 1.196796178975905e-08, 3.800211420882029e-08, 0.6349910526120548]
+Test: [ 0/25]	Time  0.280 ( 0.280)	Loss 1.9711e+00 (1.9711e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 84.780
+Epoch 183: Learning Rate for backbone: 7.99471160206111e-05; Learning Rates for bottleneck: 0.0007994711602061109; Learning Rates for head: 0.0007994711602061109
+Epoch: [183][ 0/88]	Total Loss 0.1628 (0.1628)	Source 0.1258 (0.1258)	Entropy 0.2316 (0.2316)	MMD 0.0138 (0.0138)	Cls Acc 96.88 (96.88)
+Epoch: [183][87/88]	Total Loss 1.2375 (0.3556)	Source 0.9914 (0.2189)	Entropy 0.2495 (0.2558)	MMD 0.2212 (0.1111)	Cls Acc 81.25 (93.36)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.65314768774973, 2.07704740713836e-06, 1.4828189801394636e-06, 3.4309081677678253e-06, 3.232980460820724]
+beta_fc updated to: [14.57387528242459, 1.0592832691942026e-06, 8.85006332088776e-07, 2.4732373659109113e-06, 1.1011993510724893]
+Test: [ 0/25]	Time  0.296 ( 0.296)	Loss 1.7730e+00 (1.7730e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 85.157
+Epoch 184: Learning Rate for backbone: 7.967672433026291e-05; Learning Rates for bottleneck: 0.000796767243302629; Learning Rates for head: 0.000796767243302629
+Epoch: [184][ 0/88]	Total Loss 0.3208 (0.3208)	Source 0.1054 (0.1054)	Entropy 0.1986 (0.1986)	MMD 0.1956 (0.1956)	Cls Acc 96.88 (96.88)
+Epoch: [184][87/88]	Total Loss 0.3373 (0.3492)	Source 0.2006 (0.2074)	Entropy 0.2977 (0.2601)	MMD 0.1069 (0.1158)	Cls Acc 93.75 (94.07)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.866818491591996, 1.9507885084598655e-06, 1.4710135464636773e-06, 3.350102328689572e-06, 2.875685693052438]
+beta_fc updated to: [14.498560278675507, 1.0767924110186395e-06, 9.016074846222533e-07, 2.5645248455596283e-06, 1.232964530533226]
+Test: [ 0/25]	Time  0.258 ( 0.258)	Loss 4.0950e-01 (4.0950e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 84.528
+Epoch 185: Learning Rate for backbone: 7.940845689562829e-05; Learning Rates for bottleneck: 0.0007940845689562828; Learning Rates for head: 0.0007940845689562828
+Epoch: [185][ 0/88]	Total Loss 0.4096 (0.4096)	Source 0.2482 (0.2482)	Entropy 0.2572 (0.2572)	MMD 0.1358 (0.1358)	Cls Acc 90.62 (90.62)
+Epoch: [185][87/88]	Total Loss 0.6413 (0.3538)	Source 0.4732 (0.2138)	Entropy 0.2569 (0.2745)	MMD 0.1424 (0.1125)	Cls Acc 93.75 (94.07)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.749939208265836, 3.223928617396581e-06, 2.0282106790047944e-06, 4.900602322266418e-06, 2.0944066529917227]
+beta_fc updated to: [15.429782824994296, 1.8082450790101418e-08, 1.4161733898984268e-08, 4.3097352069320996e-08, 0.36977091442699006]
+Test: [ 0/25]	Time  0.286 ( 0.286)	Loss 2.6752e+00 (2.6752e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 84.906
+Epoch 186: Learning Rate for backbone: 7.914228760893745e-05; Learning Rates for bottleneck: 0.0007914228760893744; Learning Rates for head: 0.0007914228760893744
+Epoch: [186][ 0/88]	Total Loss 0.1266 (0.1266)	Source 0.0442 (0.0442)	Entropy 0.2960 (0.2960)	MMD 0.0528 (0.0528)	Cls Acc 100.00 (100.00)
+Epoch: [186][87/88]	Total Loss 0.4470 (0.3474)	Source 0.2725 (0.2135)	Entropy 0.2760 (0.2671)	MMD 0.1469 (0.1073)	Cls Acc 93.75 (94.11)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.64950561589528, 1.3158732194503623e-06, 9.147486030417527e-07, 2.544267157084597e-06, 2.0079801159092536]
+beta_fc updated to: [15.254998218674103, 1.0318054239448004e-08, 8.893380336729088e-09, 2.8636157868599636e-08, 0.47784883493303315]
+Test: [ 0/25]	Time  0.257 ( 0.257)	Loss 1.7331e+00 (1.7331e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 84.654
+Epoch 187: Learning Rate for backbone: 7.887819079802759e-05; Learning Rates for bottleneck: 0.0007887819079802758; Learning Rates for head: 0.0007887819079802758
+Epoch: [187][ 0/88]	Total Loss 0.1664 (0.1664)	Source 0.0310 (0.0310)	Entropy 0.2342 (0.2342)	MMD 0.1120 (0.1120)	Cls Acc 100.00 (100.00)
+Epoch: [187][87/88]	Total Loss 0.2978 (0.3577)	Source 0.1546 (0.2094)	Entropy 0.1087 (0.2574)	MMD 0.1323 (0.1225)	Cls Acc 96.88 (94.21)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.745162637678048, 1.4601204131160647e-06, 1.1254151592068773e-06, 2.573063677083385e-06, 3.1727253679245893]
+beta_fc updated to: [15.555358802363529, 1.8435490798363192e-08, 1.5052464907706798e-08, 5.049889128010767e-08, 0.4627319547899967]
+Test: [ 0/25]	Time  0.409 ( 0.409)	Loss 5.8172e-01 (5.8172e-01)	Acc@1  93.75 ( 93.75)
+ * Acc@1 85.535
+Epoch 188: Learning Rate for backbone: 7.861614121717757e-05; Learning Rates for bottleneck: 0.0007861614121717756; Learning Rates for head: 0.0007861614121717756
+Epoch: [188][ 0/88]	Total Loss 0.3923 (0.3923)	Source 0.1989 (0.1989)	Entropy 0.2015 (0.2015)	MMD 0.1733 (0.1733)	Cls Acc 96.88 (96.88)
+Epoch: [188][87/88]	Total Loss 0.2294 (0.3053)	Source 0.0663 (0.1736)	Entropy 0.1880 (0.2532)	MMD 0.1442 (0.1065)	Cls Acc 96.88 (95.06)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.966353624122178, 2.0899422444903893e-06, 1.5561024019654602e-06, 3.47977107778504e-06, 2.900016202071467]
+beta_fc updated to: [15.695487007481447, 9.968996903416275e-08, 7.024537340241152e-08, 1.2433448271770558e-07, 0.037302324999524974]
+Test: [ 0/25]	Time  0.254 ( 0.254)	Loss 1.4661e+00 (1.4661e+00)	Acc@1  87.50 ( 87.50)
+ * Acc@1 84.780
+Epoch 189: Learning Rate for backbone: 7.835611403817468e-05; Learning Rates for bottleneck: 0.0007835611403817467; Learning Rates for head: 0.0007835611403817467
+Epoch: [189][ 0/88]	Total Loss 0.0912 (0.0912)	Source 0.0253 (0.0253)	Entropy 0.2000 (0.2000)	MMD 0.0459 (0.0459)	Cls Acc 100.00 (100.00)
+Epoch: [189][87/88]	Total Loss 0.4966 (0.3764)	Source 0.2898 (0.2307)	Entropy 0.1776 (0.2567)	MMD 0.1891 (0.1200)	Cls Acc 90.62 (93.22)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.413325542728428, 2.388707382713552e-06, 1.6150397128169328e-06, 3.9430897870473685e-06, 2.1313319483154047]
+beta_fc updated to: [15.382491702592525, 2.407028075465164e-08, 1.8125917095170828e-08, 5.2313282625024597e-08, 0.3575786917572041]
+Test: [ 0/25]	Time  0.267 ( 0.267)	Loss 1.0866e+00 (1.0866e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 84.277
+Epoch 190: Learning Rate for backbone: 7.809808484160726e-05; Learning Rates for bottleneck: 0.0007809808484160726; Learning Rates for head: 0.0007809808484160726
+Epoch: [190][ 0/88]	Total Loss 0.7982 (0.7982)	Source 0.6202 (0.6202)	Entropy 0.2167 (0.2167)	MMD 0.1563 (0.1563)	Cls Acc 84.38 (84.38)
+Epoch: [190][87/88]	Total Loss 0.2563 (0.3827)	Source 0.0905 (0.2418)	Entropy 0.1260 (0.2536)	MMD 0.1532 (0.1155)	Cls Acc 96.88 (93.39)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.995508246852218, 3.726238469037332e-06, 2.4754372007639038e-06, 5.70489141699182e-06, 3.0087371705647397]
+beta_fc updated to: [15.310119967967175, 1.65203853126926e-08, 1.33200365157652e-08, 4.46041239529493e-08, 0.43655059351689346]
+Test: [ 0/25]	Time  0.265 ( 0.265)	Loss 4.1803e-01 (4.1803e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 84.906
+Epoch 191: Learning Rate for backbone: 7.784202960837596e-05; Learning Rates for bottleneck: 0.0007784202960837596; Learning Rates for head: 0.0007784202960837596
+Epoch: [191][ 0/88]	Total Loss 0.2269 (0.2269)	Source 0.1039 (0.1039)	Entropy 0.1399 (0.1399)	MMD 0.1090 (0.1090)	Cls Acc 96.88 (96.88)
+Epoch: [191][87/88]	Total Loss 0.1499 (0.3515)	Source 0.1037 (0.2160)	Entropy 0.2847 (0.2533)	MMD 0.0178 (0.1101)	Cls Acc 96.88 (94.14)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.446959925224169, 2.75225276635988e-06, 1.967208902833807e-06, 4.5001089790306e-06, 2.6255563074892834]
+beta_fc updated to: [15.41460827037668, 1.862960198806769e-08, 1.4441578092392656e-08, 4.1302157398120555e-08, 0.36312070520981216]
+Test: [ 0/25]	Time  0.264 ( 0.264)	Loss 1.5102e+00 (1.5102e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 85.409
+Epoch 192: Learning Rate for backbone: 7.758792471141764e-05; Learning Rates for bottleneck: 0.0007758792471141764; Learning Rates for head: 0.0007758792471141764
+Epoch: [192][ 0/88]	Total Loss 0.0943 (0.0943)	Source 0.0684 (0.0684)	Entropy 0.2113 (0.2113)	MMD 0.0048 (0.0048)	Cls Acc 96.88 (96.88)
+Epoch: [192][87/88]	Total Loss 0.4304 (0.3386)	Source 0.3734 (0.2074)	Entropy 0.2268 (0.2551)	MMD 0.0344 (0.1057)	Cls Acc 90.62 (94.03)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.001089354254916, 4.7219460180511054e-07, 3.35307294175534e-07, 9.658065477416807e-07, 3.620278494283983]
+beta_fc updated to: [15.573280931208005, 4.085668837423108e-08, 2.896566263156321e-08, 5.098143557242954e-08, 0.003210384155028093]
+Test: [ 0/25]	Time  0.383 ( 0.383)	Loss 1.4364e+00 (1.4364e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.535
+Epoch 193: Learning Rate for backbone: 7.733574690763535e-05; Learning Rates for bottleneck: 0.0007733574690763535; Learning Rates for head: 0.0007733574690763535
+Epoch: [193][ 0/88]	Total Loss 0.3273 (0.3273)	Source 0.1066 (0.1066)	Entropy 0.1287 (0.1287)	MMD 0.2078 (0.2078)	Cls Acc 96.88 (96.88)
+Epoch: [193][87/88]	Total Loss 0.5093 (0.3372)	Source 0.4014 (0.2076)	Entropy 0.3658 (0.2589)	MMD 0.0713 (0.1037)	Cls Acc 90.62 (93.82)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.87035347357956, 3.821245436439234e-08, 2.5508244342084964e-08, 5.821377606629869e-08, 2.840273582295873]
+beta_fc updated to: [15.646214342070946, 7.132607900313498e-08, 5.062869469261577e-08, 8.973506961668807e-08, 0.04301843456184742]
+Test: [ 0/25]	Time  0.271 ( 0.271)	Loss 5.7462e-01 (5.7462e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.157
+Epoch 194: Learning Rate for backbone: 7.708547333002856e-05; Learning Rates for bottleneck: 0.0007708547333002855; Learning Rates for head: 0.0007708547333002855
+Epoch: [194][ 0/88]	Total Loss 0.2262 (0.2262)	Source 0.1473 (0.1473)	Entropy 0.3168 (0.3168)	MMD 0.0472 (0.0472)	Cls Acc 93.75 (93.75)
+Epoch: [194][87/88]	Total Loss 0.4947 (0.3553)	Source 0.2414 (0.2068)	Entropy 0.2959 (0.2546)	MMD 0.2237 (0.1230)	Cls Acc 90.62 (93.89)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.549845026110848, 1.9000769883767401e-06, 1.3641422108636062e-06, 3.1570222661587137e-06, 3.224263988754875]
+beta_fc updated to: [15.44959088888403, 3.945491326366805e-08, 2.8163015675453494e-08, 5.0071275269332804e-08, 0.0437222062966094]
+Test: [ 0/25]	Time  0.265 ( 0.265)	Loss 7.8621e-01 (7.8621e-01)	Acc@1  87.50 ( 87.50)
+ * Acc@1 85.660
+Epoch 195: Learning Rate for backbone: 7.683708148001784e-05; Learning Rates for bottleneck: 0.0007683708148001783; Learning Rates for head: 0.0007683708148001783
+Epoch: [195][ 0/88]	Total Loss 0.3907 (0.3907)	Source 0.2916 (0.2916)	Entropy 0.3801 (0.3801)	MMD 0.0611 (0.0611)	Cls Acc 90.62 (90.62)
+Epoch: [195][87/88]	Total Loss 0.3308 (0.3450)	Source 0.2028 (0.2068)	Entropy 0.2605 (0.2612)	MMD 0.1019 (0.1121)	Cls Acc 93.75 (94.00)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.924332901890823, 2.995420092774713e-06, 2.075786022038159e-06, 4.743412565745509e-06, 3.0060874519036704]
+beta_fc updated to: [15.705367910224263, 4.888826735129236e-09, 3.553871550356852e-09, 6.380957436108148e-09, 0.11218838095101959]
+Test: [ 0/25]	Time  0.240 ( 0.240)	Loss 1.9777e+00 (1.9777e+00)	Acc@1  81.25 ( 81.25)
+ * Acc@1 85.283
+Epoch 196: Learning Rate for backbone: 7.659054921995838e-05; Learning Rates for bottleneck: 0.0007659054921995837; Learning Rates for head: 0.0007659054921995837
+Epoch: [196][ 0/88]	Total Loss 0.2765 (0.2765)	Source 0.2517 (0.2517)	Entropy 0.2243 (0.2243)	MMD 0.0024 (0.0024)	Cls Acc 90.62 (90.62)
+Epoch: [196][87/88]	Total Loss 0.1095 (0.3575)	Source 0.0297 (0.2174)	Entropy 0.2842 (0.2495)	MMD 0.0514 (0.1152)	Cls Acc 100.00 (93.68)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.921073637088234, 2.3495164860562718e-06, 1.718126918971176e-06, 3.881499552534032e-06, 2.992396401809263]
+beta_fc updated to: [15.969564666426669, 6.751628149065407e-08, 4.84724388777216e-08, 8.589272835524369e-08, 0.000994133456432943]
+Test: [ 0/25]	Time  0.333 ( 0.333)	Loss 1.2554e+00 (1.2554e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.409
+Epoch 197: Learning Rate for backbone: 7.63458547658368e-05; Learning Rates for bottleneck: 0.0007634585476583678; Learning Rates for head: 0.0007634585476583678
+Epoch: [197][ 0/88]	Total Loss 0.1347 (0.1347)	Source 0.0100 (0.0100)	Entropy 0.2066 (0.2066)	MMD 0.1040 (0.1040)	Cls Acc 100.00 (100.00)
+Epoch: [197][87/88]	Total Loss 0.3884 (0.3556)	Source 0.2061 (0.2179)	Entropy 0.1956 (0.2407)	MMD 0.1627 (0.1137)	Cls Acc 93.75 (94.03)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [14.137169607754121, 3.623694662097567e-06, 2.474990846977496e-06, 5.583827842803261e-06, 2.7670530341252073]
+beta_fc updated to: [15.976320934630213, 1.6734401245489483e-08, 1.3278877372652434e-08, 3.655184471545578e-08, 3.9682363325471e-06]
+Test: [ 0/25]	Time  0.423 ( 0.423)	Loss 5.8841e-01 (5.8841e-01)	Acc@1  90.62 ( 90.62)
+ * Acc@1 85.409
+Epoch 198: Learning Rate for backbone: 7.610297668014608e-05; Learning Rates for bottleneck: 0.0007610297668014607; Learning Rates for head: 0.0007610297668014607
+Epoch: [198][ 0/88]	Total Loss 0.3914 (0.3914)	Source 0.1559 (0.1559)	Entropy 0.1469 (0.1469)	MMD 0.2208 (0.2208)	Cls Acc 93.75 (93.75)
+Epoch: [198][87/88]	Total Loss 0.3341 (0.3698)	Source 0.2235 (0.2273)	Entropy 0.3138 (0.2485)	MMD 0.0792 (0.1177)	Cls Acc 93.75 (93.32)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [12.639177451396563, 5.515690322962278e-07, 3.9405590576162444e-07, 1.0596319700582751e-06, 4.306964502173987]
+beta_fc updated to: [15.806660055955541, 1.731612379277395e-08, 1.3703286213685745e-08, 3.7678449329980315e-08, 1.6443010236030734e-05]
+Test: [ 0/25]	Time  0.391 ( 0.391)	Loss 1.9672e+00 (1.9672e+00)	Acc@1  78.12 ( 78.12)
+ * Acc@1 85.409
+Epoch 199: Learning Rate for backbone: 7.586189386493369e-05; Learning Rates for bottleneck: 0.0007586189386493368; Learning Rates for head: 0.0007586189386493368
+Epoch: [199][ 0/88]	Total Loss 0.4870 (0.4870)	Source 0.3086 (0.3086)	Entropy 0.3924 (0.3924)	MMD 0.1391 (0.1391)	Cls Acc 93.75 (93.75)
+Epoch: [199][87/88]	Total Loss 0.1624 (0.3328)	Source 0.1036 (0.2035)	Entropy 0.1439 (0.2481)	MMD 0.0443 (0.1045)	Cls Acc 96.88 (94.18)
+All the covariance matrices recorded, start calculating BETAs...
+beta_pl5 updated to: [13.604249117328614, 1.355328705442255e-06, 1.0172490497263495e-06, 2.3321126403948937e-06, 3.28096773339148]
+beta_fc updated to: [15.541915436874568, 1.555910003801531e-08, 1.2902190600173746e-08, 3.629413820847601e-08, 1.4837149626803337e-05]
+Test: [ 0/25]	Time  0.266 ( 0.266)	Loss 1.2494e+00 (1.2494e+00)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.786
+best_acc1 = 85.8
+Test: [ 0/25]	Time  0.193 ( 0.193)	Loss 3.7155e-01 (3.7155e-01)	Acc@1  84.38 ( 84.38)
+ * Acc@1 85.786
+test_acc1 = 85.8

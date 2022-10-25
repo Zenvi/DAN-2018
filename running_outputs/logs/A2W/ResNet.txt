@@ -1,0 +1,46 @@
+/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:19: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+=> using model 'resnet18'
+Epoch 0: Learning Rate for backbone: 0.00030000000000000003; Learning Rates for bottleneck: 0.003; Learning Rates for head: 0.003
+Epoch: [0][  0/500]	Total Loss 3.4000 (3.4000)	Source 3.4000 (3.4000)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 0.00 (0.00)
+Epoch: [0][100/500]	Total Loss 2.5311 (3.0620)	Source 2.5311 (3.0620)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 50.00 (19.09)
+Epoch: [0][200/500]	Total Loss 1.6250 (2.5223)	Source 1.6250 (2.5223)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 53.12 (34.45)
+Epoch: [0][300/500]	Total Loss 1.4149 (2.1698)	Source 1.4149 (2.1698)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 68.75 (43.08)
+Epoch: [0][400/500]	Total Loss 1.2672 (1.9400)	Source 1.2672 (1.9400)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 62.50 (48.70)
+Test: [ 0/25]	Time  0.263 ( 0.263)	Loss 1.0348e+00 (1.0348e+00)	Acc@1  65.62 ( 65.62)
+ * Acc@1 70.189
+Epoch 1: Learning Rate for backbone: 0.0002701455851325971; Learning Rates for bottleneck: 0.002701455851325971; Learning Rates for head: 0.002701455851325971
+Epoch: [1][  0/500]	Total Loss 1.1200 (1.1200)	Source 1.1200 (1.1200)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 71.88 (71.88)
+Epoch: [1][100/500]	Total Loss 1.5278 (1.0533)	Source 1.5278 (1.0533)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 56.25 (70.70)
+Epoch: [1][200/500]	Total Loss 1.1178 (1.0107)	Source 1.1178 (1.0107)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 68.75 (71.94)
+Epoch: [1][300/500]	Total Loss 0.6735 (0.9669)	Source 0.6735 (0.9669)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 81.25 (73.06)
+Epoch: [1][400/500]	Total Loss 0.6156 (0.9454)	Source 0.6156 (0.9454)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 81.25 (73.67)
+Test: [ 0/25]	Time  0.258 ( 0.258)	Loss 1.2031e+00 (1.2031e+00)	Acc@1  68.75 ( 68.75)
+ * Acc@1 72.579
+Epoch 2: Learning Rate for backbone: 0.0002464130705474864; Learning Rates for bottleneck: 0.0024641307054748636; Learning Rates for head: 0.0024641307054748636
+Epoch: [2][  0/500]	Total Loss 0.5701 (0.5701)	Source 0.5701 (0.5701)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 90.62 (90.62)
+Epoch: [2][100/500]	Total Loss 0.7410 (0.7869)	Source 0.7410 (0.7869)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 71.88 (77.88)
+Epoch: [2][200/500]	Total Loss 1.3056 (0.7764)	Source 1.3056 (0.7764)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 65.62 (78.09)
+Epoch: [2][300/500]	Total Loss 1.0049 (0.7671)	Source 1.0049 (0.7671)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 65.62 (78.35)
+Epoch: [2][400/500]	Total Loss 0.5532 (0.7580)	Source 0.5532 (0.7580)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 84.38 (78.46)
+Test: [ 0/25]	Time  0.260 ( 0.260)	Loss 1.2275e+00 (1.2275e+00)	Acc@1  62.50 ( 62.50)
+ * Acc@1 72.075
+Epoch 3: Learning Rate for backbone: 0.00022703627519417573; Learning Rates for bottleneck: 0.0022703627519417573; Learning Rates for head: 0.0022703627519417573
+Epoch: [3][  0/500]	Total Loss 0.5547 (0.5547)	Source 0.5547 (0.5547)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 81.25 (81.25)
+Epoch: [3][100/500]	Total Loss 0.6202 (0.6437)	Source 0.6202 (0.6437)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 81.25 (82.46)
+Epoch: [3][200/500]	Total Loss 0.5227 (0.6373)	Source 0.5227 (0.6373)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 84.38 (82.11)
+Epoch: [3][300/500]	Total Loss 0.4807 (0.6276)	Source 0.4807 (0.6276)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 81.25 (81.92)
+Epoch: [3][400/500]	Total Loss 0.3158 (0.6187)	Source 0.3158 (0.6187)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 90.62 (82.28)
+Test: [ 0/25]	Time  0.268 ( 0.268)	Loss 7.6760e-01 (7.6760e-01)	Acc@1  78.12 ( 78.12)
+ * Acc@1 70.943
+Epoch 4: Learning Rate for backbone: 0.0002108779969463809; Learning Rates for bottleneck: 0.002108779969463809; Learning Rates for head: 0.002108779969463809
+Epoch: [4][  0/500]	Total Loss 0.4484 (0.4484)	Source 0.4484 (0.4484)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 90.62 (90.62)
+Epoch: [4][100/500]	Total Loss 0.7740 (0.5357)	Source 0.7740 (0.5357)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 71.88 (84.93)
+Epoch: [4][200/500]	Total Loss 0.4781 (0.5291)	Source 0.4781 (0.5291)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 87.50 (84.92)
+Epoch: [4][300/500]	Total Loss 0.4789 (0.5218)	Source 0.4789 (0.5218)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 81.25 (84.91)
+Epoch: [4][400/500]	Total Loss 0.4557 (0.5220)	Source 0.4557 (0.5220)	Entropy 0.0000 (0.0000)	MMD 0.0000 (0.0000)	Cls Acc 93.75 (84.87)
+Test: [ 0/25]	Time  0.272 ( 0.272)	Loss 9.0499e-01 (9.0499e-01)	Acc@1  75.00 ( 75.00)
+ * Acc@1 71.824
+best_acc1 = 72.6
+Test: [ 0/25]	Time  0.204 ( 0.204)	Loss 8.4946e-01 (8.4946e-01)	Acc@1  68.75 ( 68.75)
+ * Acc@1 72.579
+test_acc1 = 72.6
