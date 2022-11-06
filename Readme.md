@@ -94,6 +94,8 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
    Which leads to the following questions:
 
 2. **Q:** Can the value of Mk-MMD be negative? If yes, what does it mean when Mk-MMD is negative?
+   
+   **Ps:** If you set the `non_linear` parameter in `class Args:` to be `True` (which means you don't use the linear-time unbiased estimate of Mk-MMD, and you use the complete empirical version), the value of Mk-MMD will not be negative anymore.
 
    **A:** According to the empirical estimate of Mk-MMD:
 
@@ -115,7 +117,7 @@ This is a PyTorch re-implementation of paper [DAN-2018](https://ieeexplore.ieee.
 
    But ↓
 
-3. **Q:** Why `transfer_loss = torch.abs(transfer_loss)` will make the overall result better?
+4. **Q:** Why `transfer_loss = torch.abs(transfer_loss)` will make the overall result better?
 
    **A:** I don't quite know the why, maybe it's only me being lucky, but I've got some guesses:
 
