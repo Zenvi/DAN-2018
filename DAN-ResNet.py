@@ -220,6 +220,9 @@ def train(train_source_iter: ForeverDataIterator,
 
     for i in range(args.iters_per_epoch):
 
+        # Record the training process (p will be used for scaling the trade-off parameters of Entropy Minimization and Mk-MMD loss)
+        p = (i + args.iters_per_epoch * epoch) / (10 * args.iters_per_epoch)
+
         x_s, labels_s = next(train_source_iter)[:2]
         x_t, = next(train_target_iter)[:1]
         x_s = x_s.to(device)
@@ -251,7 +254,9 @@ def train(train_source_iter: ForeverDataIterator,
             transfer_loss = 0
 
         # The total loss function
-        loss = cls_loss + (entropy_min_loss * args.trade_off_gamma) + (transfer_loss * args.trade_off_lambda)
+        gamma = args.trade_off_gamma * (2 / (1 + np.e ** (-10 * p)) - 1)
+        lbd = args.trade_off_lambda * (2 / (1 + np.e ** (-10 * p)) - 1)
+        loss = cls_loss + (entropy_min_loss * gamma) + (transfer_loss * lbd)
 
         # The accuracy of 1 source batch
         cls_acc = accuracy(y_s, labels_s)[0]
@@ -418,7 +423,7 @@ if __name__ == '__main__':
         bottleneck_dim = 256  # Dimension of bottleneck
         no_pool = False  # Whether not to use pooling layer after the feature extractor
         scratch = False  # whether not to train from scratch
-        non_linear = False  # Whether not use the linear version
+        non_linear = True  # Whether not use the linear version
         trade_off_lambda = 1.0  # the trade-off hyper-parameter lambda for transfer loss
         trade_off_gamma = 0.1  # the trade-off hyper-parameter gamma for entropy minimization loss
 
